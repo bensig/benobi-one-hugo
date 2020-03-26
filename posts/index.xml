@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Benobi.one</title>
+    <link>https://benobi.one/posts/</link>
+    <description>Recent content in Posts on Benobi.one</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gratitude</title>
+      <link>https://benobi.one/posts/creating-a-new-theme/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://benobi.one/posts/creating-a-new-theme/</guid>
+      <description>Thank you for visiting. This is my first post. I belive that we should always begin new things with gratitude.
+I am grateful for all of the various experiences I have had and the many apps and projects I have worked on over since 2013. I can&amp;rsquo;t believe the project list here covers only 7 years!
+I am grateful for this site and domain which my dear friend Crystal Rose inspired me to put together.</description>
+    </item>
+    
+  </channel>
+</rss>

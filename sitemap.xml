@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://benobi.one/</loc>
+    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/posts/creating-a-new-theme/</loc>
+    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/posts/</loc>
+    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/tags/</loc>
+  </url>
+  
+</urlset>

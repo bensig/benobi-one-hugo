@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benobi.one</title>
+    <link>https://benobi.one/</link>
+    <description>Recent content on Benobi.one</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gratitude</title>
+      <link>https://benobi.one/posts/creating-a-new-theme/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://benobi.one/posts/creating-a-new-theme/</guid>
+      <description>Thank you for visiting. This is my first post. I belive that we should always begin new things with gratitude.
+I am grateful for all of the various experiences I have had and the many apps and projects I have worked on over since 2013. I can&amp;rsquo;t believe the project list here covers only 7 years!
+I am grateful for this site and domain which my dear friend Crystal Rose inspired me to put together.</description>
+    </item>
+    
+    <item>
+      <title>About Benobi</title>
+      <link>https://benobi.one/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://benobi.one/about/</guid>
+      <description>About the name Benobi was a nickname given to me by my girlfriend back in 2016 - which really stuck because of my awareness and my calm, zen-like approach to problem solving. I was doing a lot of self-work during the 2015-2016 time period. The training has paid off&amp;hellip; as a wise person once said, the best investment is to invest in ourselves.
+ About this site This is a site to showcase some of the things I have been working on for the past few years.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://benobi.one/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://benobi.one/contact/</guid>
+      <description>Want to chat? Feel free to Tweet at me any time or reach me on EOS Chat @benmakesense.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://benobi.one/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://benobi.one/projects/</guid>
+      <description>2019 - Sense (EOS) Chat  I joined as the CTO of Sense Chat - a decentralized messaging app built on the EOS blockchain. The beta app is live on the Google Play and Apple App Store.
+EOS Chat leverages blockchain for accounts, authentication, encryption, and allows users to send tokens to one another with no middle man. It does not require a phone number to use, therefore it is entirely pseudonymous.</description>
+    </item>
+    
+  </channel>
+</rss>
