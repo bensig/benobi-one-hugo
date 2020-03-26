@@ -6,17 +6,27 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Kiler Apps</title>
+      <link>https://benobi.one/posts/killer-apps/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://benobi.one/posts/killer-apps/</guid>
+      <description>In consumer tech products, the holy grail is often referred to as the &amp;ldquo;killer app.&amp;rdquo; Of course, in this phrase &amp;ldquo;killer&amp;rdquo; means that an app will break the mold and have hockey-stick levels of adoption and user activity. This leads many to ponder the question&amp;hellip;
+What is the formula for a killer app? Well, there is a man who wrote a formula. I am grateful to have spent some time with Eyal Herzog over the past two years.</description>
+    </item>
+    
+    <item>
       <title>Gratitude</title>
-      <link>https://benobi.one/posts/creating-a-new-theme/</link>
+      <link>https://benobi.one/posts/gratitude/</link>
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://benobi.one/posts/creating-a-new-theme/</guid>
+      <guid>https://benobi.one/posts/gratitude/</guid>
       <description>Thank you for visiting. This is my first post. I belive that we should always begin new things with gratitude.
 I am grateful for all of the various experiences I have had and the many apps and projects I have worked on over since 2013. I can&amp;rsquo;t believe the project list here covers only 7 years!
 I am grateful for this site and domain which my dear friend Crystal Rose inspired me to put together.</description>
