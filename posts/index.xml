@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 02:27:29 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Deployment to Github and Plesk via Webhook</title>
+      <link>https://benobi.one/posts/hugo_deployment_to_github/</link>
+      <pubDate>Fri, 27 Mar 2020 02:27:29 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/hugo_deployment_to_github/</guid>
+      <description>This site is built on Hugo which is really fast and easy to work with - even if you are only a basic developer. Here is how I setup my Hugo deployments. It&amp;rsquo;s actually really simple and it will help you save a lot of time updating your site.
+Setup vscode to play nicely with Hugo These will help you to see your syntax and build your site from vscode directly using the command pallete.</description>
+    </item>
     
     <item>
       <title>Killer Apps</title>
