@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Benobi.one">
-    <meta name="description" content="Benobi&#39;s personal website">
+    <meta name="description" content="https://benobi.one/">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta property="og:site_name" content="Benobi.one">
     <meta property="og:title" content="
-  Posts - Benobi.one
+  Very Simple Animated GIFs in XCode - Benobi.one
 ">
-    <meta property="og:description" content="Benobi&#39;s personal website">
+    <meta property="og:description" content="A simple solution for swift and Animated GIFs">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://benobi.one/posts/">
+    <meta property="og:url" content="https://benobi.one/posts/xcode-gifs/">
     <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://benobi.one/posts/">
+    <meta name="twitter:site" content="https://benobi.one/posts/xcode-gifs/">
     <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
 
-    <base href="https://benobi.one/posts/">
+    <base href="https://benobi.one/posts/xcode-gifs/">
     <title>
-  Posts - Benobi.one
+  Very Simple Animated GIFs in XCode - Benobi.one
 </title>
 
-    <link rel="canonical" href="https://benobi.one/posts/">
+    <link rel="canonical" href="https://benobi.one/posts/xcode-gifs/">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
@@ -90,36 +90,34 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Posts</h1>
-  <ul>
-    
-    <li>
-      <span>March 28, 2020</span><a href="https://benobi.one/posts/xcode-gifs/">Very Simple Animated GIFs in XCode</a>
-    </li>
-    
-    <li>
-      <span>March 27, 2020</span><a href="https://benobi.one/posts/hugo_deployment_to_github/">JAMstack Hugo Deployment to Github and Netlify</a>
-    </li>
-    
-    <li>
-      <span>March 26, 2020</span><a href="https://benobi.one/posts/killer-apps/">Killer Apps</a>
-    </li>
-    
-    <li>
-      <span>March 25, 2020</span><a href="https://benobi.one/posts/gratitude/">Gratitude</a>
-    </li>
-    
-  </ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Very Simple Animated GIFs in XCode</h1>
+      <h2 class="date">March 28, 2020</h2>
+
+      
+    </header>
+
+    <h2 id="bye-stackoverflow">Bye StackOverflow</h2>
+<p>Gone are the days of Stack Overflow; long live YouTube coding tutorials. My Dad used to have a library of home improvement books. It was a set of over 40 color coded books covering every topic from plumbing to roofing to electrical. The books were not that easy to follow either&hellip; diagrams are often not as good as seeing someone do whatever it is you are trying to do in a video.</p>
+<p>It&rsquo;s the same thing with learning a magic trick from a book. When I was a kid I used to try to learn magic tricks from a book and it was really hard to learn from the diagrams&hellip; now, I can just watch a video of a magician explaining how to do a card flourish - and the mechanics are much, much easier to see than &ldquo;step 1, put your thumb under your middle finger.&rdquo;</p>
+<h2 id="building-apps-is-magic">Building Apps is Magic</h2>
+<p>Plumbing is mostly untuitive - liquid follows a few basic rules. On the other hand, simple tasks in Xcode (Apple&rsquo;s IDE for building MacOS and iOS applications) do not follow basic rules. Xcode can be described as deep, complex, and unintuitive. Today I was just attempting to get an animated gif to run as a video the background of a little retro app I built. That probably seems like it would be an easy task&hellip; but much like trying to learn a new magic trick from a book, adding a gif had become a daunting little task just to make my app look cooler.</p>
+<p>I found many tutorials and Github Repos. I tried many all of the various ways and not only did they seem like overkill, not one of them worked for me&hellip; Finally, I came across <a href="https://www.youtube.com/watch?v=DqyU3vGo9mI">this video</a> that helped me figure it out in 5 seconds.</p>
+<h2 id="adding-a-gif-to-swift">Adding a GIF to Swift</h2>
+<p>Very simple. Go <a href="https://github.com/swiftgif/SwiftGif/blob/master/SwiftGifCommon/UIImage%2BGif.swift">here</a> and paste the contents of this file into a new swift file in your xCode project.</p>
+<p>Then in your ViewController - inside of  <code>override func viewDidLoad() {</code> &ndash;&gt;  add <code>imageView.loadGif(name: &quot;&lt;nameOfGIFfile&gt; ) }</code></p>
+<p>Of course, you will need to have an imageView in your app already and have that object imported into your ViewController as imageView.</p>
+<p>So, I learned a new magic trick today - and if you found this page, now you did too.</p>
+
+  </article>
+
+  <br/>
+
   
-
-
-
-
-
-
+  
 </section>
-
 
       </div>
       
