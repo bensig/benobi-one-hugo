@@ -6,17 +6,28 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Mar 2020 02:48:50 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 14:46:59 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Very Simple Animated GIFs in XCode</title>
-      <link>https://benobi.one/posts/xcode-gifs/</link>
+      <title>Defending the Project Roadmap</title>
+      <link>https://benobi.one/posts/feature_creep/</link>
+      <pubDate>Sun, 29 Mar 2020 14:46:59 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/feature_creep/</guid>
+      <description>Protecting developers from an increasing scope of work before the initial agreed-upon work is completed is one of the skills of a good tech lead / project developer.
+Of course, it&amp;rsquo;s a complicated isuse in a way because ideation can be the ultimate creator and killer of products.
+“It would be cool if this broom absorbed water&amp;hellip;” - A mop is born. “It would be cool if this mop also had a disco light.</description>
+    </item>
+    
+    <item>
+      <title>Animated GIFs in Swift Xcode</title>
+      <link>https://benobi.one/posts/swift-gifs/</link>
       <pubDate>Sat, 28 Mar 2020 02:48:50 -0700</pubDate>
       
-      <guid>https://benobi.one/posts/xcode-gifs/</guid>
+      <guid>https://benobi.one/posts/swift-gifs/</guid>
       <description>Bye StackOverflow Gone are the days of Stack Overflow; long live YouTube coding tutorials. My Dad used to have a library of home improvement books. It was a set of over 40 color coded books covering every topic from plumbing to roofing to electrical. The books were not that easy to follow either&amp;hellip; diagrams are often not as good as seeing someone do whatever it is you are trying to do in a video.</description>
     </item>
     
