@@ -6,13 +6,24 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2020 14:46:59 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 21:09:13 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Defending the Project Roadmap</title>
+      <title>Latency Race Privacy Policy</title>
+      <link>https://benobi.one/posts/latency_race_privacy_policy/</link>
+      <pubDate>Sun, 29 Mar 2020 21:09:13 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/latency_race_privacy_policy/</guid>
+      <description>Privacy Policy I built the Latency Race app as a Free app. This SERVICE is provided by at no cost and is intended for use as is.
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.</description>
+    </item>
+    
+    <item>
+      <title>Defending the Product Roadmap</title>
       <link>https://benobi.one/posts/feature_creep/</link>
       <pubDate>Sun, 29 Mar 2020 14:46:59 -0700</pubDate>
       
