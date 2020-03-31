@@ -6,17 +6,27 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2020 21:09:13 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 13:20:33 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Gardening and Building Product</title>
+      <link>https://benobi.one/posts/gardening_apps/</link>
+      <pubDate>Mon, 30 Mar 2020 13:20:33 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/gardening_apps/</guid>
+      <description>I have been doing some gardening during our COVID-19 quarantine and I&amp;rsquo;ve been thinking about how there are similarities between building a product and growing a garden.
+My mom loves gardening. One of her favorite movies, &amp;ldquo;Being There&amp;rdquo; is about a simple man &amp;ldquo;Chauncey Gardiner&amp;rdquo; who has spent his entire life in the garden. Since Chauncey has only known the garden his whole life, that is the only way he understands the world.</description>
+    </item>
+    
+    <item>
       <title>Latency Race Privacy Policy</title>
-      <link>https://benobi.one/posts/latency_race_privacy_policy/</link>
+      <link>https://benobi.one/posts/hidden/latency_race_privacy_policy/</link>
       <pubDate>Sun, 29 Mar 2020 21:09:13 -0700</pubDate>
       
-      <guid>https://benobi.one/posts/latency_race_privacy_policy/</guid>
+      <guid>https://benobi.one/posts/hidden/latency_race_privacy_policy/</guid>
       <description>Privacy Policy I built the Latency Race app as a Free app. This SERVICE is provided by at no cost and is intended for use as is.
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.</description>
@@ -35,15 +45,15 @@ Of course, it&amp;rsquo;s a complicated isuse in a way because ideation can be t
     
     <item>
       <title>Animated GIFs in Swift Xcode</title>
-      <link>https://benobi.one/posts/swift-gifs/</link>
+      <link>https://benobi.one/posts/swift_gifs/</link>
       <pubDate>Sat, 28 Mar 2020 02:48:50 -0700</pubDate>
       
-      <guid>https://benobi.one/posts/swift-gifs/</guid>
+      <guid>https://benobi.one/posts/swift_gifs/</guid>
       <description>Bye StackOverflow Gone are the days of Stack Overflow; long live YouTube coding tutorials. My Dad used to have a library of home improvement books. It was a set of over 40 color coded books covering every topic from plumbing to roofing to electrical. The books were not that easy to follow either&amp;hellip; diagrams are often not as good as seeing someone do whatever it is you are trying to do in a video.</description>
     </item>
     
     <item>
-      <title>JAMstack Hugo Deployment to Github and Netlify</title>
+      <title>JAMstack Serverless Hugo Deployment</title>
       <link>https://benobi.one/posts/hugo_deployment_to_github/</link>
       <pubDate>Fri, 27 Mar 2020 02:27:29 -0700</pubDate>
       
