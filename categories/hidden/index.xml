@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hidden on Benobi.one</title>
+    <link>https://benobi.one/categories/hidden/</link>
+    <description>Recent content in hidden on Benobi.one</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Mar 2020 13:20:33 -0700</lastBuildDate>
+    
+	<atom:link href="https://benobi.one/categories/hidden/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gardening and Building Product</title>
+      <link>https://benobi.one/posts/gardening_apps/</link>
+      <pubDate>Mon, 30 Mar 2020 13:20:33 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/gardening_apps/</guid>
+      <description>I have been doing some gardening during our COVID-19 quarantine and I&amp;rsquo;ve been thinking about how there are similarities between building a product and growing a garden.
+My mom loves gardening. One of her favorite movies, &amp;ldquo;Being There&amp;rdquo; is about a simple man &amp;ldquo;Chauncey Gardiner&amp;rdquo; who has spent his entire life in the garden. Since Chauncey has only known the garden his whole life, that is the only way he understands the world.</description>
+    </item>
+    
+  </channel>
+</rss>
