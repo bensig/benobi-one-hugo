@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Benobi.one">
+    <meta name="description" content="https://benobi.one/">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta property="og:site_name" content="Benobi.one">
+    <meta property="og:title" content="
+  Retro Ping App - Benobi.one
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://benobi.one/posts/building_retro_ping/">
+    <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://benobi.one/posts/building_retro_ping/">
+    <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
+
+    <base href="https://benobi.one/posts/building_retro_ping/">
+    <title>
+  Retro Ping App - Benobi.one
+</title>
+
+    <link rel="canonical" href="https://benobi.one/posts/building_retro_ping/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://benobi.one/css/normalize.min.css">
+    <link rel="stylesheet" href="https://benobi.one/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://benobi.one/index.xml" type="application/rss+xml" title="Benobi.one">
+      <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
+    
+
+    <meta name="generator" content="Hugo 0.68.3" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Benobi.one</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/resources">Resources</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Retro Ping App</h1>
+      <h2 class="date">March 31, 2020</h2>
+
+      
+    </header>
+
+    <p>I built a mobile app this weekend in Swift. I&rsquo;m very happy with the end product and I have already tested it out with a few friends.</p>
+<p>I wanted to discuss a step-by-step process that I used for building it along with some gotchas and learnings.</p>
+<p>Here are the 15 steps I took to create this app:</p>
+<ol>
+<li>Spec</li>
+<li>Wire</li>
+<li>Design</li>
+<li>Code Function</li>
+<li>Test Functions on Physical Device</li>
+<li>Code style</li>
+<li>Test</li>
+<li>Refine</li>
+<li>Submit App to Testflight</li>
+<li>Work on App Store Elements</li>
+<li>Test App on Testflight (various devices)</li>
+<li>Refine App</li>
+<li>Test App Again</li>
+<li>Submit App to Apple App Review</li>
+<li>Launch</li>
+</ol>
+<p>I knew I wanted to build a simple app with a simple purpose: measure latency and simply say if the connection is &ldquo;good&rdquo; or &ldquo;bad&rdquo; based on the latency of the phone.</p>
+<h2 id="1-spec">1. Spec</h2>
+<pre><code>I still started by writing [a spec document](https://docs.google.com/document/d/1rqlgZ5ClwZSInaQxrjPydO7HCDxAnex98CSCuDp4h6w/) which outlines how the app will function. I put user stories in this format:
+
+&quot;As a user, I want to do X so that I can Y.&quot; 
+</code></pre>
+<h2 id="2-wire">2. Wire</h2>
+<pre><code>I built wireframes in XD. You can see the wireframes on the spec document. They were super low fidelity. Just enough to get the idea across and to understand where things would fit on the screen generally. This answers questions that you may not have thought about in the spec: 
+ * Should there be a button? 
+ * Does a user need a place to find help?
+</code></pre>
+<h2 id="3-design">3. Design</h2>
+<pre><code>In this case, I chose two images to be placeholders. I got them edited so that they were the same size and I could easily use them in the app. I put them in Preview and resized, then exported them to PNG files.
+</code></pre>
+<h2 id="4-code-functions">4. Code Functions</h2>
+<p>I had no experience with Swift at all. I started a fresh project in XCode using storyboards. The storyboards were not that complicated to understand. I click the plus symbol and I can add elements to the page. An image, a text label, etc&hellip;</p>
+<p>Next, those elements had to be connected to the actual code. In the Assistant mode, I was able to control-drag them over to the code to reference them. I watched video tutorials to learn more about this and I &ldquo;phoned a friend&rdquo; for the first time to figure out how this worked exactly. It wasn&rsquo;t clear to me how to name the objects so that they could be appropriately referenced in the Swift code.</p>
+<p>For the actual app functions, I looked for ways to implement instead of invent. It&rsquo;s always good to avoid figuring out something simple that someone has already figured out.</p>
+<p>I found and installed a pod to help with the ping function, it worked without any tweaks. I setup some logic to swap the placeholder images based on the outcome of the ping (this was one of the &ldquo;phone a friend&rdquo; moments) - and now, I had an app that functioned&hellip; Mostly.</p>
+<h2 id="5-test-functions-on-physical-device">5. Test Functions on Physical Device</h2>
+<p>I ran into a gotcha. When I tried to launch it on my physical iPhone via a USB cable connected to XCode the app would crash with a weird runtime error. Strangely, the app ran fine in the SIM&hellip; This turned out to be a certificate issue since my Apple Developer Account wasn&rsquo;t setup properly for my personal use. There were no errors or warnings and no information online that was helpful. So, I had to figure this one out on my own through trial and error&hellip; The weird part is that I was still able to &ldquo;trust&rdquo; the app to install it on my phone. Also it was confusing that I was part of a few companies&rsquo; ADC accounts, but that I had to pay for my own ADC account for $99/year&hellip;</p>
+<h2 id="6-code-style">6. Code Style</h2>
+<p>Once that was all resolved, I had a fully functioning app. I committed the code to my local git repo and I started to play with the styling. I swapped out the small images I had as placeholders for larger images. Then I worked with the constraints to get it to center on all devices (phone a friend moment 3). I added app icons <a href="https://makeappicon.com/">which I generatated on the web</a> and I also created a loading page. The loading page is super limited by Apple. It basically has to be just an image. It cannot have any animation or text styling that is not embedded in an image since the app has not loaded any animations or fonts yet.</p>
+<h2 id="7-test-style">7. Test Style</h2>
+<p>Now, I tested in a few simulators on my computer and my physical phone again - but, the app looked boring with a static image&hellip; I had completed the MVP, so I figured it would be acceptible to move on to another feature that I had wanted to include in the initial public release anyway: ANIMATION!</p>
+<p>I searched and found a pretty sweet vaporwave animation in an MP4 which I <a href="https://www.onlineconverter.com/mp4-to-gif">turned into a gif online using a website</a>. I loved the retro look of this animation and it seemed to me that this would appeal to other WiFi latency nerds out there.</p>
+<h2 id="8-refine">8. Refine</h2>
+<p>It took me some time to figure out how to get this gif to animate. As I wrote the other day, I finally figured it out from a YouTube video about how to add an animated gif to Swift.</p>
+<p>Once all of that was handled, I added some extra logic to swap a static image over the animated gif when the latency was over 100ms. I also added a custom font, some custom colors, and I <a href="https://developer.apple.com/documentation/xcode/supporting_dark_mode_in_your_interface/choosing_a_specific_interface_style_for_your_ios_app">swapped the interface style on the iPhone so it would be seen on my dark background</a>.</p>
+<h2 id="9-submit-app-to-testflight">9. Submit App to Testflight</h2>
+<p>When all of this was complete, I built an archive and pushed it to App Store Connect. Then I made a new branch called &ldquo;Testflight&rdquo; on my local git so that I could have a good savepoint in case I broke things.</p>
+<h2 id="10-work-on-app-store-elements">10. Work on App Store Elements</h2>
+<p>Next I started working on screenshots (which are required for the app store). These were challenging to get right since the size that I took them on my actual phone did not result in the correct pixel sizes that Apple required. Why? I have no idea, but they had to be resized in Preview.</p>
+<p>I also had to make a privacy policy. I found this <a href="https://app-privacy-policy-generator.firebaseapp.com/">privacy policy generator</a> and a <a href="https://app.flycricket.com/">free site to host it</a>.</p>
+<p>Finally, I wanted to add an App Preview video so that I would get nice unfurls when sharing the app with people. I connected my phone to my computer and recorded a video of the app with Quicktime. Once again, the dimensions of the video were wrong. I had to import the video into a new &ldquo;App Preview&rdquo; project in iMovie to get the aspect ratio and dimensions correct. It also had to be at least 15 seconds, so I extended it by copying and pasting the video to double it&rsquo;s length.</p>
+<p>I wrote a description, a tag line, a title, and filled out all of the little pieces on the App Store Connect forms&hellip; when I hit the submit for review button, there was another error asking me for iPad screenshots. My app was not designed to work on iPad, so I was confused. It turns out that I also had to go into my build settings to change the app from &ldquo;Universal&rdquo; to &ldquo;iPhone only.&rdquo; I built a new archive and uploaded it to Apple&hellip; finally, my app was submitted for review!</p>
+<h2 id="11-test-app-on-testflight-various-devices">11. Test App on Testflight (various devices)</h2>
+<p>Once my Testflight build was approved (takes about 24 hours), I invited friends to test it out. When I invite my friends and family to test an app, I always text and call them to let them know to check their email. Testflight emails can be lost, skipped over, or just look like SPAM. It&rsquo;s also confusing to people that they have to install Testflight in order to install your beta app.</p>
+<h2 id="12-refine-app">12. Refine App</h2>
+<p>One of my friends noticed and then fixed an issue where the gif I was using seemed to skip a frame in it&rsquo;s animation. He made it smoother for me and I replaced it, built a new archive and uploaded it.</p>
+<h2 id="13-test-app-again">13. Test App Again</h2>
+<p>I tested it again on my simulator, my phone, and had some of my friends test it out again to make sure that it still worked well. If not, Apple might find a problem, and once you get rejected, it can make it harder and slower to get the app approved.</p>
+<h2 id="14-submit-app">14. Submit app</h2>
+<p>I expect that the app will be approved quickly since I have already had 5 versions approved by the Testflight App Review Team. Even though the teams are different, getting fast approvals by the Testflight App Review Team is a good step towards getting the approval from the big dogs up in Cupertino.</p>
+<p>I&rsquo;m excited to get the app released and I&rsquo;m already thinking about a version 2. I&rsquo;m very satisfied with the MVP product. I know that there are more things I wanted to include, but I&rsquo;m very happy to have gotten teh product shipped so quickly. I can always add more later!</p>
+<h2 id="15-launch">15. Launch</h2>
+<p>I set the app to release manually. This way I will be able to look over the description and images once more before it goes out to the App Store. After the app is released, I would need to create a new version of the app to update any App Store elements.</p>
+<p>Once it&rsquo;s approved, I will check over that stuff and click the button to distribute the app globally! That&rsquo;s my favorite part of building something. Next, I will need to make a plan to promote the app and get some reviews.</p>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+    
+      <p>benobi.one</p>
+    
+     
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Let&#39;s keep the internet safe and free?→<a href="https://supporters.eff.org/donate" id="privateTrigger">Donate to the EFF!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+        
+        
+        
+        
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-162042800-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  <script src="https://benobi.one/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("You\x27re a good human.");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>
