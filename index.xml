@@ -6,17 +6,29 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2020 22:46:23 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 10:52:22 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Lightning fast performance with JAMstack</title>
+      <link>https://benobi.one/posts/jamstack_speed/</link>
+      <pubDate>Thu, 02 Apr 2020 10:52:22 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/jamstack_speed/</guid>
+      <description>This website has been built with serverless architecture using JAMstack.
+The speed of this architecture is really unparalleled. The trick is that I am delivering static content on CDNs.
+The entire source code for this site is hosted on GitHub. I have written a previous post about building this site.
+Blazing Speed Take a look at the blazing performance of https://benobi.one - the site usually gets a score of 95-100 in terms of speed.</description>
+    </item>
+    
+    <item>
       <title>Rejection is the Beginning of Negotiation</title>
-      <link>https://benobi.one/posts/retro_ping_app/</link>
+      <link>https://benobi.one/posts/app_store_rejection/</link>
       <pubDate>Wed, 01 Apr 2020 22:46:23 -0700</pubDate>
       
-      <guid>https://benobi.one/posts/retro_ping_app/</guid>
+      <guid>https://benobi.one/posts/app_store_rejection/</guid>
       <description>There are dozens of reasons you might get rejected by the Apple App Review Team - your metadata might have issues, your screenshots might not have the correct placement of the WiFi or battery symbols, or they might just think your app is boring! I have personally had apps rejected and I have also helped friends navigate app rejections. If your app gets rejected, do not give up! Depending on the reviewer, you might get different results for the same app.</description>
     </item>
     
@@ -118,9 +130,8 @@ Before going full-force into building products in 2017, I ran a technology consu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://benobi.one/projects/</guid>
-      <description>This is a list of the major projects I have worked on since 2013. Until Sense Chat, all of my projects were 100% self-funded.
- 2019 - Sense (EOS) Chat  I joined as the CTO of Sense Chat - a decentralized messaging app built on the EOS blockchain. The beta app is live on the Google Play and Apple App Store.
-EOS Chat leverages blockchain for accounts, authentication, encryption, and allows users to send tokens to one another with no middle man.</description>
+      <description>This is a list of the major projects I have worked on since 2013.
+ 2020 - Retro Ping  In quarantine, I found myself constantly testing my internet latency to see where my connectivity was good or bad during the constant Zoom conferences. I decided to build a very simple app to help myself and others test their connections&amp;hellip; with a retro vaporwave theme. The MVP is live on the Apple App Store.</description>
     </item>
     
     <item>

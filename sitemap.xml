@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://benobi.one/</loc>
+    <lastmod>2020-04-02T10:52:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/posts/jamstack_speed/</loc>
+    <lastmod>2020-04-02T10:52:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://benobi.one/posts/</loc>
+    <lastmod>2020-04-02T10:52:22-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://benobi.one/tags/apple-apps-review-rejection/</loc>
     <lastmod>2020-04-01T22:46:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://benobi.one/</loc>
-    <lastmod>2020-04-01T22:46:23-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://benobi.one/posts/</loc>
-    <lastmod>2020-04-01T22:46:23-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://benobi.one/posts/retro_ping_app/</loc>
+    <loc>https://benobi.one/posts/app_store_rejection/</loc>
     <lastmod>2020-04-01T22:46:23-07:00</lastmod>
   </url>
   
