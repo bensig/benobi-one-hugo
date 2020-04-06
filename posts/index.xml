@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Apr 2020 10:52:22 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 00:34:42 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Krueger&#39;s 3 Key Qualities for a Killer App</title>
+      <link>https://benobi.one/posts/killer_apps_mvp/</link>
+      <pubDate>Sat, 04 Apr 2020 00:34:42 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/killer_apps_mvp/</guid>
+      <description>Coming back to the killer apps topic, I wanted to talk a little bit about what I have learned from friend, Fred Kreuger. Fred is a CEO and a product guy. He has had 9/10 wins for his investors and has run a publicly traded company. Fred earned a PhD in Math from Stanford where he wrote a dissertation titled D-arrangements and Random Polyhedra which later became several classes at Stanford and informed some of the math used in modern cryptography.</description>
+    </item>
+    
+    <item>
+      <title>Perspective on Reviews</title>
+      <link>https://benobi.one/posts/apple_app_store_reviews/</link>
+      <pubDate>Fri, 03 Apr 2020 00:11:06 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/apple_app_store_reviews/</guid>
+      <description>Super thankful today for all of the reviews I have gotten. It looks like I am now up to 52 5 Star reviews on the Apple App Store!!! Big thanks to everyone who downloaded the app and also wrote reviews. I really plan to use that when I speak to my Apple App Store rep this week about Retro Ping. I would really like to find a way to honor everyone who wrote reviews.</description>
+    </item>
     
     <item>
       <title>Lightning fast performance with JAMstack</title>
