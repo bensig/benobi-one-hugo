@@ -6,10 +6,20 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:34:42 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 14:54:45 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Importance of Writing Good Spec Docs</title>
+      <link>https://benobi.one/posts/writing_spec_docs/</link>
+      <pubDate>Mon, 06 Apr 2020 14:54:45 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/writing_spec_docs/</guid>
+      <description>Writing spec documents is an important aspect of building a product. Even if I am not working with a team, it&amp;rsquo;s very useful as a tool to think through all of my product interactions and explain how they will work. If you cannot explain it very simply, then you will not be able to build it.
+In addition, with a team, it&amp;rsquo;s a very useful way to get feedback and &amp;ldquo;buy-in&amp;rdquo; from your team.</description>
+    </item>
     
     <item>
       <title>Krueger&#39;s 3 Key Qualities for a Killer App</title>

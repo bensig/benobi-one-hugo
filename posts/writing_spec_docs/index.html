@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Benobi.one">
-    <meta name="description" content="Benobi&#39;s personal website">
+    <meta name="description" content="https://benobi.one/">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta property="og:site_name" content="Benobi.one">
     <meta property="og:title" content="
-  Posts - Benobi.one
+  The Importance of Writing Good Spec Docs - Benobi.one
 ">
-    <meta property="og:description" content="Benobi&#39;s personal website">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://benobi.one/posts/">
+    <meta property="og:url" content="https://benobi.one/posts/writing_spec_docs/">
     <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://benobi.one/posts/">
+    <meta name="twitter:site" content="https://benobi.one/posts/writing_spec_docs/">
     <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
 
-    <base href="https://benobi.one/posts/">
+    <base href="https://benobi.one/posts/writing_spec_docs/">
     <title>
-  Posts - Benobi.one
+  The Importance of Writing Good Spec Docs - Benobi.one
 </title>
 
-    <link rel="canonical" href="https://benobi.one/posts/">
+    <link rel="canonical" href="https://benobi.one/posts/writing_spec_docs/">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
@@ -90,68 +90,40 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Posts</h1>
-  <ul>
-    
-    <li>
-      <span>April 6, 2020</span><a href="https://benobi.one/posts/writing_spec_docs/">The Importance of Writing Good Spec Docs</a>
-    </li>
-    
-    <li>
-      <span>April 4, 2020</span><a href="https://benobi.one/posts/killer_apps_mvp/">Krueger&#39;s 3 Key Qualities for a Killer App</a>
-    </li>
-    
-    <li>
-      <span>April 3, 2020</span><a href="https://benobi.one/posts/apple_app_store_reviews/">Perspective on Reviews</a>
-    </li>
-    
-    <li>
-      <span>April 2, 2020</span><a href="https://benobi.one/posts/jamstack_speed/">Lightning fast performance with JAMstack</a>
-    </li>
-    
-    <li>
-      <span>April 1, 2020</span><a href="https://benobi.one/posts/app_store_rejection/">Rejection is the Beginning of Negotiation</a>
-    </li>
-    
-    <li>
-      <span>March 31, 2020</span><a href="https://benobi.one/posts/building_retro_ping/">Building a Simple iOS App: Retro Ping App</a>
-    </li>
-    
-    <li>
-      <span>March 30, 2020</span><a href="https://benobi.one/posts/gardening_apps/">Gardening and Building Product</a>
-    </li>
-    
-    <li>
-      <span>March 29, 2020</span><a href="https://benobi.one/posts/feature_creep/">Defending the Product Roadmap</a>
-    </li>
-    
-    <li>
-      <span>March 28, 2020</span><a href="https://benobi.one/posts/swift_gifs/">Animated GIFs in Swift Xcode</a>
-    </li>
-    
-    <li>
-      <span>March 27, 2020</span><a href="https://benobi.one/posts/hugo_deployment_to_github/">JAMstack Serverless Hugo Deployment</a>
-    </li>
-    
-    <li>
-      <span>March 26, 2020</span><a href="https://benobi.one/posts/killer-apps/">Killer Apps</a>
-    </li>
-    
-    <li>
-      <span>March 25, 2020</span><a href="https://benobi.one/posts/gratitude/">Gratitude</a>
-    </li>
-    
-  </ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">The Importance of Writing Good Spec Docs</h1>
+      <h2 class="date">April 6, 2020</h2>
+
+      
+    </header>
+
+    <p>Writing spec documents is an important aspect of building a product. Even if I am not working with a team, it&rsquo;s very useful as a tool to think through all of my product interactions and explain how they will work. If you cannot explain it very simply, then you will not be able to build it.</p>
+<p>In addition, with a team, it&rsquo;s a very useful way to get feedback and &ldquo;buy-in&rdquo; from your team. If you cannot convince your team that something should be built a certian way, then you probably should not be building it.</p>
+<p>The structure of the spec is really dependent on what you are building. I like to break down spec documents by each feature - for exmaple: authentication, image upload, and view image gallery.</p>
+<h2 id="spec-document-minimum-requirements">Spec Document Minimum Requirements</h2>
+<p>The spec document should answer the following questions at a minimum:</p>
+<ol>
+<li>What is this feature for?</li>
+<li>Who will use it? (Is this for users, superusers, or internal to your company?)</li>
+<li>How will they use it? (Exact steps.)</li>
+<li>What other features does this affect? (Those features might have separate documents that are linked.)</li>
+<li>What technology is planned to be leveraged? (3rd party libraries, or SDKs should be mentioned here.)</li>
+<li>How will we know when this feature is completed? (Acceptance criteria that everyone can agree upon.)</li>
+</ol>
+<p>Now, you will have something that everyone can look at and agree upon. It might seem like a lot of work to do this for describing how a user logs into your app - but, it&rsquo;s not as complicated as letting your team figure this out on their own and then find out that it&rsquo;s done in a way that disagrees with your company&rsquo;s ethos or best practices in some way.</p>
+<h2 id="how-do-you-know-when-a-spec-doc-is-done">How do you know when a spec doc is done?</h2>
+<p>There is a way to know when you are done. Whenever no one has any more questions about what you are building based on reading the spec document, then you are good. The two most critical people to understand the document fully is the developer and the product owner.</p>
+
+  </article>
+
+  <br/>
   
 
-
-
-
-
-
+  
+  
 </section>
-
 
       </div>
       
