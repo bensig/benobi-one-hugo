@@ -6,20 +6,10 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2020 15:24:33 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 14:54:45 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>TikTok Timing and Sharability</title>
-      <link>https://benobi.one/posts/tiktok_is_vine/</link>
-      <pubDate>Mon, 06 Apr 2020 15:24:33 -0700</pubDate>
-      
-      <guid>https://benobi.one/posts/tiktok_is_vine/</guid>
-      <description>Despite the great gap that the media likes to paint between the US and China, the Beijing-based TikTok app has users from both countries - and just about everywhere in-between - connected.
-TikTok is an interesting platform, it started as Musical.ly - an app that made it simple for users to record lip synch videos. Musical.ly itself was actually a pivot from an educational video platform. This is a great testament to perseverance and continuous ingenuity.</description>
-    </item>
     
     <item>
       <title>The Importance of Writing Good Spec Docs</title>
@@ -29,6 +19,16 @@ TikTok is an interesting platform, it started as Musical.ly - an app that made i
       <guid>https://benobi.one/posts/writing_spec_docs/</guid>
       <description>Writing spec documents is an important aspect of building a product. Even if I am not working with a team, it&amp;rsquo;s very useful as a tool to think through all of my product interactions and explain how they will work. If you cannot explain it very simply, then you will not be able to build it.
 In addition, with a team, it&amp;rsquo;s a very useful way to get feedback and &amp;ldquo;buy-in&amp;rdquo; from your team.</description>
+    </item>
+    
+    <item>
+      <title>TikTok Timing and Sharability</title>
+      <link>https://benobi.one/posts/tiktok_is_vine/</link>
+      <pubDate>Sun, 05 Apr 2020 15:24:33 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/tiktok_is_vine/</guid>
+      <description>Despite the great gap that the media likes to paint between the US and China, the Beijing-based TikTok app has users from both countries - and just about everywhere in-between - connected.
+TikTok is an interesting platform, it started as Musical.ly - an app that made it simple for users to record lip synch videos. Musical.ly itself was actually a pivot from an educational video platform. This is a great testament to perseverance and continuous ingenuity.</description>
     </item>
     
     <item>
