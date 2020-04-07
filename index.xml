@@ -6,10 +6,20 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2020 14:54:45 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 15:24:33 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TikTok Timing and Sharability</title>
+      <link>https://benobi.one/posts/tiktok_is_vine/</link>
+      <pubDate>Mon, 06 Apr 2020 15:24:33 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/tiktok_is_vine/</guid>
+      <description>Despite the great gap that the media likes to paint between the US and China, the Beijing-based TikTok app has users from both countries - and just about everywhere in-between - connected.
+TikTok is an interesting platform, it started as Musical.ly - an app that made it simple for users to record lip synch videos. Musical.ly itself was actually a pivot from an educational video platform. This is a great testament to perseverance and continuous ingenuity.</description>
+    </item>
     
     <item>
       <title>The Importance of Writing Good Spec Docs</title>
