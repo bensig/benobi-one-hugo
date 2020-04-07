@@ -17,8 +17,7 @@
       <pubDate>Mon, 06 Apr 2020 14:54:45 -0700</pubDate>
       
       <guid>https://benobi.one/posts/writing_spec_docs/</guid>
-      <description>Writing spec documents is an important aspect of building a product. Even if I am not working with a team, it&amp;rsquo;s very useful as a tool to think through all of my product interactions and explain how they will work. If you cannot explain it very simply, then you will not be able to build it.
-In addition, with a team, it&amp;rsquo;s a very useful way to get feedback and &amp;ldquo;buy-in&amp;rdquo; from your team.</description>
+      <description>Writing spec documents is an important aspect of building a product. As I wrote about in my post about building a simple iOS app, even if I am building an app myself - I start with a specification document. it&amp;rsquo;s very useful as a tool to think through all of my product interactions and explain how they will work. If I cannot explain it very simply, then I will not be able to build it - neither will anyone else!</description>
     </item>
     
     <item>
