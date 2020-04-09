@@ -6,10 +6,29 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2020 14:54:45 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 23:39:42 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>COVID App in Flutter</title>
+      <link>https://benobi.one/posts/covid_app_idea/</link>
+      <pubDate>Wed, 08 Apr 2020 23:39:42 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/covid_app_idea/</guid>
+      <description>While I am waiting to hear from Apple about whether or not they will allow me to update Retro Ping, I was thinking about building another really simple app. This app would simply allow people to check how many COVID-19 cases there are near them.
+The app would be pretty simple. I found a bunch of data on Github that is updated daily into CSV files. I could simply download those and transform them into a JSON, then write some simple logic to create an API where the mobile app can get latitude and longitude - send that data to the backend and get back the number of cases for that region.</description>
+    </item>
+    
+    <item>
+      <title>Attending Virtual Events</title>
+      <link>https://benobi.one/posts/oculus_quest_new_view/</link>
+      <pubDate>Tue, 07 Apr 2020 23:30:02 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/oculus_quest_new_view/</guid>
+      <description>I rentered virtual reality this weekend when a new Oculus Quest arrived in my yard. A very good friend of mine sent it to me as a gift and I&amp;rsquo;m really excited to dig back into VR. A few years ago, when I got my HTC Vive - there were not really that many interesting games or things to do. Wow, VR has grown a lot in a short amount of time.</description>
+    </item>
     
     <item>
       <title>The Importance of Writing Good Spec Docs</title>
@@ -41,7 +60,7 @@ It definitely meets all 3 of the killer app criteria in the formula for killer a
     </item>
     
     <item>
-      <title>Perspective on Reviews</title>
+      <title>Perspective on App Store Reviews</title>
       <link>https://benobi.one/posts/apple_app_store_reviews/</link>
       <pubDate>Fri, 03 Apr 2020 00:11:06 -0700</pubDate>
       
@@ -129,7 +148,7 @@ Setup vscode to play nicely with Hugo These will help you to see your syntax and
       
       <guid>https://benobi.one/posts/killer-apps/</guid>
       <description>In consumer tech products, the holy grail is often referred to as the &amp;ldquo;killer app.&amp;rdquo; Of course, in this phrase &amp;ldquo;killer&amp;rdquo; means that an app will break the mold and have hockey-stick levels of adoption and user activity. This leads many to ponder the question&amp;hellip;
-What is the formula for a killer app? Well, there is a man who wrote a formula. I am grateful to have spent some time with Eyal Herzog over the past two years.</description>
+What is the formula for a killer app Well, there is a man who wrote a formula. I am grateful to have spent some time with Eyal Herzog over the past two years.</description>
     </item>
     
     <item>
@@ -138,7 +157,7 @@ What is the formula for a killer app? Well, there is a man who wrote a formula. 
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://benobi.one/posts/gratitude/</guid>
-      <description>Thank you for visiting. This is my first post. I belive that we should always begin new things with gratitude.
+      <description>Thank you for visiting This is my first post. I belive that we should always begin new things with gratitude.
 I am grateful for all of the various experiences I have had and the many apps and projects I have worked on since 2013. I can&amp;rsquo;t believe the project list here covers only 7 years!
 I am grateful for this site and domain which my dear friend Crystal Rose inspired me to put together.</description>
     </item>
@@ -159,7 +178,7 @@ I am driven by the act of creation. Before going full-time into creating product
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://benobi.one/contact/</guid>
-      <description>Want to chat? Feel free to Tweet at me any time or reach me on EOS Chat @benmakesense.</description>
+      <description>Want to chat Feel free to Tweet at me any time or reach me on EOS Chat @benmakesense.</description>
     </item>
     
     <item>
