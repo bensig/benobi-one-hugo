@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2020 23:39:42 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 22:21:48 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Defining Moments</title>
+      <link>https://benobi.one/posts/defining_moments/</link>
+      <pubDate>Thu, 09 Apr 2020 22:21:48 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/defining_moments/</guid>
+      <description>COVID-19 is a defining moment for our lives and for the world. For the next unknown months or years - there is a default level of hardship in the world than before. In a way, this is our first global problem. It&amp;rsquo;s a problem for all humans, this little virus.
+What exactly will this moment define?
+The COVID-19 pandemic - or as should have been called SARS-CoV-2 - is going to leave the world a very different place than it was before the pandemic.</description>
+    </item>
     
     <item>
       <title>COVID App in Flutter</title>
