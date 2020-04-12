@@ -6,10 +6,32 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2020 22:21:48 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 20:22:31 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apple and Google Contract Tracker - Part 2</title>
+      <link>https://benobi.one/posts/apple_google_contact_tracker_part_2/</link>
+      <pubDate>Sat, 11 Apr 2020 20:22:31 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/apple_google_contact_tracker_part_2/</guid>
+      <description>This is part 2 - continuing from yesterday&amp;rsquo;s post about the implementation choice of bluetooth. This part 2 post is specifically to discuss a breakdown of the encryption implementation.
+I thought it was pretty interesting that Google chose to use homomorphic encrpytion. First time I have seen that from them.
+Here is a great breakdown of how it works from Moxie Marlinspike - creator of Signal:
+3) Your device keeps track of all &amp;quot;proximity IDs&amp;quot; it sees.</description>
+    </item>
+    
+    <item>
+      <title>Apple and Google Contract Tracker - Part 1</title>
+      <link>https://benobi.one/posts/apple_google_contact_tracker/</link>
+      <pubDate>Fri, 10 Apr 2020 22:16:52 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/apple_google_contact_tracker/</guid>
+      <description>Today, Apple and Google released their Contact Tracker collaboration. I&amp;rsquo;m going to address this in 2 posts. First, to discuss bluetooth in general and then tomorrow I will discuss cryptography they used and some of the issues that have been identified in it.
+The idea of the protocol is that apps will be able to tell if you came into contact with another person who has been diagnosed with COVID-19 without giving away your identity to anyone or the identity of others around you.</description>
+    </item>
     
     <item>
       <title>Defining Moments</title>
