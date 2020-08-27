@@ -29,8 +29,7 @@ Here is a great breakdown of how it works from Moxie Marlinspike - creator of Si
       <pubDate>Fri, 10 Apr 2020 22:16:52 -0700</pubDate>
       
       <guid>https://benobi.one/posts/apple_google_contact_tracker/</guid>
-      <description>Today, Apple and Google released their Contact Tracker collaboration. I&amp;rsquo;m going to address this in 2 posts. First, to discuss bluetooth in general and then tomorrow I will discuss cryptography they used and some of the issues that have been identified in it.
-The idea of the protocol is that apps will be able to tell if you came into contact with another person who has been diagnosed with COVID-19 without giving away your identity to anyone or the identity of others around you.</description>
+      <description>Today, Apple and Google released their Contact Tracker collaboration. A similar protocol has already been implemented in Singapore in an app called TraceTogether. The idea of the protocol is that the app will allow you to trace when you have come into contact with another person who has been diagnosed with the virus. The protocol allows this to happen in an anonymized way - where, in Singapore, the Department of Health acts like a trusted 3rd party&amp;hellip; Google and Apple actually have figured out a way to do this without a trusted 3rd party in the US?</description>
     </item>
     
     <item>
