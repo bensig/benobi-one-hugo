@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2020 20:22:31 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 18:41:59 -0700</lastBuildDate>
     
 	<atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evolved Scrum</title>
+      <link>https://benobi.one/posts/evolved-scrum/</link>
+      <pubDate>Wed, 26 Aug 2020 18:41:59 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/evolved-scrum/</guid>
+      <description>The goal of this post is to discuss a system that I call &amp;ldquo;Evolved Scrum&amp;rdquo; which is working for our team and how we have adopted our own methology for spending more time building, less time meeting, and doing a better job of managing our time and getting features over the finish line.
+A big part of the system is that it puts the responsibility of deciding a scope on the developer instead of the project manager.</description>
+    </item>
     
     <item>
       <title>Apple and Google Contract Tracker - Part 2</title>

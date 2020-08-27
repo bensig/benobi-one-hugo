@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Benobi.one">
+    <meta name="description" content="https://benobi.one/">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta property="og:site_name" content="Benobi.one">
+    <meta property="og:title" content="
+  Evolved Scrum - Benobi.one
+">
+    <meta property="og:description" content="A better system for approaching product development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://benobi.one/posts/evolved-scrum/">
+    <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://benobi.one/posts/evolved-scrum/">
+    <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
+
+    <base href="https://benobi.one/posts/evolved-scrum/">
+    <title>
+  Evolved Scrum - Benobi.one
+</title>
+
+    <link rel="canonical" href="https://benobi.one/posts/evolved-scrum/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://benobi.one/css/normalize.min.css">
+    <link rel="stylesheet" href="https://benobi.one/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://benobi.one/index.xml" type="application/rss+xml" title="Benobi.one">
+      <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
+    
+
+    <meta name="generator" content="Hugo 0.68.3" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Benobi.one</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/resources">Resources</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Evolved Scrum</h1>
+      <h2 class="date">August 26, 2020</h2>
+
+      
+    </header>
+
+    <p>The goal of this post is to discuss a system that I call &ldquo;Evolved Scrum&rdquo; which is working for our team and how we have adopted our own methology for spending more time building, less time meeting, and doing a better job of managing our time and getting features over the finish line.</p>
+<p>A big part of the system is that it puts the responsibility of deciding a scope on the developer instead of the project manager. This will make more sense when you see the example below.</p>
+<h2 id="secret-of-scrum">Secret of Scrum</h2>
+<p>It&rsquo;s basically an open secret that scrum rarely works. Many oldschool devs I know think scrum is a load of crap. There are some good aspects to scrum methodology and I think it&rsquo;s important to take what works for each team you are working with and also look at what is not working.</p>
+<p>Sticking to a rigid system is the opposite of <em>agile</em>. Agile is a summarized <a href="https://www.reddit.com/r/explainlikeimfive/comments/4gityr/eli5_what_is_an_agile_environment/d2i9318?utm_source=share&amp;utm_medium=web2x&amp;context=3">quite well on this Reddit thread</a>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">Only work on the most important things at any given point in time
+Break those things into small bite-sized tasks for individuals to work on autonymously
+Catch up for about 10-20 minutes every morning on progress
+Meet at the end of a set of &#39;things&#39; to plan the next set of &#39;things&#39;
+</code></pre></div><p>But there is another principle that is missed: requirements and solutions must <em>evolve</em>. And sure&hellip; in our retrospective we would discuss what to Start, Stop, or Continue - but overall, what we really needed to do was stop wasting time on meetings and spend more time building.</p>
+<h2 id="scrum-failed-us">Scrum Failed Us</h2>
+<p>Personally, I find sprint planning, review, and retrospective to be really tedious, boring, and unengaging. Additionally, the methodology of assigning difficulty to tasks that is not based on time, but a system of points seems like a waste of time. Each developer would basically guess how many difficulty points to assign to things and the process of following up and adjusting points as we go was mega-tedious.</p>
+<p>After months of sprints that were overdue, incomplete, and bleeding into the next one and the next one&hellip; We were quickly approaching our deadline for launch, and so, we adopted a new system about a month ago which is really working for us to move faster.</p>
+<p>One big realization we had is that there are 3 essential variables to consider when building a feature: time, developers, and scope.</p>
+<p>The good thing about my evolved scrum system is that it is less likely to fail since it addresses these variables in a different way that is not part of scrum:</p>
+<p><strong>Time</strong></p>
+<p>When we are building on a deadline, time is constant.</p>
+<p><strong>Developers</strong></p>
+<p>The number of developers is also considered a constant. Hiring and training new developers is very costly - it takes time away from building and can actually result in things taking longer or getting built badly.</p>
+<p><strong>Scope</strong></p>
+<p>This meant that only the scope of each feature is variable. The scope needed to be determined based on the time and number of developers. We can always iterate on a basic function - as long as we actually get it functioning.</p>
+<h2 id="evolved-scrum-actors">Evolved Scrum Actors</h2>
+<p>Let&rsquo;s define the actors and pieces of this new evolved scrum system.</p>
+<ul>
+<li><strong>Product Owner</strong> represents the business interests / vision of the product.</li>
+<li><strong>Project Manager</strong> is responsible for the daily and weekly management of the product build process.</li>
+<li><strong>Build Team</strong> is a team of at least 2 developers responsible for delivering on an epic. It&rsquo;s a good idea to consider the spec of the epic when you design a build team. For example, you may want to pair a jr and sr developer together on an easy epic and 2 sr devs on a difficult epic.</li>
+<li><strong>Main Epic</strong> is the workable scope of a feature, normally expressed as &ldquo;user stories&rdquo; - &ldquo;As a user, I can do x so that I get benefit y.&rdquo;</li>
+<li><strong>Polish Epic</strong> is planned time for addressing issues to fix bugs or polish the main epic.</li>
+<li><strong>Stretch Goals</strong> an epic can contain goals such that - if the epic is completed ahead of the allotted time, there is built-in additional goals.</li>
+<li><strong>Designer</strong> works closely with the <strong>Build Team</strong> and <strong>Project Manager</strong> to make sure everything</li>
+</ul>
+<h2 id="evolved-scrum-process">Evolved Scrum Process</h2>
+<p>Basically, our new evolved scrum system takes the dream version of a feature with all of the bells and whistles imagined by the product owner and then using a process to agree on an MVP version of each feature.</p>
+<ol>
+<li><strong>Product Owner</strong> builds a list of the most important features to include in an upcoming release. This can include a list of <em>stretch goals</em>.</li>
+<li><strong>Project Manager</strong> meets with the <strong>Product Owner</strong> to build detailed spec documents of these features including all of the wishes and dreams of the . Ideally, these spec documents include user stories and either designs or screenshots of how a similar feature works in another app.</li>
+<li><strong>Project Manager</strong> takes each features and builds an empty epic in Zenhub by setting the start and end dates with a maximum of 2 weeks + an additional empty epic with 2-3 days of polishing / bug fixing. Since we only have 2 <strong>Build Teams</strong> then there can only be 2 epics happening at any time.</li>
+<li><strong>Epic Planning Meeting</strong> this is the most important part of this system. In this 1 hour meeting, the <strong>Project Manager</strong> meets with the <strong>Build Team</strong> assigned to the epic and the <strong>Designer</strong>. Together they <strong>break down the spec into an MVP scope that can be accomplished in the allotted timeframe</strong> for the epic - containing only the most essential user flows. The <strong>Build Team</strong> is responsible for detailing out the test cases which will pass at the end of the time allotted to the epic.</li>
+<li>The <strong>Designer</strong> now goes and builds out a prototype of how this flow will function in the MVP.</li>
+<li>Once the design and epic have scope have been defined, it is signed off by the <strong>Product Owner</strong>.</li>
+<li>The <strong>Build Team</strong> now takes the empty epic and builds out all of their issues that they have committed to accomplishing within the allotted timeframe.</li>
+<li>There is a <strong>Daily Stand Up (DSU)</strong> of 10-15 minutes with the <strong>Project Managerto</strong>, <strong>Build Teams</strong>, and <strong>Designer</strong> to discuss the progress of each epic and discover any blockers (including missing or unclear designs). There should be no surprises at the end of the epic since there is a daily check-in.</li>
+<li><strong>Demo</strong> At the end of the allotted time for the epic, the entire team including the <strong>Product Owner</strong> does a demo / review session of the feature and a list of issues are created for the <strong>Polish Epic</strong>.</li>
+<li>Work should only be merged into the stable branch when it completes all of the test cases and has been approved by the <strong>Product Owner</strong>.</li>
+</ol>
+<h2 id="evolved-scrum-example">Evolved Scrum Example</h2>
+<p>Let&rsquo;s say that we are building a mobile app and we have the following:</p>
+<ul>
+<li>4 weeks (20 working days)</li>
+<li>4 features (2 hard, 2 easy)</li>
+<li>2 frontend (FE) devs</li>
+<li>2 backend (BE) devs</li>
+</ul>
+<p>This assumes that we already have a detailed spec from the <strong>Product Owner</strong>.</p>
+<p>We pair up 1 FE dev with 1 BE dev, now we 2 <strong>Build Teams</strong> that can build 2 features at the same time. These are just like trains on separate tracks.</p>
+<p>Now, you might think that we can spend 20 days dedicated to the <strong>Main Epic</strong> for the feature because once a feature is built, there will be bugs and polishing - so that needs to be factored in to the  <strong>Polish Epic</strong>. The <strong>Project Manager</strong> sets up the schedule to make sure that only 2 epics are happening at the same time.</p>
+<p>Also, not all features are created equal - some are more challenging to implement. In this example, we have 2 &ldquo;easy&rdquo; features which will leverage a lot of things that are already built and 2 &ldquo;hard&rdquo; features which have unknown difficulties. So here is how we will allocate the time:</p>
+<ul>
+<li>Hard Epic 1 - <strong>Build Team 1</strong>, 7 working days for <strong>Main Epic</strong>, 3 working days for the <strong>Polish Epic</strong>, starts on day 1</li>
+<li>Hard Epic 2 - Build Team 2, 7 working days for <strong>Main Epic</strong>, 3 working days for the <strong>Polish Epic</strong>, starts on day 2</li>
+<li>Easy Epic 1 - <strong>Build Team 1</strong>, 3 workind days for <strong>Main Epic</strong>, 2 working days for <strong>Polish Epic</strong>, starts on day 11</li>
+<li>Easy Epic 2 - <strong>Build Team 1</strong>, 3 workind days for <strong>Main Epic</strong>, 1 working days for <strong>Polish Epic</strong>, starts on day 12</li>
+</ul>
+<p>The epics will finish on day 17, which leaves days 18-20 as a buffer to deal with anything additional that ALWAYS pops up. <strong>Build Teams</strong> can also elect to work on nights and weekends to make their deadline if they fall behind.</p>
+<p>Now that the schedule is locked, so we have to figure out what we can build in that timeframe.</p>
+<p>At least a few days before the epic kicks off, the build team has the <strong>Epic Planning Meeting</strong> with the project manager and designer. The outcome of this meeting is a list of test cases which will pass at the end off the time allotted to the epic - remember, time is a constant. This is a commitment by the developer to finish the work they chose in the allotted time. If it works for you, there can be a system of rewards for finishing on time and punishments for not finishing on time.</p>
+<p>The <strong>Designer</strong> preps all of the designs needed for the <strong>Main Epic</strong> and the <strong>Product Owner</strong> signs off on the epic scope and design. This makes sure that everyone is very clear about &ldquo;what it means to be done&rdquo; with the epic.</p>
+<p>The <strong>Build Team</strong> creates issues inside of the <strong>Main Epic</strong> on Zenhub and assigns all of the work to be completed.</p>
+<p>Now, we are ready to begin work. <strong>DSU</strong> check-ins will be used to learn if we are on-time or not for each epic and if there are any blockers or needs.</p>
+<p>At the end of the allotted time for the epic, the <strong>Demo</strong> gives everyone a chance to review the feature together.</p>
+
+  </article>
+
+  <br/>
+  
+
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+    
+      <p>benobi.one</p>
+    
+     
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Let&#39;s keep the internet safe and free?→<a href="https://supporters.eff.org/donate" id="privateTrigger">Donate to the EFF!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+        
+        
+        
+        
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-162042800-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  <script src="https://benobi.one/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("You\x27re a good human.");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>
