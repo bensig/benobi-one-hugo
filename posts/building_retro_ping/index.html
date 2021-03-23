@@ -46,7 +46,7 @@
       <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
     
 
-    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="generator" content="Hugo 0.82.0" />
   </head>
 
   <body class="">
@@ -137,7 +137,7 @@
 <p>For the actual app functions, I looked for ways to implement instead of invent. It&rsquo;s always good to avoid figuring out something simple that someone has already figured out.</p>
 <p>I found and installed a pod to help with the ping function, it worked without any tweaks. I setup some logic to swap the placeholder images based on the outcome of the ping (this was one of the &ldquo;phone a friend&rdquo; moments) - and now, I had an app that functioned&hellip; Mostly.</p>
 <h2 id="5-test-functions-on-physical-device">5. Test Functions on Physical Device</h2>
-<p>I ran into a gotcha. When I tried to launch it on my physical iPhone via a USB cable connected to XCode the app would crash with a weird runtime error. Strangely, the app ran fine in the SIM&hellip; This turned out to be a certificate issue since my Apple Developer Account wasn&rsquo;t setup properly for my personal use. There were no errors or warnings and no information online that was helpful. So, I had to figure this one out on my own through trial and error&hellip; The weird part is that I was still able to &ldquo;trust&rdquo; the app to install it on my phone. Also it was confusing that I was part of a few companies&rsquo; ADC accounts, but that I had to pay for my own ADC account for $99/year&hellip;</p>
+<p>I ran into a gotcha. When I tried to launch it on my physical iPhone via a USB cable connected to XCode the app would crash with a weird runtime error. Strangely, the app ran fine in the SIM&hellip; This turned out to be a certificate issue since my Apple Developer Account wasn&rsquo;t setup properly for my personal use. There were no errors or warnings and no information online that was helpful. So, I had to figure this one out on my own through trial and error&hellip; The weird part is that I was still able to &ldquo;trust&rdquo; the app to install it on my phone. Also it was confusing that I was part of a few companies' ADC accounts, but that I had to pay for my own ADC account for $99/year&hellip;</p>
 <h2 id="6-code-style">6. Code Style</h2>
 <p>Once that was all resolved, I had a fully functioning app. I committed the code to my local git repo and I started to play with the styling. I swapped out the small images I had as placeholders for larger images. Then I worked with the constraints to get it to center on all devices (phone a friend moment 3). I added app icons <a href="https://makeappicon.com/">which I generatated on the web</a> and I also created a loading page. The loading page is super limited by Apple. It basically has to be just an image. It cannot have any animation or text styling that is not embedded in an image since the app has not loaded any animations or fonts yet.</p>
 <h2 id="7-test-style">7. Test Style</h2>
@@ -230,7 +230,6 @@ if (!doNotTrack) {
 }
 </script>
 
-
   <script src="https://benobi.one/js/app.js"></script>
   
   <script>
@@ -238,7 +237,7 @@ if (!doNotTrack) {
     $(function() {
       $('#privateTrigger').on('click', function() {
         $('.private').slideToggle();
-        $('#privateTriggerText').text("You\x27re a generous Jedi.");
+        $('#privateTriggerText').text("You\u0027re a generous Jedi.");
       });
     });
    })(jQuery);

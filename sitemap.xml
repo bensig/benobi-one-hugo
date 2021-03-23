@@ -1,140 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://benobi.one/tags/apple-apps-error-brew-m1/</loc>
+    <lastmod>2021-03-22T22:46:23-07:00</lastmod>
+  </url><url>
     <loc>https://benobi.one/</loc>
-    <lastmod>2020-08-26T18:41:59-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-22T22:46:23-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/</loc>
+    <lastmod>2021-03-22T22:46:23-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/running_brew_on_m1_for_x86/</loc>
+    <lastmod>2021-03-22T22:46:23-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/</loc>
+    <lastmod>2021-03-22T22:46:23-07:00</lastmod>
+  </url><url>
     <loc>https://benobi.one/posts/evolved-scrum/</loc>
     <lastmod>2020-08-26T18:41:59-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://benobi.one/posts/</loc>
-    <lastmod>2020-08-26T18:41:59-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/apple_google_contact_tracker_part_2/</loc>
     <lastmod>2020-04-11T20:22:31-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/apple_google_contact_tracker/</loc>
     <lastmod>2020-04-10T22:16:52-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/defining_moments/</loc>
     <lastmod>2020-04-09T22:21:48-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/covid_app_idea/</loc>
     <lastmod>2020-04-08T23:39:42-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/oculus_quest_new_view/</loc>
     <lastmod>2020-04-07T23:30:02-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/writing_spec_docs/</loc>
     <lastmod>2020-04-06T14:54:45-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/tiktok_is_vine/</loc>
     <lastmod>2020-04-05T15:24:33-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/killer_apps_mvp/</loc>
     <lastmod>2020-04-04T00:34:42-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/apple_app_store_reviews/</loc>
     <lastmod>2020-04-03T00:11:06-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/jamstack_speed/</loc>
     <lastmod>2020-04-02T10:52:22-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/tags/apple-apps-review-rejection/</loc>
     <lastmod>2020-04-01T22:46:23-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/app_store_rejection/</loc>
     <lastmod>2020-04-01T22:46:23-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://benobi.one/tags/</loc>
-    <lastmod>2020-04-01T22:46:23-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/building_retro_ping/</loc>
     <lastmod>2020-03-31T22:40:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/gardening_apps/</loc>
     <lastmod>2020-03-30T13:20:33-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/feature_creep/</loc>
     <lastmod>2020-03-29T14:46:59-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/swift_gifs/</loc>
     <lastmod>2020-03-28T02:48:50-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/hugo_deployment_to_github/</loc>
     <lastmod>2020-03-27T02:27:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/killer-apps/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/posts/gratitude/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/contact/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://benobi.one/resources/</loc>
   </url>
-  
 </urlset>

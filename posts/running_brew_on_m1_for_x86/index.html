@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="Benobi.one">
     <meta property="og:title" content="
-  Krueger&#39;s 3 Key Ingredients for a Killer App - Benobi.one
+  Running Brew on the New Apple M1 Chip - Benobi.one
 ">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Getting brew to work on M1 Macbook">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://benobi.one/posts/killer_apps_mvp/">
+    <meta property="og:url" content="https://benobi.one/posts/running_brew_on_m1_for_x86/">
     <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://benobi.one/posts/killer_apps_mvp/">
+    <meta name="twitter:site" content="https://benobi.one/posts/running_brew_on_m1_for_x86/">
     <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
 
-    <base href="https://benobi.one/posts/killer_apps_mvp/">
+    <base href="https://benobi.one/posts/running_brew_on_m1_for_x86/">
     <title>
-  Krueger&#39;s 3 Key Ingredients for a Killer App - Benobi.one
+  Running Brew on the New Apple M1 Chip - Benobi.one
 </title>
 
-    <link rel="canonical" href="https://benobi.one/posts/killer_apps_mvp/">
+    <link rel="canonical" href="https://benobi.one/posts/running_brew_on_m1_for_x86/">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
@@ -93,36 +93,34 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">Krueger&#39;s 3 Key Ingredients for a Killer App</h1>
+      <h1 class="title">Running Brew on the New Apple M1 Chip</h1>
       
 
       
     </header>
 
-    <p>Coming back to the <a href="/posts/killer-apps/">killer apps topic I wrote about last week</a>, I wanted to talk a little bit about what I have learned from friend and mentor of mine, Fred Kreuger. Fred is a CEO and a product guy which is an amazing combination.  He has had 9/10 wins for his investors and has run a publicly traded company. Fred earned a PhD in Math from Stanford where he wrote a dissertation titled <a href="https://books.google.com/books/about/D_arrangements_and_Random_Polyhedra.html?id=SC-yHwAACAAJ">D-arrangements and Random Polyhedra</a> which later became several classes at Stanford and informed some of the math used in modern cryptography. Needless to say, he&rsquo;s a brilliant guy who loves learning and teaching as well.</p>
-<p>One of the things that Fred does is that he learns very quickly. He does &ldquo;deep work&rdquo; fast on a topic and then makes up some rules about how that topic works and he tests out his hypothesies by both discussing it with other people and testing it inside of processes.</p>
-<p>Fred says that a killer app has to start with a great MVP, good design, and it also has to meet the following criteria - which we will call&hellip;</p>
-<h2 id="kruegers-3-key-qualities-for-a-killer-app">Krueger&rsquo;s 3 Key Qualities for a Killer App</h2>
+    <p>On the new Macbook M1 chip, you might get an error such as &ldquo;To install under x86_64, install Homebrew into /usr/local&rdquo;</p>
+<p>I used my GoogleFu and did not find a solution as simple as this - just install a second Homebrew.</p>
+<h2 id="5-simple-steps-to-install-intel-brew-on-m1">5 Simple Steps to Install Intel Brew on M1</h2>
 <ol>
-<li>Free - The app must be completely free to use. If the app is not free, then people are less likely to use it. It&rsquo;s ok if you add in upgrades later, but for staters - users need to be able to download your app and try some basic experience.</li>
-<li>Mobile - the app has to run natively on mobile devices. This is utterly important. People don&rsquo;t just use mobile phones &ldquo;on the go&rdquo; - they use them literally everywhere - at home, in bed, and even in the bathroom.</li>
-<li>Rewarding and Fun - the app has to provide an experience that is both rewarding and fun to use. Sure, fun can be a reward, but to be a really killer app, the user has to gain from the experience of using the app in a novel way.</li>
+<li>Install Rosetta (this will fail if your Terminal is set to &ldquo;<a href="https://www.howtogeek.com/702982/how-to-launch-the-intel-version-of-a-universal-mac-app-on-apple-silicon/">Open using Rosetta</a>&quot;) by running <code>softwareupdate --install-rose</code></li>
+<li>Run this command to install the Intel architecture Homebrew
+<code>arch -x86_64 /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;</code></li>
+<li>Add this to your ZSH config (I recommend using <a href="https://ohmyz.sh/#install">OhMyZSH</a> + add a file called ~/.oh-my-zsh/custom/brew.zsh) with the contents:</li>
 </ol>
-<h3 id="here-is-what-doesnt-work-for-creating-a-killer-app">Here is what doesn&rsquo;t work for creating a killer app</h3>
-<ol>
-<li>Not free - the difference between $1 and $0.99 is really the biggest difference when it comes to price. It&rsquo;s multiples bigger than $1 to $2 or $2 to $5 when it comes to decision making. People are willing to try something if it&rsquo;s free, even if it takes some of their time. But adding money - no matter how simple Apple makes it to pay - still catches people and stops them.</li>
-<li>Web app - too much work to use it. Web apps on mobile are mostly terrible. Native experiences are so much more intuitive and there are other advantages - such as being able to nag a user.</li>
-<li>Not fun and addictive - if it&rsquo;s not fun addictive, it gets forgotten. Users need to have a reason to come back more than just you reminding them. Some of the factors which are have addictive qualities include:
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">export PATH=&#34;/opt/homebrew/bin:/usr/local/bin:$PATH&#34;
+alias ibrew=&#39;arch -x86_64 /usr/local/bin/brew&#39;
+</code></pre></div><ol start="4">
+<li>Re-source your zsh term <code>source .zshrc</code></li>
+<li>Run Intel brew as <code>ibrew install &lt;whatever&gt;</code></li>
+</ol>
+<p>That&rsquo;s it! Now you can install brew for ARM and have ibrew for running Intel-specific apps under Rosetta. Super fast and simple solution!</p>
+<p>If you run into trouble, try typing <code>brew info</code> and <code>ibrew info</code> to make sure that your brew installs are really in their respectively correct folders.</p>
 <ul>
-<li>apps with an activity you can do over and over again and improve over time (games)</li>
-<li>social interactions (social validation)</li>
-<li>anything where you can win prizes (dopamine)</li>
-<li>a tool that you need to use often (Retro Ping)</li>
-<li>all of the above in combination</li>
+<li>ARM brew will live in /opt/homebrew</li>
+<li>Intel brew will live in /usr/local</li>
 </ul>
-</li>
-</ol>
-<p>How one jams all of this into an MVP is really the artform of building a product&hellip; It&rsquo;s not easy to approach a limited scope where, according to Fred, &ldquo;what you choose not to build is more important than what you choose to build.&rdquo;</p>
+<p>Shoutout to <a href="https://soffes.blog/homebrew-on-apple-silicon">Sam Soffes</a> for his post on this topic that was helpful.</p>
 
   </article>
 
