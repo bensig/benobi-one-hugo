@@ -28,10 +28,30 @@
 
     <link rel="canonical" href="https://benobi.one/posts/swift_gifs/">
     
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script type='text/javascript'>
+      
+      function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
+      
+      </Script>
+      
     
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-    <link rel="stylesheet" href="https://benobi.one/css/normalize.min.css">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+
+    
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="/css/normalize.min.css">
+
+    
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+        <link rel="stylesheet" href="https://benobi.one/css/normalize.min.css">
+    </noscript>
+
     <link rel="stylesheet" href="https://benobi.one/css/style.min.css">
 
     
@@ -178,6 +198,7 @@ if (!doNotTrack) {
   <script src="https://benobi.one/js/app.js"></script>
   
   <script>
+    
   (function($) {
     $(function() {
       $('#privateTrigger').on('click', function() {
