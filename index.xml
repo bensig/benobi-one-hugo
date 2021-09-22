@@ -6,7 +6,27 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Mar 2021 15:24:33 -0700</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Sep 2021 15:03:45 -0700</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advocating for Experiments in Currency Generation and Governance</title>
+      <link>https://benobi.one/posts/experiments-of-money/</link>
+      <pubDate>Tue, 21 Sep 2021 15:03:45 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/experiments-of-money/</guid>
+      <description>This Historical Moment - DeFi There is an historical movement that is happening - the decentralization of Finance. Decentralized finance or DeFi means that there is a financial system with no centralized entity at the core. There is no bank, no person with power, and no state-run government running these coins and protocols. Instead, they are run by individuals all over the world who run nodes, stake coins, and write software.</description>
+    </item>
+    
+    <item>
+      <title>List of DAO / DACs and How to Make One</title>
+      <link>https://benobi.one/posts/list-of-daos/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://benobi.one/posts/list-of-daos/</guid>
+      <description>What is a DAO anyway?
+The word &amp;ldquo;DAO&amp;rdquo; is also Chinese for &amp;ldquo;way&amp;rdquo; or &amp;ldquo;path&amp;rdquo; &amp;mdash; but in the world of decentralization &amp;mdash; it is a &amp;ldquo;Decentralized Autonomous Organization&amp;rdquo; and it is a system for making decisions with no central leadership. (A DAO can also be known as a &amp;ldquo;DAC&amp;rdquo; or &amp;quot; Decentralized Autonomous Company.&amp;quot;)
+Each DAO is an internet-native organization completely owned and managed by its members. Any community can organize a DAO for any reason, but typically it is done to manage software code and a pool of money.</description>
+    </item>
+    
     <item>
       <title>Prophets vs Profits</title>
       <link>https://benobi.one/posts/profits_v_prophets/</link>
@@ -228,8 +248,8 @@ I am grateful for this site and domain which my dear friend Crystal Rose inspire
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://benobi.one/about/</guid>
-      <description>TL,DR Ben Sigman is one of the founders of the EOS Alliance and the CEO of MakeSenseLabs, a startup building a crypto-enabled platform to organize, reward, and empower communities. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the Galactic Empire.
-He is honored to be a member of the EOS community and was inspired by Dan Larimer’s book to become an advocate for Eden.</description>
+      <description>TL,DR Ben Sigman is the CEO of MakeSenseLabs, a product development company that builds consumer-friendly blockchain solutions. We believe in human-centric technologies that provide transparency, data control, and alignment among all participants - through tokenized systems and incentives. He has been working in technology for over 20 years. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the Galactic Empire.
+Building and teaching others about technology has been a lifelong passion and he continues to immerse himself deeply into these incredible projects.</description>
     </item>
     
     <item>
@@ -238,7 +258,7 @@ He is honored to be a member of the EOS community and was inspired by Dan Larime
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://benobi.one/contact/</guid>
-      <description>Shout at me Feel free to Tweet at me any time or reach me on EOS Chat @benmakesense.</description>
+      <description>Shout at me Feel free to Tweet at me any time.</description>
     </item>
     
     <item>
@@ -248,8 +268,7 @@ He is honored to be a member of the EOS community and was inspired by Dan Larime
       
       <guid>https://benobi.one/projects/</guid>
       <description>This list contains most of the projects I have worked on since 2013.
- 2021 - Undisclosed Project  Working on an undisclosed new project. Updates soon.
-   2021 - Sense Chat  Create your own decentralized community powered by tokens! Use SENSE tokens to customize your community channel, vouch for people you trust, and pump up content you want to promote. Earn SENSE for using the app daily.</description>
+ 2021 - Bitcoin Libre  Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using &amp;ldquo;wrapped Bitcoin&amp;rdquo; on another blockchain. It&amp;rsquo;s a non-custodial wallet that can work anywhere in the world. Our goal was to build a &amp;ldquo;Venmo-like&amp;rdquo; experience to make Bitcoin really simple to use.</description>
     </item>
     
     <item>
