@@ -28,46 +28,25 @@
 
     <link rel="canonical" href="https://benobi.one/posts/hugo_deployment_to_github/">
     
-    <script type='text/javascript'>
-      
-      function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
-      
-      </Script>
-      
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
-
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
-
-    
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap">
-
-    
-    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="/css/normalize.min.css">
-
-    
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap">
-        <link rel="stylesheet" href="https://benobi.one/css/normalize.min.css">
-    </noscript>
-
-    <link rel="stylesheet" href="https://benobi.one/css/style.min.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
 
     
 
     
 
-    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
     
       <link rel="alternate" href="https://benobi.one/index.xml" type="application/rss+xml" title="Benobi.one">
       <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
     
 
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   <body class="">
@@ -119,7 +98,7 @@
   <article>
     <header>
       <h1 class="title">JAMstack Serverless Hugo Deployment</h1>
-      
+      <h2 class="date">March 27, 2020</h2>
 
       
     </header>
@@ -140,11 +119,11 @@
 <p>I added the <a href="https://www.andrewhoog.com/post/git-submodule-for-hugo-themes/">theme fork</a> and <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">html repos</a> as submodules. One step from the linked instructions on GoHugo was not totally clear. I had to delete the public folder from my source repo and added the html repo as a submodule to keep it all clean. This is the actual command I used to create the public folder and setup the submodule: <code>git submodule add -b master https://github.com/&lt;Hugo-html-repo.git&gt; public</code></p>
 <h2 id="hugo-bash-script-for-single-command-deployment">Hugo bash script for single command deployment</h2>
 <p>Finally, I made a bash script to commit and push the code to the source and html github repos.</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"># commit-push-hugo.sh - commit and push hugo site for deployment
-# usage: commit-push-hugo.sh commit-message
-git add . &amp;&amp; git commit -m &#34;$1&#34; &amp;&amp; git push
-cd public &amp;&amp; git add . &amp;&amp; git commit -m &#34;$1&#34; &amp;&amp; git push
-</code></pre></div><p>I put that script into my $PATH and made it executable by my user and now I am able to easily commit and deploy my changes to Github by typing:<code>commit-push-hugo.sh commit-message</code> from within my Hugo src repo root.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># commit-push-hugo.sh - commit and push hugo site for deployment
+</span></span><span class="line"><span class="cl"># usage: commit-push-hugo.sh commit-message
+</span></span><span class="line"><span class="cl">git add . &amp;&amp; git commit -m &#34;$1&#34; &amp;&amp; git push
+</span></span><span class="line"><span class="cl">cd public &amp;&amp; git add . &amp;&amp; git commit -m &#34;$1&#34; &amp;&amp; git push
+</span></span></code></pre></div><p>I put that script into my $PATH and made it executable by my user and now I am able to easily commit and deploy my changes to Github by typing:<code>commit-push-hugo.sh commit-message</code> from within my Hugo src repo root.</p>
 <h2 id="netlify-deployment">Netlify deployment</h2>
 <p>Part of my choice for using Hugo was that I had wanted to check out this new decentralized web deployment called <a href="https://jamstack.org/">JAMstack</a>. This site has no central webserver. It runs completely on a CDN. The free CDN I&rsquo;m using is provided by <a href="https://netlify.com">Netlify</a>. Netlify is a CDN for static html files specifically designed for JAMstack. I added my html repo as a source for the site&rsquo;s code. It is also possible to setup Netlify to run your Hugo deploy script.</p>
 <p>If you have any quesitons or comments about this setup please feel free to reach out to me on <a href="https://twitter.com/bensig">Twitter</a>.</p>
@@ -152,7 +131,6 @@ cd public &amp;&amp; git add . &amp;&amp; git commit -m &#34;$1&#34; &amp;&amp; 
   </article>
 
   <br/>
-  
 
   
   
@@ -181,11 +159,10 @@ cd public &amp;&amp; git add . &amp;&amp; git commit -m &#34;$1&#34; &amp;&amp; 
 <div class="fixed-bar">
   <section class="container">
     
-      <p id="privateTriggerText">Let&#39;s keep the internet safe and free? →→ <a target="_blank" rel="noopener noreferrer" href="https://supporters.eff.org/donate?benobi.one" id="privateTrigger">Donate to the EFF!</a></p>
+      <p id="privateTriggerText">Let&#39;s keep the internet safe and free? →→ <a id="privateTrigger">Click!</a></p>
     
     
       <div class="sns-shares pc-sns-shares">
-        
         
         
         
@@ -213,10 +190,9 @@ if (!doNotTrack) {
 }
 </script>
 
-  <script src="https://benobi.one/js/app.js"></script>
+  <script src="/js/app.js"></script>
   
   <script>
-    
   (function($) {
     $(function() {
       $('#privateTrigger').on('click', function() {

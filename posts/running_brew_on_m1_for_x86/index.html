@@ -28,46 +28,25 @@
 
     <link rel="canonical" href="https://benobi.one/posts/running_brew_on_m1_for_x86/">
     
-    <script type='text/javascript'>
-      
-      function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
-      
-      </Script>
-      
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
-
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
-
-    
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap">
-
-    
-    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="/css/normalize.min.css">
-
-    
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap">
-        <link rel="stylesheet" href="https://benobi.one/css/normalize.min.css">
-    </noscript>
-
-    <link rel="stylesheet" href="https://benobi.one/css/style.min.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
 
     
 
     
 
-    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://benobi.one/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
     
       <link rel="alternate" href="https://benobi.one/index.xml" type="application/rss+xml" title="Benobi.one">
       <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
     
 
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   <body class="">
@@ -119,7 +98,7 @@
   <article>
     <header>
       <h1 class="title">Running Brew on the New Apple M1 Chip</h1>
-      
+      <h2 class="date">March 22, 2021</h2>
 
       
     </header>
@@ -128,14 +107,14 @@
 <p>I used my GoogleFu and did not find a solution as simple as this:</p>
 <h2 id="5-simple-steps-to-install-intel-brew-on-m1">5 Simple Steps to Install Intel Brew on M1</h2>
 <ol>
-<li>Install Rosetta (this will fail if your Terminal is set to &ldquo;<a href="https://www.howtogeek.com/702982/how-to-launch-the-intel-version-of-a-universal-mac-app-on-apple-silicon/">Open using Rosetta</a>&quot;) by running <code>softwareupdate --install-rose</code></li>
+<li>Install Rosetta (this will fail if your Terminal is set to &ldquo;<a href="https://www.howtogeek.com/702982/how-to-launch-the-intel-version-of-a-universal-mac-app-on-apple-silicon/">Open using Rosetta</a>&rdquo;) by running <code>softwareupdate --install-rose</code></li>
 <li>Run this command to install the Intel architecture Homebrew
 <code>arch -x86_64 /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;</code></li>
 <li>Add this to your ZSH config (I recommend using <a href="https://ohmyz.sh/#install">OhMyZSH</a> + add a file called ~/.oh-my-zsh/custom/brew.zsh) with the contents:</li>
 </ol>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">export PATH=&#34;/opt/homebrew/bin:/usr/local/bin:$PATH&#34;
-alias ibrew=&#39;arch -x86_64 /usr/local/bin/brew&#39;
-</code></pre></div><ol start="4">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">export PATH=&#34;/opt/homebrew/bin:/usr/local/bin:$PATH&#34;
+</span></span><span class="line"><span class="cl">alias ibrew=&#39;arch -x86_64 /usr/local/bin/brew&#39;
+</span></span></code></pre></div><ol start="4">
 <li>Re-source your zsh term <code>source .zshrc</code></li>
 <li>Run Intel brew as <code>ibrew install &lt;whatever&gt;</code></li>
 </ol>
@@ -150,7 +129,6 @@ alias ibrew=&#39;arch -x86_64 /usr/local/bin/brew&#39;
   </article>
 
   <br/>
-  
 
   
   
@@ -179,11 +157,10 @@ alias ibrew=&#39;arch -x86_64 /usr/local/bin/brew&#39;
 <div class="fixed-bar">
   <section class="container">
     
-      <p id="privateTriggerText">Let&#39;s keep the internet safe and free? →→ <a target="_blank" rel="noopener noreferrer" href="https://supporters.eff.org/donate?benobi.one" id="privateTrigger">Donate to the EFF!</a></p>
+      <p id="privateTriggerText">Let&#39;s keep the internet safe and free? →→ <a id="privateTrigger">Click!</a></p>
     
     
       <div class="sns-shares pc-sns-shares">
-        
         
         
         
@@ -211,10 +188,9 @@ if (!doNotTrack) {
 }
 </script>
 
-  <script src="https://benobi.one/js/app.js"></script>
+  <script src="/js/app.js"></script>
   
   <script>
-    
   (function($) {
     $(function() {
       $('#privateTrigger').on('click', function() {

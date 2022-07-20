@@ -46,7 +46,7 @@ Quite often, people are not clear on what they want and they are not sure of wha
       <guid>https://benobi.one/posts/running_brew_on_m1_for_x86/</guid>
       <description>On the new Macbook M1 chip, you might get an error such as &amp;ldquo;To install under x86_64, install Homebrew into /usr/local&amp;rdquo; - which will take you down many rabbit holes. This is an actual solution that fully works.
 I used my GoogleFu and did not find a solution as simple as this:
-5 Simple Steps to Install Intel Brew on M1  Install Rosetta (this will fail if your Terminal is set to &amp;ldquo;Open using Rosetta&amp;quot;) by running softwareupdate --install-rose Run this command to install the Intel architecture Homebrew arch -x86_64 /bin/bash -c &amp;quot;$(curl -fsSL https://raw.</description>
+5 Simple Steps to Install Intel Brew on M1 Install Rosetta (this will fail if your Terminal is set to &amp;ldquo;Open using Rosetta&amp;rdquo;) by running softwareupdate --install-rose Run this command to install the Intel architecture Homebrew arch -x86_64 /bin/bash -c &amp;quot;$(curl -fsSL https://raw.</description>
     </item>
     
     <item>
@@ -178,7 +178,7 @@ Blazing Speed Take a look at the blazing performance of https://benobi.one - the
       <description>I built a mobile app this weekend in Swift. I&amp;rsquo;m very happy with the end product and I have already tested it out with a few friends.
 I wanted to discuss a step-by-step process that I used for building it along with some gotchas and learnings.
 Here are the 15 steps I took to create this app:
- Spec Wire Design Code Function Test Functions on Physical Device Code style Test Refine Submit App to Testflight Work on App Store Elements Test App on Testflight (various devices) Refine App Test App Again Submit App to Apple App Review Launch  I knew I wanted to build a simple app with a simple purpose: measure latency and simply say if the connection is &amp;ldquo;good&amp;rdquo; or &amp;ldquo;bad&amp;rdquo; based on the latency of the phone.</description>
+Spec Wire Design Code Function Test Functions on Physical Device Code style Test Refine Submit App to Testflight Work on App Store Elements Test App on Testflight (various devices) Refine App Test App Again Submit App to Apple App Review Launch I knew I wanted to build a simple app with a simple purpose: measure latency and simply say if the connection is &amp;ldquo;good&amp;rdquo; or &amp;ldquo;bad&amp;rdquo; based on the latency of the phone.</description>
     </item>
     
     <item>
