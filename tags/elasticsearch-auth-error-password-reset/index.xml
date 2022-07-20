@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elasticsearch, auth, error, password reset on Benobi.one</title>
+    <link>https://benobi.one/tags/elasticsearch-auth-error-password-reset/</link>
+    <description>Recent content in elasticsearch, auth, error, password reset on Benobi.one</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Jul 2022 21:45:23 -0700</lastBuildDate><atom:link href="https://benobi.one/tags/elasticsearch-auth-error-password-reset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting Elasticsearch Auth Issue</title>
+      <link>https://benobi.one/posts/troubleshooting_elastic/</link>
+      <pubDate>Tue, 19 Jul 2022 21:45:23 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/troubleshooting_elastic/</guid>
+      <description>I could not find a simple way to troubleshoot this elasticsearch auth error &amp;ldquo;unable to authenticate user&amp;rdquo; - it&amp;rsquo;s amazing how this seems to be hard to find on the interwebs. So here is the secret.
+Solving unable to authenticate user error in elastic First, to get this error, you can simply do this curl command:
+curl --user usename:pass -X GET &amp;quot;localhost:9200/_stats?pretty&amp;quot;
+Example of the auth error you will get if your password is wrong:</description>
+    </item>
+    
+  </channel>
+</rss>

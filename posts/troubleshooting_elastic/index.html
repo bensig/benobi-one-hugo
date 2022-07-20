@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Ben Sigman">
-    <meta name="description" content="innerspace, cyberspace, outerspace">
+    <meta name="description" content="https://benobi.one/">
     <meta name="keywords" content="blog,developer,personal,ben sigman">
 
     <meta property="og:site_name" content="Benobi.one">
     <meta property="og:title" content="
-  Tags - Benobi.one
+  Troubleshooting Elasticsearch Auth Issue - Benobi.one
 ">
-    <meta property="og:description" content="innerspace, cyberspace, outerspace">
+    <meta property="og:description" content="troubleshoot elasticsearch auth error unable to authenticate user">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://benobi.one/tags/">
+    <meta property="og:url" content="https://benobi.one/posts/troubleshooting_elastic/">
     <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://benobi.one/tags/">
+    <meta name="twitter:site" content="https://benobi.one/posts/troubleshooting_elastic/">
     <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
 
-    <base href="https://benobi.one/tags/">
+    <base href="https://benobi.one/posts/troubleshooting_elastic/">
     <title>
-  Tags - Benobi.one
+  Troubleshooting Elasticsearch Auth Issue - Benobi.one
 </title>
 
-    <link rel="canonical" href="https://benobi.one/tags/">
+    <link rel="canonical" href="https://benobi.one/posts/troubleshooting_elastic/">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
@@ -94,32 +94,52 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Tags</h1>
-  <ul>
-    
-    <li>
-      <span>July 19, 2022</span><a href="https://benobi.one/tags/elasticsearch-auth-error-password-reset/">elasticsearch, auth, error, password reset</a>
-    </li>
-    
-    <li>
-      <span>March 22, 2021</span><a href="https://benobi.one/tags/apple-apps-error-brew-m1/">apple, apps, error, brew, m1</a>
-    </li>
-    
-    <li>
-      <span>April 1, 2020</span><a href="https://benobi.one/tags/apple-apps-review-rejection/">apple, apps, review, rejection</a>
-    </li>
-    
-  </ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Troubleshooting Elasticsearch Auth Issue</h1>
+      <h2 class="date">July 19, 2022</h2>
+
+      
+    </header>
+
+    <p>I could not find a simple way to troubleshoot this elasticsearch auth error &ldquo;unable to authenticate user&rdquo; - it&rsquo;s amazing how this seems to be hard to find on the interwebs. So here is the secret.</p>
+<h2 id="solving-unable-to-authenticate-user-error-in-elastic">Solving unable to authenticate user error in elastic</h2>
+<p>First, to get this error, you can simply do this curl command:</p>
+<p><code>curl --user usename:pass -X GET &quot;localhost:9200/_stats?pretty&quot;</code></p>
+<p>Example of the auth error you will get if your password is wrong:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">  &#34;error&#34; : {
+</span></span><span class="line"><span class="cl">    &#34;root_cause&#34; : [
+</span></span><span class="line"><span class="cl">      {
+</span></span><span class="line"><span class="cl">        &#34;type&#34; : &#34;security_exception&#34;,
+</span></span><span class="line"><span class="cl">        &#34;reason&#34; : &#34;unable to authenticate user [elastic] for REST request [/_stats?pretty]&#34;,
+</span></span><span class="line"><span class="cl">        &#34;header&#34; : {
+</span></span><span class="line"><span class="cl">          &#34;WWW-Authenticate&#34; : &#34;Basic realm=\&#34;security\&#34; charset=\&#34;UTF-8\&#34;&#34;
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">    ],
+</span></span><span class="line"><span class="cl">    &#34;type&#34; : &#34;security_exception&#34;,
+</span></span><span class="line"><span class="cl">    &#34;reason&#34; : &#34;unable to authenticate user [elastic] for REST request [/_stats?pretty]&#34;,
+</span></span><span class="line"><span class="cl">    &#34;header&#34; : {
+</span></span><span class="line"><span class="cl">      &#34;WWW-Authenticate&#34; : &#34;Basic realm=\&#34;security\&#34; charset=\&#34;UTF-8\&#34;&#34;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">  },
+</span></span><span class="line"><span class="cl">  &#34;status&#34; : 401
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><h2 id="reset-your-elasticsearch-password-for-all-accounts">Reset your Elasticsearch Password for all accounts</h2>
+<p>You can easily set the password back to what you think it is by running this command.</p>
+<p><code>/usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive</code></p>
+<p>I don&rsquo;t know why this elasticsearch bin is in /usr/share&hellip; that&rsquo;s not where I would have expected it to be, but you know - always learning new things and sharing.</p>
+<p>Hope this was helpful to someone else!</p>
+
+  </article>
+
+  <br/>
+
   
-
-
-
-
-
-
+  
 </section>
-
 
       </div>
       

@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://benobi.one/posts/experiments-of-money/</loc>
-    <lastmod>2021-09-21T15:03:45-07:00</lastmod>
-  </url><url>
     <loc>https://benobi.one/</loc>
-    <lastmod>2021-09-21T15:03:45-07:00</lastmod>
+    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/elasticsearch-auth-error-password-reset/</loc>
+    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/</loc>
+    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/</loc>
+    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/troubleshooting_elastic/</loc>
+    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/experiments-of-money/</loc>
     <lastmod>2021-09-21T15:03:45-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/list-of-daos/</loc>
@@ -21,9 +30,6 @@
     <lastmod>2021-03-22T22:46:23-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/running_brew_on_m1_for_x86/</loc>
-    <lastmod>2021-03-22T22:46:23-07:00</lastmod>
-  </url><url>
-    <loc>https://benobi.one/tags/</loc>
     <lastmod>2021-03-22T22:46:23-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/evolved-scrum/</loc>
