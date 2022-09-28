@@ -3,12 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://benobi.one/</loc>
-    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
-  </url><url>
-    <loc>https://benobi.one/tags/elasticsearch-auth-error-password-reset/</loc>
-    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
+    <lastmod>2022-09-27T16:52:19-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/</loc>
+    <lastmod>2022-09-27T16:52:19-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/product_design_dos_and_donts/</loc>
+    <lastmod>2022-09-27T16:52:19-07:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/elasticsearch-auth-error-password-reset/</loc>
     <lastmod>2022-07-19T21:45:23-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/tags/</loc>

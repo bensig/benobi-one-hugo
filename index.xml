@@ -6,7 +6,16 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Jul 2022 21:45:23 -0700</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Sep 2022 16:52:19 -0700</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product Design Thinking</title>
+      <link>https://benobi.one/posts/product_design_dos_and_donts/</link>
+      <pubDate>Tue, 27 Sep 2022 16:52:19 -0700</pubDate>
+      
+      <guid>https://benobi.one/posts/product_design_dos_and_donts/</guid>
+      <description>Presentation from Sept 2022 EVMxIdeathon / Hackathon For presentation formatting and delivery, I recommend reading about the &amp;ldquo;Lessig Method&amp;rdquo; by famous Harvard Law professor Lawrence Lessig: https://presentationzen.blogs.com/presentationzen/2005/10/the_lessig_meth.html</description>
+    </item>
+    
     <item>
       <title>Troubleshooting Elasticsearch Auth Issue</title>
       <link>https://benobi.one/posts/troubleshooting_elastic/</link>
