@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://benobi.one/posts/lessig_method/</loc>
-    <lastmod>2022-09-29T17:45:51-07:00</lastmod>
-  </url><url>
     <loc>https://benobi.one/</loc>
-    <lastmod>2022-09-29T17:45:51-07:00</lastmod>
+    <lastmod>2023-03-03T12:03:53-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/bitcoin/</loc>
+    <lastmod>2023-03-03T12:03:53-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</loc>
+    <lastmod>2023-03-03T12:03:53-08:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/</loc>
+    <lastmod>2023-03-03T12:03:53-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/</loc>
+    <lastmod>2023-03-03T12:03:53-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/lessig_method/</loc>
     <lastmod>2022-09-29T17:45:51-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/product_design_dos_and_donts/</loc>
     <lastmod>2022-09-27T16:52:19-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/tags/elasticsearch-auth-error-password-reset/</loc>
-    <lastmod>2022-07-19T21:45:23-07:00</lastmod>
-  </url><url>
-    <loc>https://benobi.one/tags/</loc>
     <lastmod>2022-07-19T21:45:23-07:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/troubleshooting_elastic/</loc>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ben Sigman">
+    <meta name="description" content="https://benobi.one/">
+    <meta name="keywords" content="blog,developer,personal,ben sigman">
+
+    <meta property="og:site_name" content="Benobi.one">
+    <meta property="og:title" content="
+  Fast Sync for Initial Bitcoin Node - Benobi.one
+">
+    <meta property="og:description" content="3 Options to quickly sync a Bitcoin Node">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/">
+    <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/">
+    <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
+
+    <base href="https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/">
+    <title>
+  Fast Sync for Initial Bitcoin Node - Benobi.one
+</title>
+
+    <link rel="canonical" href="https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://benobi.one/index.xml" type="application/rss+xml" title="Benobi.one">
+      <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
+    
+
+    <meta name="generator" content="Hugo 0.101.0" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Benobi.one</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/initiatives">Advocacy</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/resources">Resources</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Fast Sync for Initial Bitcoin Node</h1>
+      <h2 class="date">March 3, 2023</h2>
+
+      
+    </header>
+
+    <p>The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:</p>
+<h2 id="option-1---use-this-bitcoin-fast-sync-command">Option 1 - Use This Bitcoin Fast Sync Command</h2>
+<p>There is no torrent which would be faster than just using the Bitcoin network &ldquo;hive&rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.</p>
+<p>Very good to have a fast CPU and lots of RAM, SSD is not as important as RAM.</p>
+<p>&ldquo;With this command I was able to download the entire blockchain and create all indices in almost exactly 24 hours:&rdquo;</p>
+<p><code>bitcoind --datadir=&lt;path-to-external-ssd&gt; -blockfilterindex=1 -txindex=1 -coinstatsindex=1 -dbcache=16384 -daemon</code></p>
+<p><em>Note - this is for 16GB of RAM</em> - if you have 32GB of RAM, you can use <code>32768</code> for dbcache in the command above</p>
+<p>Source: <a href="https://www.reddit.com/r/Bitcoin/comments/wwdrmu/how_to_download_the_entire_btc_blockchain_in_24h/">https://www.reddit.com/r/Bitcoin/comments/wwdrmu/how_to_download_the_entire_btc_blockchain_in_24h/</a></p>
+<h2 id="option-2---copy-data-from-a-trusted-node-over-rsync-ssh---not-as-safe-as-option-1">Option 2 - Copy data from a (trusted) node over rsync SSH - not as safe as option 1:</h2>
+<p>Another option is to copy the directories from another node that is synchronized with the index you need:</p>
+<h3 id="make-sure-old-data-is-removed">Make sure old data is removed:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rm -rf ./bitcoin/blocks
+</span></span><span class="line"><span class="cl">sudo rm -rf ./bitcoin/chainstate
+</span></span><span class="line"><span class="cl">sudo rm -rf ./bitcoin/indexes
+</span></span></code></pre></div><h3 id="copy-the-blocks-and-chainstate-folders-from-your-existing-node-to-bitcoin">Copy the blocks and chainstate folders from your existing node to ~/.bitcoin/</h3>
+<h3 id="for-example-fill-in-with-your-own-ip--fqdn-and-path-for-ssh">For example (fill in with your own IP / FQDN and path for SSH):</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:~/.bitcoin/blocks ~/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:~/.bitcoin/chainstate ~/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:~/.bitcoin/indexes ~/.bitcoin/
+</span></span></code></pre></div><h2 id="option-3---copy-data-to-and-from-a-trusted-node-using-an-external-ssd">Option 3 - Copy data to and from a (trusted) node using an external SSD:</h2>
+<h3 id="copy-fully-syncd-node-to-external-drive">Copy fully sync&rsquo;d node to external drive</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync ~/.bitcoin/blocks /mnt/externaldrive/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync ~/.bitcoin/chainstate /mnt/externaldrive/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync ~/.bitcoin/indexes /mnt/externaldrive/.bitcoin/
+</span></span></code></pre></div><h3 id="copy-from-external-drive-to-node">Copy from external drive to node</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/blocks ~/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/chainstate ~/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/indexes ~/.bitcoin/
+</span></span></code></pre></div><p>If this is missing anything, or if you have any comments or questions - ping me on <a href="https://twitter.com/bensig">Twitter</a> and I will update this page.</p>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+    
+      <p>benobi.one</p>
+    
+     
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Let&#39;s keep the internet safe and free? →→ <a id="privateTrigger">Click!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-162042800-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  <script src="/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("You\u0027re a generous Jedi.");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>

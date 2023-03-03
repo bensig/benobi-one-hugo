@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Sep 2022 17:45:51 -0700</lastBuildDate><atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 12:03:53 -0800</lastBuildDate><atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fast Sync for Initial Bitcoin Node</title>
+      <link>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</link>
+      <pubDate>Fri, 03 Mar 2023 12:03:53 -0800</pubDate>
+      
+      <guid>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</guid>
+      <description>The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:
+Option 1 - Use This Bitcoin Fast Sync Command There is no torrent which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://benobi.one/posts/lessig_method/</link>
