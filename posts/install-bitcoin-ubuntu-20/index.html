@@ -107,9 +107,9 @@
 <p>All of the guiedes are all kind of busted IMHO - best to build from source code. This should work on most debian and ubuntu linux installs.</p>
 <p>First, get all of the prerequesites installed. I found these hidden in github under the &ldquo;Unix&rdquo; build notes
 <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md">https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md</a></p>
-<p>Do not run as ROOT - make sure you have a regular account with sudo ability. If you don&rsquo;t know how to do that, look up <code>visudo</code>.</p>
-<p>I simplified into a single line to install with apt get:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt-get install git build-essential autoconf libtool autotools-dev automake pkg-config bsdmainutils python3 libevent-dev libboost-dev libsqlite3-dev 
+<p><em>Do not run as ROOT</em> - make sure you have a regular account with sudo ability. If you don&rsquo;t know how to do that, look up <code>visudo</code>.</p>
+<p>I simplified everything you will need into a single line to install with <code>apt</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt-get install git build-essential autoconf libtool autotools-dev automake pkg-config bsdmainutils python3 libevent-dev libboost-dev libsqlite3-dev cpufrequtils libssl-dev cargo
 </span></span></code></pre></div><p>Next clone the github for bitcoin and checkout version 24.0.1 so you can index ordinals correctly:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir ~/src
 </span></span><span class="line"><span class="cl">git clone https://github.com/bitcoin/bitcoin.git ~/src/bitcoin
