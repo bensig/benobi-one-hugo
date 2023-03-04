@@ -106,11 +106,13 @@
     <p>The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:</p>
 <h2 id="option-1---use-this-bitcoin-fast-sync-command">Option 1 - Use This Bitcoin Fast Sync Command</h2>
 <p>There is no torrent which would be faster than just using the Bitcoin network &ldquo;hive&rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.</p>
-<p>Very good to have a fast CPU and lots of RAM, SSD is not as important as RAM.</p>
+<p>Very good to have a fast drive (NVMe or SSD), fast CPU and plenty of RAM - I read that an SSD is not as important as RAM, however, using NVMe drives - my ram usage did not go above 10GB.</p>
 <p>&ldquo;With this command I was able to download the entire blockchain and create all indices in almost exactly 24 hours:&rdquo;</p>
 <p><code>bitcoind --datadir=&lt;path-to-external-ssd&gt; -blockfilterindex=1 -txindex=1 -coinstatsindex=1 -dbcache=16384 -daemon</code></p>
 <p><em>Note - this is for 16GB of RAM</em> - if you have 32GB of RAM, you can use <code>32768</code> for dbcache in the command above</p>
 <p>Source: <a href="https://www.reddit.com/r/Bitcoin/comments/wwdrmu/how_to_download_the_entire_btc_blockchain_in_24h/">https://www.reddit.com/r/Bitcoin/comments/wwdrmu/how_to_download_the_entire_btc_blockchain_in_24h/</a></p>
+<p>Now what I did was a little different and my results were amazing.</p>
+<p>Basically, I installed the latest bitcoind from source, tuned the CPU frequency, and set up a bitcoin.conf file which you can do too by following this guide I wrote <a href="" title="install bitcoind on Ubuntu.">install bitcoind on Ubuntu.</a></p>
 <h2 id="option-2---copy-data-from-a-trusted-node-over-rsync-ssh---not-as-safe-as-option-1">Option 2 - Copy data from a (trusted) node over rsync SSH - not as safe as option 1:</h2>
 <p>Another option is to copy the directories from another node that is synchronized with the index you need:</p>
 <h3 id="make-sure-old-data-is-removed">Make sure old data is removed:</h3>
@@ -119,18 +121,18 @@
 </span></span><span class="line"><span class="cl">sudo rm -rf ./bitcoin/indexes
 </span></span></code></pre></div><h3 id="copy-the-blocks-and-chainstate-folders-from-your-existing-node-to-bitcoin">Copy the blocks and chainstate folders from your existing node to ~/.bitcoin/</h3>
 <h3 id="for-example-fill-in-with-your-own-ip--fqdn-and-path-for-ssh">For example (fill in with your own IP / FQDN and path for SSH):</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:~/.bitcoin/blocks ~/.bitcoin/
-</span></span><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:~/.bitcoin/chainstate ~/.bitcoin/
-</span></span><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:~/.bitcoin/indexes ~/.bitcoin/
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:$HOME/.bitcoin/blocks $HOME/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:$HOME/.bitcoin/chainstate $HOME/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync -aP bitcoin@othernode.local:$HOME/.bitcoin/indexes $HOME/.bitcoin/
 </span></span></code></pre></div><h2 id="option-3---copy-data-to-and-from-a-trusted-node-using-an-external-ssd">Option 3 - Copy data to and from a (trusted) node using an external SSD:</h2>
 <h3 id="copy-fully-syncd-node-to-external-drive">Copy fully sync&rsquo;d node to external drive</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync ~/.bitcoin/blocks /mnt/externaldrive/.bitcoin/
-</span></span><span class="line"><span class="cl">sudo rsync ~/.bitcoin/chainstate /mnt/externaldrive/.bitcoin/
-</span></span><span class="line"><span class="cl">sudo rsync ~/.bitcoin/indexes /mnt/externaldrive/.bitcoin/
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync $HOME/.bitcoin/blocks /mnt/externaldrive/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync $HOME/.bitcoin/chainstate /mnt/externaldrive/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync $HOME/.bitcoin/indexes /mnt/externaldrive/.bitcoin/
 </span></span></code></pre></div><h3 id="copy-from-external-drive-to-node">Copy from external drive to node</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/blocks ~/.bitcoin/
-</span></span><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/chainstate ~/.bitcoin/
-</span></span><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/indexes ~/.bitcoin/
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/blocks $HOME/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/chainstate $HOME/.bitcoin/
+</span></span><span class="line"><span class="cl">sudo rsync /mnt/externaldrive/.bitcoin/indexes $HOME/.bitcoin/
 </span></span></code></pre></div><p>If this is missing anything, or if you have any comments or questions - ping me on <a href="https://twitter.com/bensig">Twitter</a> and I will update this page.</p>
 
   </article>
