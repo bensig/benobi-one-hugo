@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Mar 2023 12:03:53 -0800</lastBuildDate><atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 17:14:33 -0800</lastBuildDate><atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install bitcoind on Ubuntu - works</title>
+      <link>https://benobi.one/posts/install-bitcoin-ubuntu-20/</link>
+      <pubDate>Fri, 03 Mar 2023 17:14:33 -0800</pubDate>
+      
+      <guid>https://benobi.one/posts/install-bitcoin-ubuntu-20/</guid>
+      <description>Looking into these Bitcoin Ordinals https://ordinals.com/ and I decided to try to install and sync a new bitcoin node. It has been a few years since I did this from scratch, so I was looking for some simple ways to install&amp;hellip; maybe use snap or download some precompiled binaries and do some softlinks to /usr/local/bin? No, none of that worked for me. I wasted an hour.
+All of the guiedes are all kind of busted IMHO - best to build from source code.</description>
+    </item>
+    
     <item>
       <title>Fast Sync for Initial Bitcoin Node</title>
       <link>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</link>
