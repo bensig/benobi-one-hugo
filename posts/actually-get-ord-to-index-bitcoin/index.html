@@ -115,14 +115,19 @@
 </span></span></code></pre></div><p>Once that is complete, you will have an executable <code>ord</code> in <code>$HOME/src/ord/target/release/ord</code></p>
 <p>You can create a little <code>ord</code> executable by doing this:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir ~/bin
-</span></span><span class="line"><span class="cl">echo &#39;$HOME/src/ord/target/release/ord --rpc-url 127.0.0.1:8332 &#34;$@&#34;&#39; &gt; ~/bin/ord
+</span></span><span class="line"><span class="cl">echo &#39;RUST_LOG=debug $HOME/src/ord/target/release/ord --rpc-url 127.0.0.1:8332 &#34;$@&#34;&#39; &gt; ~/bin/ord
 </span></span></code></pre></div><p>If you have not added rpcauth, rpcpassword, or rpcuser to your bitcoin.conf, then that&rsquo;s good! You won&rsquo;t need it for local access. Bitcoind automatically creates a ~/.bitcoin/.cookie file with a simple auth that <code>ord</code> will find and use.</p>
-<p>Next, index - optional to use &ldquo;&ndash;index-sats&rdquo;:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">screen ord --index-sats index
-</span></span></code></pre></div><p>Go get a coffee, or dinner&hellip; while you are gone - the index will be building the database at:</p>
+<p>Next, index - optional to use &ldquo;&ndash;index-sats&rdquo; (see further below):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">screen ord index
+</span></span></code></pre></div><p>Go away for a while&hellip; this will take time - the index will be building the database at:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$HOME/.local/share/ord/index.redb
-</span></span></code></pre></div><p>I indexed without &ldquo;&ndash;index-sats&rdquo; and it finished in a few hours, used about 2GB of storage.</p>
-<p>Next I indexed with &ldquo;&ndash;index-sats&rdquo; and it took a lot longer&hellip;</p>
+</span></span></code></pre></div><p>I indexed without &ldquo;&ndash;index-sats&rdquo; and it finished in a few hours, used about 2GB of disk space.</p>
+<p>Next I indexed with &ldquo;&ndash;index-sats&rdquo; and it took a lot longer&hellip; about 15 hours and used ~100GB of disk space. It really slowed down in the last 100,000 blocks - the &ldquo;first-inscription-height&rdquo; setting did not seem to affect this at all.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">screen ord --first-inscription-height 767430 --index-sats index
+</span></span></code></pre></div><p>Next to run the server, you will need to enable <code>ord</code> to bind to port 80:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo setcap CAP_NET_BIND_SERVICE=+eip /home/bitcoin/src/ord/target/release/ord
+</span></span></code></pre></div><p>Now you can run <code>ord server</code> - if you set it up with the ord shell script I created above, it will use <code>RUST_LOG=debug</code> so you can actually see what&rsquo;s happening when you run the server or any commands.</p>
+<p>Happy ordinaling!</p>
 
   </article>
 
