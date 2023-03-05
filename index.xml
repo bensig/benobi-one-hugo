@@ -24,7 +24,7 @@ All of the guiedes are all kind of busted IMHO - best to build from source code.
       
       <guid>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</guid>
       <description>The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:
-Option 1 - Use This Bitcoin Fast Sync Command There is no torrent which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.</description>
+Option 1 - Use This Bitcoin Fast Sync Command There is no torrent or copy method which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.</description>
     </item>
     
     <item>
@@ -312,8 +312,8 @@ He believes in human-centric technologies that provide transparency, data contro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://benobi.one/initiatives/</guid>
-      <description>There are approximately 2 billion people in the world with no access to a savings account or who lack the proper identification to open a savings account. Due to the nature of modern money - which is controlled and printed by governments - these people have no way to save money for their future in a way that counteracts inflation of money printing machines.
-Bitcoin is hope to these people. The evolution of 21st century technology to create and govern money supply with no intermediaries is a miracle.</description>
+      <description>Since June, 2021 I have travelled around the world advocating for Bitcoin adoption. I&amp;rsquo;ve met with government leaders in several countries including lawmakers in the US.
+Presenting to the government of El Salavador to offer education, advice, and assistance with the implementation of their Bitcoin Law. Here, I presented to on challenges and solutions of Bitcoin usability for the general population of El Salvador, and announced the Bitcoin Libre project.</description>
     </item>
     
     <item>

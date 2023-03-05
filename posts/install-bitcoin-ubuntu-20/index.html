@@ -125,12 +125,13 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">CPUS=`echo &#34;$(($CORES-1))&#34;` &amp;&amp; i=0; while [ $i -le $CPUS ]; do cpufreq-set -c $i -g performance; i=$(($i+1));done
 </span></span></code></pre></div><p>The more cores you use, the faster this will go - recommend using all of them, but if you need to do other things, you can specify the number of CPU cores to use here instead of &ldquo;$CORES&rdquo;:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">make -j $CORES
-</span></span><span class="line"><span class="cl">make install
+</span></span></code></pre></div><p>Go get a coffee, come back and run the installer:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo make install
 </span></span></code></pre></div><p>Check version installed.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">bitcoind --version
 </span></span></code></pre></div><p>Create bitcoin.conf file:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">touch ~/.bitcoin/bitcoin.conf
-</span></span></code></pre></div><p>Edit the bitcoin.conf file using <code>nano ~/.bitcoin/bitcoin.conf</code> and put in the following info:</p>
+</span></span></code></pre></div><p>Edit the bitcoin.conf file using <code>nano ~/.bitcoin/bitcoin.conf</code> and put in the following info - this is for 16GB of RAM, lower if you have less, my server never used more than 12GB of RAM in the cache while synchronizing:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">txindex=1
 </span></span><span class="line"><span class="cl">dbcache=16384
 </span></span><span class="line"><span class="cl">debuglogfile=$HOME/.bitcoin/debug.log
@@ -141,7 +142,11 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tail -f $HOME/.bitcoin/debug.log | awk &#39;{print $10}&#39;
 </span></span></code></pre></div><p>You can see what percent it is at based on storage size or check the block sync level using my script in this gist:
 <a href="https://gist.github.com/bensig/4793be2327b1d535a70046a759a5e696#file-check_bitcoind_sync-sh">https://gist.github.com/bensig/4793be2327b1d535a70046a759a5e696#file-check_bitcoind_sync-sh</a></p>
-
+<p>Using this server, I was able to sync fully in 7 hours:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Intel(R) Xeon(R) E-2356G CPU @ 3.20GHz
+</span></span><span class="line"><span class="cl">64GB RAM
+</span></span><span class="line"><span class="cl">1TB INTEL NVMe SSDPE2KX010T8
+</span></span></code></pre></div>
   </article>
 
   <br/>

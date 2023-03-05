@@ -14,7 +14,7 @@
       
       <guid>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</guid>
       <description>The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:
-Option 1 - Use This Bitcoin Fast Sync Command There is no torrent which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.</description>
+Option 1 - Use This Bitcoin Fast Sync Command There is no torrent or copy method which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.</description>
     </item>
     
   </channel>
