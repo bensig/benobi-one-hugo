@@ -105,20 +105,22 @@
 
     <p>For starters, you will need a fully sync&rsquo;d bitcoin node with txindex=1 - if you don&rsquo;t, then start with my guide on how to <a href="https://benobi.one/posts/install-bitcoin-ubuntu/" title="install bitcoind on Ubuntu.">install bitcoind on Ubuntu.</a></p>
 <p>Next, you should download, build, and install <code>ord</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git clone https://github.com/casey/ord.git
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir $HOME/src
+</span></span><span class="line"><span class="cl">cd src
+</span></span><span class="line"><span class="cl">git clone https://github.com/casey/ord.git
 </span></span><span class="line"><span class="cl">cd ord
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">sudo apt-get install libssl-dev
 </span></span><span class="line"><span class="cl">cargo build --release
-</span></span></code></pre></div><p>Once that is complete, you will have an executable <code>ord</code> in <code>/home/bitcoin/src/ord/target/release/ord</code></p>
+</span></span></code></pre></div><p>Once that is complete, you will have an executable <code>ord</code> in <code>$HOME/src/ord/target/release/ord</code></p>
 <p>You can create a little <code>ord</code> executable by doing this:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir ~/bin
-</span></span><span class="line"><span class="cl">echo &#39;/home/bitcoin/src/ord/target/release/ord --rpc-url 127.0.0.1:8332 &#34;$@&#34;&#39; &gt; ~/bin/ord
+</span></span><span class="line"><span class="cl">echo &#39;$HOME/src/ord/target/release/ord --rpc-url 127.0.0.1:8332 &#34;$@&#34;&#39; &gt; ~/bin/ord
 </span></span></code></pre></div><p>If you have not added rpcauth, rpcpassword, or rpcuser to your bitcoin.conf, then that&rsquo;s good! You won&rsquo;t need it for local access. Bitcoind automatically creates a ~/.bitcoin/.cookie file with a simple auth that <code>ord</code> will find and use.</p>
 <p>Next, index - optional to use &ldquo;&ndash;index-sats&rdquo;:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">screen ord --index-sats index
 </span></span></code></pre></div><p>Go get a coffee, or dinner&hellip; while you are gone - the index will be building the database at:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/home/bitcoin/.local/share/ord/index.redb
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$HOME/.local/share/ord/index.redb
 </span></span></code></pre></div><p>I indexed without &ldquo;&ndash;index-sats&rdquo; and it finished in a few hours, used about 2GB of storage.</p>
 <p>Next I indexed with &ldquo;&ndash;index-sats&rdquo; and it took a lot longer&hellip;</p>
 
