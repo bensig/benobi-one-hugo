@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ben Sigman">
+    <meta name="description" content="https://benobi.one/">
+    <meta name="keywords" content="blog,developer,personal,ben sigman">
+
+    <meta property="og:site_name" content="Benobi.one">
+    <meta property="og:title" content="
+  Install bitcoind on Ubuntu - works - Benobi.one
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://benobi.one/posts/install-bitcoin-ubuntu/">
+    <meta property="og:image" content="https://benobi.one/images/benobi-one.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://benobi.one/posts/install-bitcoin-ubuntu/">
+    <meta name="twitter:image" content="https://benobi.one/images/benobi-one.png">
+
+    <base href="https://benobi.one/posts/install-bitcoin-ubuntu/">
+    <title>
+  Install bitcoind on Ubuntu - works - Benobi.one
+</title>
+
+    <link rel="canonical" href="https://benobi.one/posts/install-bitcoin-ubuntu/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://benobi.one/index.xml" type="application/rss+xml" title="Benobi.one">
+      <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
+    
+
+    <meta name="generator" content="Hugo 0.101.0" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Benobi.one</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/initiatives">Advocacy</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/resources">Resources</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Install bitcoind on Ubuntu - works</h1>
+      <h2 class="date">March 3, 2023</h2>
+
+      
+    </header>
+
+    <p>Looking into these Bitcoin Ordinals <a href="https://ordinals.com/">https://ordinals.com/</a> and I decided to try to install and sync a new bitcoin node. It has been a few years since I did this from scratch, so I was looking for some simple ways to install&hellip; maybe use snap or download some precompiled binaries and do some softlinks to /usr/local/bin? No, none of that worked for me. I wasted an hour.</p>
+<p>All of the guiedes are all kind of busted IMHO - best to build from source code. This should work on most debian and ubuntu linux installs.</p>
+<p>First, get all of the prerequesites installed. I found these hidden in github under the &ldquo;Unix&rdquo; build notes
+<a href="https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md">https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md</a></p>
+<p><em>Do not run as ROOT</em> - make sure you have a regular account with sudo ability. If you don&rsquo;t know how to do that, look up <code>visudo</code>.</p>
+<p>I simplified everything you will need into a single line to install with <code>apt</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt-get install git build-essential autoconf libtool autotools-dev automake pkg-config bsdmainutils python3 libevent-dev libboost-dev libsqlite3-dev cpufrequtils libssl-dev cargo
+</span></span></code></pre></div><p>Next clone the github for bitcoin and checkout version 24.0.1 so you can index ordinals correctly:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir ~/src
+</span></span><span class="line"><span class="cl">git clone https://github.com/bitcoin/bitcoin.git ~/src/bitcoin
+</span></span><span class="line"><span class="cl">cd ~/src/bitcoin
+</span></span><span class="line"><span class="cl">git checkout v24.0.1
+</span></span></code></pre></div><p>Next you will build - start the configuration.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">./autogen.sh
+</span></span><span class="line"><span class="cl">./configure
+</span></span></code></pre></div><p>Get the number of cpu cores your system has - you will need this for the next step.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">CORES=`lscpu|grep &#34;CPU(s)&#34;|head -1|awk &#39;{print $2}&#39;`
+</span></span><span class="line"><span class="cl">echo $CORES
+</span></span></code></pre></div><p><em>OPTIONAL</em> - Set your CPU cores to performance mode, this will speed up the build and initial sync.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">CPUS=`echo &#34;$(($CORES-1))&#34;` &amp;&amp; i=0; while [ $i -le $CPUS ]; do cpufreq-set -c $i -g performance; i=$(($i+1));done
+</span></span></code></pre></div><p>The more cores you use, the faster this will go - recommend using all of them, but if you need to do other things, you can specify the number of CPU cores to use here instead of &ldquo;$CORES&rdquo;:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">make -j $CORES
+</span></span></code></pre></div><p>Go get a coffee, come back and run the installer:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo make install
+</span></span></code></pre></div><p>Check version installed.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">bitcoind --version
+</span></span></code></pre></div><p>Create bitcoin.conf file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">touch ~/.bitcoin/bitcoin.conf
+</span></span></code></pre></div><p>Edit the bitcoin.conf file using <code>nano ~/.bitcoin/bitcoin.conf</code> and put in the following info - this is for 16GB of RAM, lower if you have less, my server never used more than 12GB of RAM in the cache while synchronizing:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">txindex=1
+</span></span><span class="line"><span class="cl">dbcache=16384
+</span></span><span class="line"><span class="cl">debuglogfile=$HOME/.bitcoin/debug.log
+</span></span></code></pre></div><p>run bitcoind</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">bitcoind -daemon
+</span></span></code></pre></div><p>Next you can sync your node following this guide: <a href="https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/" title="fast sync bitcoin node.">fast sync bitcoin node.</a> - or just try letting it run with these settings here on this page.</p>
+<p>Tail the logs to watch it sync - progress=0.000601 &ndash;&gt; this is a percentage based on total size of the chain where 1.000 = 100%.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tail -f $HOME/.bitcoin/debug.log | awk &#39;{print $10}&#39;
+</span></span></code></pre></div><p>You can see what percent it is at based on storage size or check the block sync level using my script in this gist:
+<a href="https://gist.github.com/bensig/4793be2327b1d535a70046a759a5e696#file-check_bitcoind_sync-sh">https://gist.github.com/bensig/4793be2327b1d535a70046a759a5e696#file-check_bitcoind_sync-sh</a></p>
+<p>Using this server, I was able to sync fully in 7 hours:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Intel(R) Xeon(R) E-2356G CPU @ 3.20GHz
+</span></span><span class="line"><span class="cl">64GB RAM
+</span></span><span class="line"><span class="cl">1TB INTEL NVMe SSDPE2KX010T8
+</span></span></code></pre></div>
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+    
+      <p>benobi.one</p>
+    
+     
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Let&#39;s keep the internet safe and free? →→ <a id="privateTrigger">Click!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-162042800-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  <script src="/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("You\u0027re a generous Jedi.");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>
