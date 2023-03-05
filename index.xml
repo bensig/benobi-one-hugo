@@ -6,7 +6,19 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Mar 2023 17:14:33 -0800</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 15:56:40 -0800</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actually get ord to index bitcoin</title>
+      <link>https://benobi.one/posts/actually-get-ord-to-index-bitcoin/</link>
+      <pubDate>Sat, 04 Mar 2023 15:56:40 -0800</pubDate>
+      
+      <guid>https://benobi.one/posts/actually-get-ord-to-index-bitcoin/</guid>
+      <description>For starters, you will need a fully sync&amp;rsquo;d bitcoin node with txindex=1 - if you don&amp;rsquo;t, then start with my guide on how to [install bitcoind on Ubuntu.](https://benobi.one/posts/install-bitcoin-ubuntu-20/ &amp;ldquo;install bitcoind on Ubuntu.&amp;rdquo;
+Next, you should download, build, and install ord
+git clone https://github.com/casey/ord.git cd ord sudo apt-get install libssl-dev cargo build --release Once that is complete, you will have an executable ord in /home/bitcoin/src/ord/target/release/ord
+You can create a little ord executable by doing this:</description>
+    </item>
+    
     <item>
       <title>Install bitcoind on Ubuntu - works</title>
       <link>https://benobi.one/posts/install-bitcoin-ubuntu-20/</link>
