@@ -16,7 +16,7 @@
       <description>For starters, you will need a fully sync&amp;rsquo;d bitcoin node with txindex=1 - if you don&amp;rsquo;t, then start with my guide on how to install bitcoind on Ubuntu.
 Next, you should download, build, and install ord
 mkdir $HOME/src cd src git clone https://github.com/casey/ord.git cd ord sudo apt-get install libssl-dev cargo build --release Once that is complete, you will have an executable ord in $HOME/src/ord/target/release/ord
-You can create a little ord executable by doing this:</description>
+You can create a little ord executable by doing this to automatically enter the rpc-url and &amp;ldquo;RUST_LOG=debug&amp;rdquo; to every ord command:</description>
     </item>
     
     <item>

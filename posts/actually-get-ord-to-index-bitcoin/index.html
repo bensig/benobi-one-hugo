@@ -113,7 +113,7 @@
 </span></span><span class="line"><span class="cl">sudo apt-get install libssl-dev
 </span></span><span class="line"><span class="cl">cargo build --release
 </span></span></code></pre></div><p>Once that is complete, you will have an executable <code>ord</code> in <code>$HOME/src/ord/target/release/ord</code></p>
-<p>You can create a little <code>ord</code> executable by doing this:</p>
+<p>You can create a little <code>ord</code> executable by doing this to automatically enter the rpc-url and &ldquo;RUST_LOG=debug&rdquo; to every ord command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir ~/bin
 </span></span><span class="line"><span class="cl">echo &#39;RUST_LOG=debug $HOME/src/ord/target/release/ord --rpc-url 127.0.0.1:8332 &#34;$@&#34;&#39; &gt; ~/bin/ord
 </span></span></code></pre></div><p>If you have not added rpcauth, rpcpassword, or rpcuser to your bitcoin.conf, then that&rsquo;s good! You won&rsquo;t need it for local access. Bitcoind automatically creates a ~/.bitcoin/.cookie file with a simple auth that <code>ord</code> will find and use.</p>
@@ -124,10 +124,42 @@
 </span></span></code></pre></div><p>I indexed without &ldquo;&ndash;index-sats&rdquo; and it finished in a few hours, used about 2GB of disk space.</p>
 <p>Next I indexed with &ldquo;&ndash;index-sats&rdquo; and it took a lot longer&hellip; about 15 hours and used ~100GB of disk space. It really slowed down in the last 100,000 blocks - the &ldquo;first-inscription-height&rdquo; setting did not seem to affect this at all.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">screen ord --first-inscription-height 767430 --index-sats index
-</span></span></code></pre></div><p>Next to run the server, you will need to enable <code>ord</code> to bind to port 80:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo setcap CAP_NET_BIND_SERVICE=+eip /home/bitcoin/src/ord/target/release/ord
-</span></span></code></pre></div><p>Now you can run <code>ord server</code> - if you set it up with the ord shell script I created above, it will use <code>RUST_LOG=debug</code> so you can actually see what&rsquo;s happening when you run the server or any commands.</p>
-<p>Bonus fun - now your server is probably getting pegged with SYN attacks and all kinds of crap - bc, you know, Bitcoin&hellip;</p>
+</span></span></code></pre></div><p>Next to run the server, you can run it on a non-default port as a non-priviledged user. If you set it up with the ord shell script I created above, it will automatically use <code>RUST_LOG=debug</code> so you can actually see what&rsquo;s happening when you run the server or any commands.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ord server --http --http-port 8080
+</span></span></code></pre></div><p>Next you can point a browser at your ip or fqdn at http://yourip:8080 or http://localhost:8080 if on the same device and browse ordinals.</p>
+<p>Probably smart to set up nginx to sit in front of your server. Here is a quick config example - just replace &ldquo;yourservername.com&rdquo; with your FQDN:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">upstream ords {
+</span></span><span class="line"><span class="cl">    server 127.0.0.1:8080 fail_timeout=15s;
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">server {
+</span></span><span class="line"><span class="cl">    listen 80;
+</span></span><span class="line"><span class="cl">    listen [::]:80;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    server_name yourservername.com;
+</span></span><span class="line"><span class="cl">    server_tokens off;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    error_log  /var/log/nginx/ords-error.log;
+</span></span><span class="line"><span class="cl">    access_log  /var/log/nginx/ords-access.log;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    keepalive_timeout 120;
+</span></span><span class="line"><span class="cl">    keepalive_requests 100000;
+</span></span><span class="line"><span class="cl">    sendfile on;
+</span></span><span class="line"><span class="cl">    tcp_nopush on;
+</span></span><span class="line"><span class="cl">    tcp_nodelay on;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   location / {
+</span></span><span class="line"><span class="cl">        proxy_pass http://ords;
+</span></span><span class="line"><span class="cl">        add_header &#39;Access-Control-Allow-Methods&#39; &#39;GET, POST&#39;;
+</span></span><span class="line"><span class="cl">        proxy_set_header X-Real-IP $remote_addr;
+</span></span><span class="line"><span class="cl">        proxy_set_header Host $host;
+</span></span><span class="line"><span class="cl">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+</span></span><span class="line"><span class="cl">        proxy_next_upstream error timeout invalid_header http_500;
+</span></span><span class="line"><span class="cl">        proxy_connect_timeout 1s;
+</span></span><span class="line"><span class="cl">        proxy_http_version 1.1;
+</span></span><span class="line"><span class="cl">        proxy_set_header Upgrade $http_upgrade;
+</span></span><span class="line"><span class="cl">        proxy_set_header Connection &#34;upgrade&#34;;
+</span></span><span class="line"><span class="cl">   }
+</span></span></code></pre></div><p>Bonus fun - now your server is probably getting pegged with SYN attacks and all kinds of crap - bc, you know, Bitcoin&hellip;</p>
 <p>I&rsquo;d recommend setting up <code>fail2ban</code> with some filters like this: <a href="https://github.com/ansell/fail2ban-filters">https://github.com/ansell/fail2ban-filters</a></p>
 <p>Happy ordinaling!</p>
 
