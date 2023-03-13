@@ -110,7 +110,8 @@
 <p><em>Do not run as ROOT</em> - make sure you have a regular account with sudo ability. If you don&rsquo;t know how to do that, look up <code>visudo</code>.</p>
 <p>I simplified everything you will need into a single line to install with <code>apt</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt-get install git build-essential autoconf libtool autotools-dev automake pkg-config bsdmainutils python3 libevent-dev libboost-dev libsqlite3-dev cpufrequtils libssl-dev cargo
-</span></span></code></pre></div><p>Next clone the github for bitcoin and checkout version 24.0.1 so you can index ordinals correctly:</p>
+</span></span></code></pre></div><h4 id="note-if-you-do-not-install-libsqlite3-dev-then-your-bitcoin-node-will-likely-configure-and-build-with-no-wallet-and-you-will-get-errors-like-this-method-not-found-when-running-bitcoin-cli">Note: if you do not install libsqlite3-dev then your bitcoin node will likely configure and build with NO WALLET and you will get errors like this: <code>method not found</code> when running bitcoin-cli</h4>
+<p>Next clone the github for bitcoin and checkout version 24.0.1 so you can index ordinals correctly:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir ~/src
 </span></span><span class="line"><span class="cl">git clone https://github.com/bitcoin/bitcoin.git ~/src/bitcoin
 </span></span><span class="line"><span class="cl">cd ~/src/bitcoin
