@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://benobi.one/posts/actually-get-ord-to-index-bitcoin/</loc>
-    <lastmod>2023-03-04T15:56:40-08:00</lastmod>
-  </url><url>
     <loc>https://benobi.one/</loc>
-    <lastmod>2023-03-04T15:56:40-08:00</lastmod>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/bitcoin/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/ideas/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/math/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/research/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/satoshi/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/ingredients-of-bitcoin/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/</loc>
+    <lastmod>2023-05-22T15:56:40-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/actually-get-ord-to-index-bitcoin/</loc>
     <lastmod>2023-03-04T15:56:40-08:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/install-bitcoin-ubuntu/</loc>
     <lastmod>2023-03-03T17:14:33-08:00</lastmod>
   </url><url>
-    <loc>https://benobi.one/tags/bitcoin/</loc>
-    <lastmod>2023-03-03T12:03:53-08:00</lastmod>
-  </url><url>
     <loc>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</loc>
-    <lastmod>2023-03-03T12:03:53-08:00</lastmod>
-  </url><url>
-    <loc>https://benobi.one/tags/</loc>
     <lastmod>2023-03-03T12:03:53-08:00</lastmod>
   </url><url>
     <loc>https://benobi.one/posts/lessig_method/</loc>

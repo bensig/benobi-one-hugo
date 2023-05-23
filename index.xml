@@ -6,7 +6,17 @@
     <description>Recent content on Benobi.one</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Mar 2023 15:56:40 -0800</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2023 15:56:40 -0800</lastBuildDate><atom:link href="https://benobi.one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Satoshi&#39;s Soup</title>
+      <link>https://benobi.one/posts/ingredients-of-bitcoin/</link>
+      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
+      
+      <guid>https://benobi.one/posts/ingredients-of-bitcoin/</guid>
+      <description>Who was Satoshi? It has been a personal fascination of mine since 2012. Who is this mysterious creator of Bitcoin? We can never know for sure, but we can learn a lot about Satoshi by looking at the sources of where they were getting inspiration as well as theory.
+One interesting conclustion reached by my friend and mathematcian Dr. Frederick Krueger (@dotkrueger on Twitter). Fred went through the math of the Bitcoin Whitepaper and verified all of the math proofs recently.</description>
+    </item>
+    
     <item>
       <title>Actually get ord to index bitcoin</title>
       <link>https://benobi.one/posts/actually-get-ord-to-index-bitcoin/</link>
