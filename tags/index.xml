@@ -2,82 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Benobi.one</title>
-    <link>https://benobi.one/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Benobi.one</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 May 2023 15:56:40 -0800</lastBuildDate><atom:link href="https://benobi.one/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 11:30:19 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bitcoin</title>
-      <link>https://benobi.one/tags/bitcoin/</link>
-      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      
-      <guid>https://benobi.one/tags/bitcoin/</guid>
+      <title>Code</title>
+      <link>http://localhost:1313/tags/code/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ideas</title>
-      <link>https://benobi.one/tags/ideas/</link>
-      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      
-      <guid>https://benobi.one/tags/ideas/</guid>
+      <title>Forensics</title>
+      <link>http://localhost:1313/tags/forensics/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>http://localhost:1313/tags/forensics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>math</title>
-      <link>https://benobi.one/tags/math/</link>
-      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      
-      <guid>https://benobi.one/tags/math/</guid>
+      <title>Satoshi</title>
+      <link>http://localhost:1313/tags/satoshi/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>http://localhost:1313/tags/satoshi/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>research</title>
-      <link>https://benobi.one/tags/research/</link>
+      <title>Bitcoin</title>
+      <link>http://localhost:1313/tags/bitcoin/</link>
       <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      
-      <guid>https://benobi.one/tags/research/</guid>
+      <guid>http://localhost:1313/tags/bitcoin/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>satoshi</title>
-      <link>https://benobi.one/tags/satoshi/</link>
+      <title>Ideas</title>
+      <link>http://localhost:1313/tags/ideas/</link>
       <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      
-      <guid>https://benobi.one/tags/satoshi/</guid>
+      <guid>http://localhost:1313/tags/ideas/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>elasticsearch, auth, error, password reset</title>
-      <link>https://benobi.one/tags/elasticsearch-auth-error-password-reset/</link>
+      <title>Math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/tags/research/</link>
+      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
+      <guid>http://localhost:1313/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elasticsearch, Auth, Error, Password Reset</title>
+      <link>http://localhost:1313/tags/elasticsearch-auth-error-password-reset/</link>
       <pubDate>Tue, 19 Jul 2022 21:45:23 -0700</pubDate>
-      
-      <guid>https://benobi.one/tags/elasticsearch-auth-error-password-reset/</guid>
+      <guid>http://localhost:1313/tags/elasticsearch-auth-error-password-reset/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>apple, apps, error, brew, m1</title>
-      <link>https://benobi.one/tags/apple-apps-error-brew-m1/</link>
+      <title>Apple, Apps, Error, Brew, M1</title>
+      <link>http://localhost:1313/tags/apple-apps-error-brew-m1/</link>
       <pubDate>Mon, 22 Mar 2021 22:46:23 -0700</pubDate>
-      
-      <guid>https://benobi.one/tags/apple-apps-error-brew-m1/</guid>
+      <guid>http://localhost:1313/tags/apple-apps-error-brew-m1/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>apple, apps, review, rejection</title>
-      <link>https://benobi.one/tags/apple-apps-review-rejection/</link>
+      <title>Apple, Apps, Review, Rejection</title>
+      <link>http://localhost:1313/tags/apple-apps-review-rejection/</link>
       <pubDate>Wed, 01 Apr 2020 22:46:23 -0700</pubDate>
-      
-      <guid>https://benobi.one/tags/apple-apps-review-rejection/</guid>
+      <guid>http://localhost:1313/tags/apple-apps-review-rejection/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
