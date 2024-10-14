@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ideas on Benobi.one</title>
-    <link>http://localhost:1313/tags/ideas/</link>
+    <link>https://benobi.one/tags/ideas/</link>
     <description>Recent content in Ideas on Benobi.one</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 May 2023 15:56:40 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://benobi.one/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Satoshi&#39;s Soup</title>
-      <link>http://localhost:1313/posts/ingredients-of-bitcoin/</link>
+      <link>https://benobi.one/posts/ingredients-of-bitcoin/</link>
       <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      <guid>http://localhost:1313/posts/ingredients-of-bitcoin/</guid>
+      <guid>https://benobi.one/posts/ingredients-of-bitcoin/</guid>
       <description>&lt;h2 id=&#34;who-was-satoshi&#34;&gt;Who was Satoshi?&lt;/h2&gt;&#xA;&lt;p&gt;It has been a personal fascination of mine since 2012. Who is this mysterious creator of Bitcoin? We can never know for sure, but we can learn a lot about Satoshi by looking at the sources of where they were getting inspiration as well as theory.&lt;/p&gt;&#xA;&lt;p&gt;One interesting conclustion reached by my friend and mathematcian Dr. Frederick Krueger (@dotkrueger on Twitter). Fred went through the math of the Bitcoin Whitepaper and verified all of the math proofs recently. His conclusion is that it seems highly likely that Satoshi was someone who either had access to a post-graduate level mathematician, or was one.&lt;/p&gt;</description>
     </item>
   </channel>

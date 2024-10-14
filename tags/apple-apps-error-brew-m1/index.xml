@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apple, Apps, Error, Brew, M1 on Benobi.one</title>
-    <link>http://localhost:1313/tags/apple-apps-error-brew-m1/</link>
+    <link>https://benobi.one/tags/apple-apps-error-brew-m1/</link>
     <description>Recent content in Apple, Apps, Error, Brew, M1 on Benobi.one</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Mar 2021 22:46:23 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/apple-apps-error-brew-m1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://benobi.one/tags/apple-apps-error-brew-m1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running Brew on the New Apple M1 Chip</title>
-      <link>http://localhost:1313/posts/running_brew_on_m1_for_x86/</link>
+      <link>https://benobi.one/posts/running_brew_on_m1_for_x86/</link>
       <pubDate>Mon, 22 Mar 2021 22:46:23 -0700</pubDate>
-      <guid>http://localhost:1313/posts/running_brew_on_m1_for_x86/</guid>
+      <guid>https://benobi.one/posts/running_brew_on_m1_for_x86/</guid>
       <description>&lt;p&gt;On the new Macbook M1 chip, you might get an error such as &amp;ldquo;To install under x86_64, install Homebrew into /usr/local&amp;rdquo; - which will take you down many rabbit holes. This is an actual solution that fully works.&lt;/p&gt;&#xA;&lt;p&gt;I used my GoogleFu and did not find a solution as simple as this:&lt;/p&gt;&#xA;&lt;h2 id=&#34;5-simple-steps-to-install-intel-brew-on-m1&#34;&gt;5 Simple Steps to Install Intel Brew on M1&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install Rosetta (this will fail if your Terminal is set to &amp;ldquo;&lt;a href=&#34;https://www.howtogeek.com/702982/how-to-launch-the-intel-version-of-a-universal-mac-app-on-apple-silicon/&#34;&gt;Open using Rosetta&lt;/a&gt;&amp;rdquo;) by running &lt;code&gt;softwareupdate --install-rose&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run this command to install the Intel architecture Homebrew&#xA;&lt;code&gt;arch -x86_64 /bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add this to your ZSH config (I recommend using &lt;a href=&#34;https://ohmyz.sh/#install&#34;&gt;OhMyZSH&lt;/a&gt; + add a file called ~/.oh-my-zsh/custom/brew.zsh) with the contents:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/opt/homebrew/bin:/usr/local/bin:$PATH&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ibrew&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;arch -x86_64 /usr/local/bin/brew&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Re-source your zsh term &lt;code&gt;source .zshrc&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run Intel brew as &lt;code&gt;ibrew install &amp;lt;whatever&amp;gt;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;That&amp;rsquo;s it! Now you can install brew for ARM and have ibrew for running Intel-specific apps under Rosetta. Super fast and simple solution!&lt;/p&gt;</description>
     </item>
   </channel>
