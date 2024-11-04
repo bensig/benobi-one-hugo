@@ -6,13 +6,48 @@
     <description>Recent content in Tags on Benobi.one</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 May 2023 15:56:40 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 12:03:21 -0800</lastBuildDate>
     <atom:link href="https://benobi.one/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin</title>
       <link>https://benobi.one/tags/bitcoin/</link>
-      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
+      <pubDate>Sun, 03 Nov 2024 12:03:21 -0800</pubDate>
       <guid>https://benobi.one/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://benobi.one/tags/education/</link>
+      <pubDate>Sun, 03 Nov 2024 12:03:21 -0800</pubDate>
+      <guid>https://benobi.one/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>https://benobi.one/tags/guide/</link>
+      <pubDate>Sun, 03 Nov 2024 12:03:21 -0800</pubDate>
+      <guid>https://benobi.one/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>https://benobi.one/tags/code/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>https://benobi.one/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forensics</title>
+      <link>https://benobi.one/tags/forensics/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>https://benobi.one/tags/forensics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Satoshi</title>
+      <link>https://benobi.one/tags/satoshi/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>https://benobi.one/tags/satoshi/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +69,6 @@
       <link>https://benobi.one/tags/research/</link>
       <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
       <guid>https://benobi.one/tags/research/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Satoshi</title>
-      <link>https://benobi.one/tags/satoshi/</link>
-      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      <guid>https://benobi.one/tags/satoshi/</guid>
       <description></description>
     </item>
     <item>

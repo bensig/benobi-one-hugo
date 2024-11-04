@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on Benobi.one</title>
-    <link>http://localhost:1313/tags/code/</link>
+    <link>https://benobi.one/tags/code/</link>
     <description>Recent content in Code on Benobi.one</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 23 May 2023 11:30:19 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://benobi.one/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decoding Satoshi&#39;s Code</title>
-      <link>http://localhost:1313/posts/satoshi_code/</link>
+      <link>https://benobi.one/posts/satoshi_code/</link>
       <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
-      <guid>http://localhost:1313/posts/satoshi_code/</guid>
-      <description>&lt;p&gt;I am quite fascinated by the history of the development of Bitcoin, As I covered in my post about the history of Bitcoin&amp;rsquo;s ideas &lt;a href=&#34;http://localhost:1313/posts/ingredients-of-bitcoin/&#34;&gt;Ingredients of Bitcoin.&lt;/a&gt; - there were several notable precursors to the invention of Bitcoin. This post is specifically focused on looking at the code of Bitcoin.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-first-versions-of-bitcoin&#34;&gt;The first versions of Bitcoin&lt;/h2&gt;&#xA;&lt;p&gt;Bitcoin has massively evolved since the early days of the code on Sourceforge. There are some links to the older sources in TGZ and RAR formats on the &lt;a href=&#34;https://satoshi.nakamotoinstitute.org/code/&#34;&gt;Nakamoto Institute pages&lt;/a&gt;:&lt;/p&gt;</description>
+      <guid>https://benobi.one/posts/satoshi_code/</guid>
+      <description>&lt;p&gt;I am quite fascinated by the history of the development of Bitcoin, As I covered in my post about the history of Bitcoin&amp;rsquo;s ideas &lt;a href=&#34;https://benobi.one/posts/ingredients-of-bitcoin/&#34;&gt;Ingredients of Bitcoin.&lt;/a&gt; - there were several notable precursors to the invention of Bitcoin. This post is specifically focused on looking at the code of Bitcoin.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-first-versions-of-bitcoin&#34;&gt;The first versions of Bitcoin&lt;/h2&gt;&#xA;&lt;p&gt;Bitcoin has massively evolved since the early days of the code on Sourceforge. There are some links to the older sources in TGZ and RAR formats on the &lt;a href=&#34;https://satoshi.nakamotoinstitute.org/code/&#34;&gt;Nakamoto Institute pages&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
