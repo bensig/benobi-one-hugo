@@ -2,234 +2,241 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Benobi.one</title>
-    <link>https://benobi.one/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Benobi.one</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Nov 2024 18:57:29 -0800</lastBuildDate>
-    <atom:link href="https://benobi.one/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Paul Le Roux Satoshi Nakamoto? A Critical Analysis</title>
-      <link>https://benobi.one/posts/le-roux-is-not-satoshi/</link>
+      <link>http://localhost:1313/posts/le-roux-is-not-satoshi/</link>
       <pubDate>Mon, 18 Nov 2024 18:57:29 -0800</pubDate>
-      <guid>https://benobi.one/posts/le-roux-is-not-satoshi/</guid>
+      <guid>http://localhost:1313/posts/le-roux-is-not-satoshi/</guid>
       <description>&lt;p&gt;Paul Le Roux, a criminal mastermind and skilled programmer, has often been suggested as a candidate for Satoshi Nakamoto, the pseudonymous creator of Bitcoin. While Le Roux&amp;rsquo;s background in encryption and technology makes him an interesting candidate, there are significant issues with this theory.&lt;/p&gt;&#xA;&lt;h2 id=&#34;timeline-inconsistencies&#34;&gt;Timeline Inconsistencies&lt;/h2&gt;&#xA;&lt;h3 id=&#34;satoshis-disappearance-vs-le-rouxs-arrest&#34;&gt;Satoshi&amp;rsquo;s Disappearance vs Le Roux&amp;rsquo;s Arrest&lt;/h3&gt;&#xA;&lt;p&gt;Satoshi Nakamoto&amp;rsquo;s last public message in April 2011 stated &amp;ldquo;I&amp;rsquo;ve moved on to other things.&amp;rdquo; This voluntary departure came 17 months before Le Roux&amp;rsquo;s arrest in September 2012 in Liberia. The timing makes little sense - why would Satoshi/Le Roux abandon Bitcoin well before any legal troubles?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bitcoin 101: A Simple Guide to Share</title>
-      <link>https://benobi.one/posts/bitcoin-101/</link>
+      <link>http://localhost:1313/posts/bitcoin-101/</link>
       <pubDate>Sun, 03 Nov 2024 12:03:21 -0800</pubDate>
-      <guid>https://benobi.one/posts/bitcoin-101/</guid>
-      <description>&lt;p&gt;I created this simple one-page guide to help explain Bitcoin to friends, family members, and anyone interested in learning the basics. Feel free to share this PDF guide with others who want to understand what Bitcoin is all about.&lt;/p&gt;&#xA;&lt;h2 id=&#34;download-the-guidehttpsbenobionefilesbitcoin-101-one-pagerpdf&#34;&gt;&lt;a href=&#34;https://benobi.one/files/Bitcoin-101-One-Pager.pdf&#34;&gt;Download the Guide&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://benobi.one/files/Bitcoin-101-One-Pager.pdf&#34;&gt;&lt;img alt=&#34;Bitcoin 101 Guide Preview&#34; src=&#34;https://benobi.one/images/Bitcoin-101-One-Pager@2x.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This one-page PDF guide covers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What Bitcoin is in simple terms&lt;/li&gt;&#xA;&lt;li&gt;Timeline of Bitcoin&amp;rsquo;s history&lt;/li&gt;&#xA;&lt;li&gt;How Bitcoin works (simplified)&lt;/li&gt;&#xA;&lt;li&gt;Common criticisms and misconceptions&lt;/li&gt;&#xA;&lt;li&gt;How to get started safely&lt;/li&gt;&#xA;&lt;li&gt;Fun facts and quick stats&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Click the image above to download the PDF.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/bitcoin-101/</guid>
+      <description>&lt;p&gt;I created this simple one-page guide to help explain Bitcoin to friends, family members, and anyone interested in learning the basics. Feel free to share this PDF guide with others who want to understand what Bitcoin is all about.&lt;/p&gt;&#xA;&lt;h2 id=&#34;download-the-guidehttpsbenobionefilesbitcoin-101-one-pagerpdf&#34;&gt;&lt;a href=&#34;https://benobi.one/files/Bitcoin-101-One-Pager.pdf&#34;&gt;Download the Guide&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/Bitcoin-101-One-Pager.pdf&#34;&gt;&lt;img alt=&#34;Bitcoin 101 Guide Preview&#34; src=&#34;http://localhost:1313/images/Bitcoin-101-One-Pager@2x.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This one-page PDF guide covers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What Bitcoin is in simple terms&lt;/li&gt;&#xA;&lt;li&gt;Timeline of Bitcoin&amp;rsquo;s history&lt;/li&gt;&#xA;&lt;li&gt;How Bitcoin works (simplified)&lt;/li&gt;&#xA;&lt;li&gt;Common criticisms and misconceptions&lt;/li&gt;&#xA;&lt;li&gt;How to get started safely&lt;/li&gt;&#xA;&lt;li&gt;Fun facts and quick stats&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Click the image above to download the PDF.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Decoding Satoshi&#39;s Code</title>
+      <link>http://localhost:1313/posts/satoshi_code/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>http://localhost:1313/posts/satoshi_code/</guid>
+      <description>&lt;p&gt;I am quite fascinated by the history of the development of Bitcoin, As I covered in my post about the history of Bitcoin&amp;rsquo;s ideas &lt;a href=&#34;http://localhost:1313/posts/ingredients-of-bitcoin/&#34;&gt;Ingredients of Bitcoin.&lt;/a&gt; - there were several notable precursors to the invention of Bitcoin. This post is specifically focused on looking at the code of Bitcoin.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-first-versions-of-bitcoin&#34;&gt;The first versions of Bitcoin&lt;/h2&gt;&#xA;&lt;p&gt;Bitcoin has massively evolved since the early days of the code on Sourceforge. There are some links to the older sources in TGZ and RAR formats on the &lt;a href=&#34;https://satoshi.nakamotoinstitute.org/code/&#34;&gt;Nakamoto Institute pages&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Satoshi&#39;s Soup</title>
-      <link>https://benobi.one/posts/ingredients-of-bitcoin/</link>
+      <link>http://localhost:1313/posts/ingredients-of-bitcoin/</link>
       <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      <guid>https://benobi.one/posts/ingredients-of-bitcoin/</guid>
+      <guid>http://localhost:1313/posts/ingredients-of-bitcoin/</guid>
       <description>&lt;h2 id=&#34;who-was-satoshi&#34;&gt;Who was Satoshi?&lt;/h2&gt;&#xA;&lt;p&gt;It has been a personal fascination of mine since 2012. Who is this mysterious creator of Bitcoin? We can never know for sure, but we can learn a lot about Satoshi by looking at the sources of where they were getting inspiration as well as theory.&lt;/p&gt;&#xA;&lt;p&gt;One interesting conclustion reached by my friend and mathematcian Dr. Frederick Krueger (@dotkrueger on Twitter). Fred went through the math of the Bitcoin Whitepaper and verified all of the math proofs recently. His conclusion is that it seems highly likely that Satoshi was someone who either had access to a post-graduate level mathematician, or was one.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Actually get ord to index bitcoin</title>
-      <link>https://benobi.one/posts/actually-get-ord-to-index-bitcoin/</link>
+      <link>http://localhost:1313/posts/actually-get-ord-to-index-bitcoin/</link>
       <pubDate>Sat, 04 Mar 2023 15:56:40 -0800</pubDate>
-      <guid>https://benobi.one/posts/actually-get-ord-to-index-bitcoin/</guid>
-      <description>&lt;p&gt;For starters, you will need a fully sync&amp;rsquo;d bitcoin node with txindex=1 - if you don&amp;rsquo;t, then start with my guide on how to &lt;a href=&#34;https://benobi.one/posts/install-bitcoin-ubuntu/&#34; title=&#34;install bitcoind on Ubuntu.&#34;&gt;install bitcoind on Ubuntu.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Next, you should download, build, and install &lt;code&gt;ord&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir $HOME/src&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd src&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/casey/ord.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd ord&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install libssl-dev&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cargo build --release&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once that is complete, you will have an executable &lt;code&gt;ord&lt;/code&gt; in &lt;code&gt;$HOME/src/ord/target/release/ord&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can create a little &lt;code&gt;ord&lt;/code&gt; executable by doing this to automatically enter the rpc-url and &amp;ldquo;RUST_LOG=debug&amp;rdquo; to every ord command:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/actually-get-ord-to-index-bitcoin/</guid>
+      <description>&lt;p&gt;For starters, you will need a fully sync&amp;rsquo;d bitcoin node with txindex=1 - if you don&amp;rsquo;t, then start with my guide on how to &lt;a href=&#34;http://localhost:1313/posts/install-bitcoin-ubuntu/&#34; title=&#34;install bitcoind on Ubuntu.&#34;&gt;install bitcoind on Ubuntu.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Next, you should download, build, and install &lt;code&gt;ord&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir $HOME/src&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd src&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/casey/ord.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd ord&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install libssl-dev&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cargo build --release&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once that is complete, you will have an executable &lt;code&gt;ord&lt;/code&gt; in &lt;code&gt;$HOME/src/ord/target/release/ord&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can create a little &lt;code&gt;ord&lt;/code&gt; executable by doing this to automatically enter the rpc-url and &amp;ldquo;RUST_LOG=debug&amp;rdquo; to every ord command:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Install bitcoind on Ubuntu - works</title>
-      <link>https://benobi.one/posts/install-bitcoin-ubuntu/</link>
+      <link>http://localhost:1313/posts/install-bitcoin-ubuntu/</link>
       <pubDate>Fri, 03 Mar 2023 17:14:33 -0800</pubDate>
-      <guid>https://benobi.one/posts/install-bitcoin-ubuntu/</guid>
+      <guid>http://localhost:1313/posts/install-bitcoin-ubuntu/</guid>
       <description>&lt;p&gt;Looking into these Bitcoin Ordinals &lt;a href=&#34;https://ordinals.com/&#34;&gt;https://ordinals.com/&lt;/a&gt; and I decided to try to install and sync a new bitcoin node. It has been a few years since I did this from scratch, so I was looking for some simple ways to install&amp;hellip; maybe use snap or download some precompiled binaries and do some softlinks to /usr/local/bin? No, none of that worked for me. I wasted an hour.&lt;/p&gt;&#xA;&lt;p&gt;All of the guiedes are all kind of busted IMHO - best to build from source code. This should work on most debian and ubuntu linux installs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fast Sync for Initial Bitcoin Node</title>
-      <link>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</link>
+      <link>http://localhost:1313/posts/3-options-to-quickly-sync-a-bitcoin-node/</link>
       <pubDate>Fri, 03 Mar 2023 12:03:53 -0800</pubDate>
-      <guid>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</guid>
+      <guid>http://localhost:1313/posts/3-options-to-quickly-sync-a-bitcoin-node/</guid>
       <description>&lt;p&gt;The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:&lt;/p&gt;&#xA;&lt;h2 id=&#34;option-1---use-this-bitcoin-fast-sync-command&#34;&gt;Option 1 - Use This Bitcoin Fast Sync Command&lt;/h2&gt;&#xA;&lt;p&gt;There is no torrent or copy method which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://benobi.one/posts/lessig_method/</link>
+      <link>http://localhost:1313/posts/lessig_method/</link>
       <pubDate>Thu, 29 Sep 2022 17:45:51 -0700</pubDate>
-      <guid>https://benobi.one/posts/lessig_method/</guid>
+      <guid>http://localhost:1313/posts/lessig_method/</guid>
       <description>&lt;h1 id=&#34;lessig-method&#34;&gt;Lessig Method&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;“Simplicity is the ultimate sophistication” - LDV&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;For highly impactful presentation formatting and delivery in a very clean and professional style, I recommend reading about the &amp;ldquo;Lessig Method&amp;rdquo; by famous Harvard Law professor Lawrence Lessig: &lt;a href=&#34;https://presentationzen.blogs.com/presentationzen/2005/10/the_lessig_meth.html&#34;&gt;https://presentationzen.blogs.com/presentationzen/2005/10/the_lessig_meth.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Most of his slides have only one word on them. He&amp;rsquo;s a human with superhuman intellect and a great internet advocate and activist who founded Stanford&amp;rsquo;s Center for Internet and Society.&lt;/p&gt;&#xA;&lt;p&gt;This guy is an absolute legend. You can also see videos of his presentations on his website &lt;a href=&#34;https://lessig.org/media/&#34;&gt;https://lessig.org/media/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Product Design Thinking</title>
-      <link>https://benobi.one/posts/product_design_dos_and_donts/</link>
+      <link>http://localhost:1313/posts/product_design_dos_and_donts/</link>
       <pubDate>Tue, 27 Sep 2022 16:52:19 -0700</pubDate>
-      <guid>https://benobi.one/posts/product_design_dos_and_donts/</guid>
-      <description>&lt;h3 id=&#34;presentation-from-sept-2022-evmxideathon--hackathon&#34;&gt;Presentation from Sept 2022 EVMxIdeathon / Hackathon&lt;/h3&gt;&#xA;&lt;p&gt;I put together some thoughts on Product Design Thinking &amp;ldquo;Do&amp;rsquo;s and Don&amp;rsquo;ts&amp;rdquo; here for a  hackathon / ideathon. I&amp;rsquo;ve gotten a lot of positive feedback - sharing it here so it might be helpful to other people who did not attend.&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  if (screen &amp;&amp; screen.width &gt; 480) {&#xA;    document.write(&#39;\x3Cscript type=&#34;text/javascript&#34; src=&#34;\/js/pdf-js/build/pdf.js&#34;&gt;&lt;\/script&gt;&#39;);&#xA;  }&#xA;  &lt;/script&gt;&#xA;&#xA;&lt;style&gt;&#xA;#the-canvas {&#xA;  border: 1px solid black;&#xA;  direction: ltr;&#xA;  width: 100%;&#xA;  height: auto;&#xA;  display: none;&#xA;}&#xA;&#xA;#paginator {&#xA;  display: none;&#xA;  text-align: center;&#xA;  margin-bottom: 10px;&#xA;}&#xA;&#xA;#loadingWrapper {&#xA;  display: none;&#xA;  justify-content: center;&#xA;  align-items: center;&#xA;  width: 100%;&#xA;  height: 350px;&#xA;}&#xA;&#xA;#loading {&#xA;  display: inline-block;&#xA;  width: 50px;&#xA;  height: 50px;&#xA;  border: 3px solid #d2d0d0;;&#xA;  border-radius: 50%;&#xA;  border-top-color: #383838;&#xA;  animation: spin 1s ease-in-out infinite;&#xA;  -webkit-animation: spin 1s ease-in-out infinite;&#xA;}&#xA;&#xA;@keyframes spin {&#xA;  to { -webkit-transform: rotate(360deg); }&#xA;}&#xA;@-webkit-keyframes spin {&#xA;  to { -webkit-transform: rotate(360deg); }&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div id=&#34;paginator&#34;&gt;&#xA;    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;&#xA;    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;&#xA;    &amp;nbsp; &amp;nbsp;&#xA;    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;embed-pdf-container&#34;&gt;&#xA;    &lt;div id=&#34;loadingWrapper&#34;&gt;&#xA;      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;script type=&#34;text/javascript&#34;&gt;&#xA;window.onload = function() {&#xA;&#xA;&#xA;var url = &#34;https:\/\/benobi.one\/&#34; + &#39;\/files\/design_thinking.pdf&#39;;&#xA;&#xA;var hidePaginator = &#34;&#34; === &#34;true&#34;;&#xA;var hideLoader = &#34;&#34; === &#34;true&#34;;&#xA;var selectedPageNum = parseInt(&#34;&#34;) || 1;&#xA;&#xA;&#xA;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];&#xA;&#xA;&#xA;pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/benobi.one\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;&#xA;&#xA;&#xA;var pdfDoc = null,&#xA;    pageNum = selectedPageNum,&#xA;    pageRendering = false,&#xA;    pageNumPending = null,&#xA;    scale = 3,&#xA;    canvas = document.getElementById(&#39;the-canvas&#39;),&#xA;    ctx = canvas.getContext(&#39;2d&#39;),&#xA;    paginator = document.getElementById(&#34;paginator&#34;),&#xA;    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);&#xA;&#xA;&#xA;&#xA;showPaginator();&#xA;showLoader();&#xA;&#xA;&#xA;&#xA;function renderPage(num) {&#xA;  pageRendering = true;&#xA;  &#xA;  pdfDoc.getPage(num).then(function(page) {&#xA;    var viewport = page.getViewport({scale: scale});&#xA;    canvas.height = viewport.height;&#xA;    canvas.width = viewport.width;&#xA;&#xA;    &#xA;    var renderContext = {&#xA;      canvasContext: ctx,&#xA;      viewport: viewport&#xA;    };&#xA;    var renderTask = page.render(renderContext);&#xA;&#xA;    &#xA;    renderTask.promise.then(function() {&#xA;      pageRendering = false;&#xA;      showContent();&#xA;      &#xA;      if (pageNumPending !== null) {&#xA;        &#xA;        renderPage(pageNumPending);&#xA;        pageNumPending = null;&#xA;      }&#xA;    });&#xA;  });&#xA;&#xA;  &#xA;  document.getElementById(&#39;page_num&#39;).textContent = num;&#xA;}&#xA;&#xA;&#xA;&#xA;function showContent() {&#xA;  loadingWrapper.style.display = &#39;none&#39;;&#xA;  canvas.style.display = &#39;block&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function showLoader() {&#xA;  if(hideLoader) return&#xA;  loadingWrapper.style.display = &#39;flex&#39;;&#xA;  canvas.style.display = &#39;none&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function showPaginator() {&#xA;  if(hidePaginator) return&#xA;  paginator.style.display = &#39;block&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function queueRenderPage(num) {&#xA;  if (pageRendering) {&#xA;    pageNumPending = num;&#xA;  } else {&#xA;    renderPage(num);&#xA;  }&#xA;}&#xA;&#xA;&#xA;&#xA;function onPrevPage() {&#xA;  if (pageNum &lt;= 1) {&#xA;    return;&#xA;  }&#xA;  pageNum--;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);&#xA;&#xA;&#xA;&#xA;function onNextPage() {&#xA;  if (pageNum &gt;= pdfDoc.numPages) {&#xA;    return;&#xA;  }&#xA;  pageNum++;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);&#xA;&#xA;&#xA;&#xA;pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {&#xA;  pdfDoc = pdfDoc_;&#xA;  var numPages = pdfDoc.numPages;&#xA;  document.getElementById(&#39;page_count&#39;).textContent = numPages;&#xA;  &#xA;  &#xA;  if(pageNum &gt; numPages) {&#xA;    pageNum = numPages&#xA;  }&#xA;&#xA;  &#xA;  renderPage(pageNum);&#xA;});&#xA;}&#xA;&#xA;&lt;/script&gt;&#xA;&#xA;&lt;p&gt;If you do not see the PDF above, &lt;a href=&#34;https://benobi.one/files/design_thinking.pdf&#34;&gt;you can directly the presentation by clicking here.&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/product_design_dos_and_donts/</guid>
+      <description>&lt;h3 id=&#34;presentation-from-sept-2022-evmxideathon--hackathon&#34;&gt;Presentation from Sept 2022 EVMxIdeathon / Hackathon&lt;/h3&gt;&#xA;&lt;p&gt;I put together some thoughts on Product Design Thinking &amp;ldquo;Do&amp;rsquo;s and Don&amp;rsquo;ts&amp;rdquo; here for a  hackathon / ideathon. I&amp;rsquo;ve gotten a lot of positive feedback - sharing it here so it might be helpful to other people who did not attend.&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  if (screen &amp;&amp; screen.width &gt; 480) {&#xA;    document.write(&#39;\x3Cscript type=&#34;text/javascript&#34; src=&#34;\/js/pdf-js/build/pdf.js&#34;&gt;&lt;\/script&gt;&#39;);&#xA;  }&#xA;  &lt;/script&gt;&#xA;&#xA;&lt;style&gt;&#xA;#the-canvas {&#xA;  border: 1px solid black;&#xA;  direction: ltr;&#xA;  width: 100%;&#xA;  height: auto;&#xA;  display: none;&#xA;}&#xA;&#xA;#paginator {&#xA;  display: none;&#xA;  text-align: center;&#xA;  margin-bottom: 10px;&#xA;}&#xA;&#xA;#loadingWrapper {&#xA;  display: none;&#xA;  justify-content: center;&#xA;  align-items: center;&#xA;  width: 100%;&#xA;  height: 350px;&#xA;}&#xA;&#xA;#loading {&#xA;  display: inline-block;&#xA;  width: 50px;&#xA;  height: 50px;&#xA;  border: 3px solid #d2d0d0;;&#xA;  border-radius: 50%;&#xA;  border-top-color: #383838;&#xA;  animation: spin 1s ease-in-out infinite;&#xA;  -webkit-animation: spin 1s ease-in-out infinite;&#xA;}&#xA;&#xA;@keyframes spin {&#xA;  to { -webkit-transform: rotate(360deg); }&#xA;}&#xA;@-webkit-keyframes spin {&#xA;  to { -webkit-transform: rotate(360deg); }&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div id=&#34;paginator&#34;&gt;&#xA;    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;&#xA;    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;&#xA;    &amp;nbsp; &amp;nbsp;&#xA;    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;embed-pdf-container&#34;&gt;&#xA;    &lt;div id=&#34;loadingWrapper&#34;&gt;&#xA;      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;script type=&#34;text/javascript&#34;&gt;&#xA;window.onload = function() {&#xA;&#xA;&#xA;var url = &#34;http:\/\/localhost:1313\/&#34; + &#39;\/files\/design_thinking.pdf&#39;;&#xA;&#xA;var hidePaginator = &#34;&#34; === &#34;true&#34;;&#xA;var hideLoader = &#34;&#34; === &#34;true&#34;;&#xA;var selectedPageNum = parseInt(&#34;&#34;) || 1;&#xA;&#xA;&#xA;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];&#xA;&#xA;&#xA;pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;&#xA;&#xA;&#xA;var pdfDoc = null,&#xA;    pageNum = selectedPageNum,&#xA;    pageRendering = false,&#xA;    pageNumPending = null,&#xA;    scale = 3,&#xA;    canvas = document.getElementById(&#39;the-canvas&#39;),&#xA;    ctx = canvas.getContext(&#39;2d&#39;),&#xA;    paginator = document.getElementById(&#34;paginator&#34;),&#xA;    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);&#xA;&#xA;&#xA;&#xA;showPaginator();&#xA;showLoader();&#xA;&#xA;&#xA;&#xA;function renderPage(num) {&#xA;  pageRendering = true;&#xA;  &#xA;  pdfDoc.getPage(num).then(function(page) {&#xA;    var viewport = page.getViewport({scale: scale});&#xA;    canvas.height = viewport.height;&#xA;    canvas.width = viewport.width;&#xA;&#xA;    &#xA;    var renderContext = {&#xA;      canvasContext: ctx,&#xA;      viewport: viewport&#xA;    };&#xA;    var renderTask = page.render(renderContext);&#xA;&#xA;    &#xA;    renderTask.promise.then(function() {&#xA;      pageRendering = false;&#xA;      showContent();&#xA;      &#xA;      if (pageNumPending !== null) {&#xA;        &#xA;        renderPage(pageNumPending);&#xA;        pageNumPending = null;&#xA;      }&#xA;    });&#xA;  });&#xA;&#xA;  &#xA;  document.getElementById(&#39;page_num&#39;).textContent = num;&#xA;}&#xA;&#xA;&#xA;&#xA;function showContent() {&#xA;  loadingWrapper.style.display = &#39;none&#39;;&#xA;  canvas.style.display = &#39;block&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function showLoader() {&#xA;  if(hideLoader) return&#xA;  loadingWrapper.style.display = &#39;flex&#39;;&#xA;  canvas.style.display = &#39;none&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function showPaginator() {&#xA;  if(hidePaginator) return&#xA;  paginator.style.display = &#39;block&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function queueRenderPage(num) {&#xA;  if (pageRendering) {&#xA;    pageNumPending = num;&#xA;  } else {&#xA;    renderPage(num);&#xA;  }&#xA;}&#xA;&#xA;&#xA;&#xA;function onPrevPage() {&#xA;  if (pageNum &lt;= 1) {&#xA;    return;&#xA;  }&#xA;  pageNum--;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);&#xA;&#xA;&#xA;&#xA;function onNextPage() {&#xA;  if (pageNum &gt;= pdfDoc.numPages) {&#xA;    return;&#xA;  }&#xA;  pageNum++;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);&#xA;&#xA;&#xA;&#xA;pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {&#xA;  pdfDoc = pdfDoc_;&#xA;  var numPages = pdfDoc.numPages;&#xA;  document.getElementById(&#39;page_count&#39;).textContent = numPages;&#xA;  &#xA;  &#xA;  if(pageNum &gt; numPages) {&#xA;    pageNum = numPages&#xA;  }&#xA;&#xA;  &#xA;  renderPage(pageNum);&#xA;});&#xA;}&#xA;&#xA;&lt;/script&gt;&#xA;&#xA;&lt;p&gt;If you do not see the PDF above, &lt;a href=&#34;http://localhost:1313/files/design_thinking.pdf&#34;&gt;you can directly the presentation by clicking here.&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Troubleshooting Elasticsearch Auth Issue</title>
-      <link>https://benobi.one/posts/troubleshooting_elastic/</link>
+      <link>http://localhost:1313/posts/troubleshooting_elastic/</link>
       <pubDate>Tue, 19 Jul 2022 21:45:23 -0700</pubDate>
-      <guid>https://benobi.one/posts/troubleshooting_elastic/</guid>
+      <guid>http://localhost:1313/posts/troubleshooting_elastic/</guid>
       <description>&lt;p&gt;I could not find a simple way to troubleshoot this elasticsearch auth error &amp;ldquo;unable to authenticate user&amp;rdquo; - it&amp;rsquo;s amazing how this seems to be hard to find on the interwebs. So here is the secret.&lt;/p&gt;&#xA;&lt;h2 id=&#34;solving-unable-to-authenticate-user-error-in-elastic&#34;&gt;Solving unable to authenticate user error in elastic&lt;/h2&gt;&#xA;&lt;p&gt;First, to get this error, you can simply do this curl command:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;curl --user usename:pass -X GET &amp;quot;localhost:9200/_stats?pretty&amp;quot;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Example of the auth error you will get if your password is wrong:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Advocating for Experiments in Currency Generation and Governance</title>
-      <link>https://benobi.one/posts/experiments-of-money/</link>
+      <link>http://localhost:1313/posts/experiments-of-money/</link>
       <pubDate>Tue, 21 Sep 2021 15:03:45 -0700</pubDate>
-      <guid>https://benobi.one/posts/experiments-of-money/</guid>
+      <guid>http://localhost:1313/posts/experiments-of-money/</guid>
       <description>&lt;h3 id=&#34;this-historical-moment---defi&#34;&gt;This Historical Moment - DeFi&lt;/h3&gt;&#xA;&lt;p&gt;There is an historical movement that is happening - the decentralization of Finance. Decentralized finance or DeFi means that there is a financial system with no centralized entity at the core. There is no bank, no person with power, and no state-run government running these coins and protocols. Instead, they are run by individuals all over the world who run nodes, stake coins, and write software. This began with the concept of digital money being developed even before Bitcoin. Over the past 10 years there has been over 10,000 experiments in creating currencies that has led to DeFi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of DAO / DACs and How to Make One</title>
-      <link>https://benobi.one/posts/list-of-daos/</link>
+      <link>http://localhost:1313/posts/list-of-daos/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://benobi.one/posts/list-of-daos/</guid>
+      <guid>http://localhost:1313/posts/list-of-daos/</guid>
       <description>&lt;p&gt;What is a DAO anyway?&lt;/p&gt;&#xA;&lt;p&gt;The word &amp;ldquo;DAO&amp;rdquo; is also Chinese for &amp;ldquo;way&amp;rdquo; or &amp;ldquo;path&amp;rdquo; &amp;mdash; but in the world of decentralization &amp;mdash; it is a &amp;ldquo;Decentralized Autonomous Organization&amp;rdquo; and it is a system for making decisions with no central leadership. (A DAO can also be known as a &amp;ldquo;DAC&amp;rdquo; or &amp;quot; Decentralized Autonomous Company.&amp;quot;)&lt;/p&gt;&#xA;&lt;p&gt;Each DAO is an internet-native organization completely owned and managed by its members. Any community can organize a DAO for any reason, but typically it is done to manage software code and a pool of money.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prophets vs Profits</title>
-      <link>https://benobi.one/posts/profits_v_prophets/</link>
+      <link>http://localhost:1313/posts/profits_v_prophets/</link>
       <pubDate>Tue, 23 Mar 2021 15:24:33 -0700</pubDate>
-      <guid>https://benobi.one/posts/profits_v_prophets/</guid>
+      <guid>http://localhost:1313/posts/profits_v_prophets/</guid>
       <description>&lt;p&gt;The Internet has given us many gifts - the freedom to express ourselves and share information instantly with people all over, new possibilites to make money online, the ability to truly work from anywhere in the world, and of course, many photos of cats and dogs doing silly things.&lt;/p&gt;&#xA;&lt;p&gt;The internet gives us hope and sets our minds free&amp;hellip; yet, that freedom has it&amp;rsquo;s limits.&lt;/p&gt;&#xA;&lt;p&gt;Quite often, people are not clear on what they want and they are not sure of what to do with themselves. They are looking for answers and finding lots of them on the internet. The level of manipulation and misinformation is staggering. I plan on covering this in a post called &amp;ldquo;The War on Reality&amp;rdquo; -  fow now, I really wanted to discuss the concept of what I call the &amp;ldquo;New Prophetic Age&amp;rdquo;&amp;hellip; but first a bit of context:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running Brew on the New Apple M1 Chip</title>
-      <link>https://benobi.one/posts/running_brew_on_m1_for_x86/</link>
+      <link>http://localhost:1313/posts/running_brew_on_m1_for_x86/</link>
       <pubDate>Mon, 22 Mar 2021 22:46:23 -0700</pubDate>
-      <guid>https://benobi.one/posts/running_brew_on_m1_for_x86/</guid>
+      <guid>http://localhost:1313/posts/running_brew_on_m1_for_x86/</guid>
       <description>&lt;p&gt;On the new Macbook M1 chip, you might get an error such as &amp;ldquo;To install under x86_64, install Homebrew into /usr/local&amp;rdquo; - which will take you down many rabbit holes. This is an actual solution that fully works.&lt;/p&gt;&#xA;&lt;p&gt;I used my GoogleFu and did not find a solution as simple as this:&lt;/p&gt;&#xA;&lt;h2 id=&#34;5-simple-steps-to-install-intel-brew-on-m1&#34;&gt;5 Simple Steps to Install Intel Brew on M1&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install Rosetta (this will fail if your Terminal is set to &amp;ldquo;&lt;a href=&#34;https://www.howtogeek.com/702982/how-to-launch-the-intel-version-of-a-universal-mac-app-on-apple-silicon/&#34;&gt;Open using Rosetta&lt;/a&gt;&amp;rdquo;) by running &lt;code&gt;softwareupdate --install-rose&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run this command to install the Intel architecture Homebrew&#xA;&lt;code&gt;arch -x86_64 /bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add this to your ZSH config (I recommend using &lt;a href=&#34;https://ohmyz.sh/#install&#34;&gt;OhMyZSH&lt;/a&gt; + add a file called ~/.oh-my-zsh/custom/brew.zsh) with the contents:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/opt/homebrew/bin:/usr/local/bin:$PATH&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ibrew&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;arch -x86_64 /usr/local/bin/brew&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Re-source your zsh term &lt;code&gt;source .zshrc&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run Intel brew as &lt;code&gt;ibrew install &amp;lt;whatever&amp;gt;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;That&amp;rsquo;s it! Now you can install brew for ARM and have ibrew for running Intel-specific apps under Rosetta. Super fast and simple solution!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evolved Scrum</title>
-      <link>https://benobi.one/posts/evolved-scrum/</link>
+      <link>http://localhost:1313/posts/evolved-scrum/</link>
       <pubDate>Wed, 26 Aug 2020 18:41:59 -0700</pubDate>
-      <guid>https://benobi.one/posts/evolved-scrum/</guid>
+      <guid>http://localhost:1313/posts/evolved-scrum/</guid>
       <description>&lt;p&gt;The goal of this post is to discuss a system that I call &amp;ldquo;Evolved Scrum&amp;rdquo; which is working for our team and how we have adopted our own methology for spending more time building, less time meeting, and doing a better job of managing our time and getting features over the finish line.&lt;/p&gt;&#xA;&lt;p&gt;A big part of the system is that it puts the responsibility of deciding a scope on the developer instead of the project manager. This will make more sense when you see the example below.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apple and Google Contact Tracing - Part 2</title>
-      <link>https://benobi.one/posts/apple_google_contact_tracker_part_2/</link>
+      <link>http://localhost:1313/posts/apple_google_contact_tracker_part_2/</link>
       <pubDate>Sat, 11 Apr 2020 20:22:31 -0700</pubDate>
-      <guid>https://benobi.one/posts/apple_google_contact_tracker_part_2/</guid>
-      <description>&lt;p&gt;This is part 2 - continuing from &lt;a href=&#34;https://benobi.one/posts/apple_google_contact_tracker/&#34;&gt;yesterday&amp;rsquo;s post&lt;/a&gt; about the implementation choice of bluetooth. This part 2 post is specifically to discuss a breakdown of the encryption implementation.&lt;/p&gt;&#xA;&lt;p&gt;I thought it was pretty interesting that Google chose to use homomorphic encrpytion. First time I have seen that from them.&lt;/p&gt;&#xA;&lt;p&gt;Here is a great breakdown of how it works from Moxie Marlinspike - creator of Signal:&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;3) Your device keeps track of all &amp;quot;proximity IDs&amp;quot; it sees.&lt;br&gt;&lt;br&gt;4) If someone tests positive, they choose to publish their (previously secretly) &amp;quot;daily tracing keys.&amp;quot;&lt;br&gt;&lt;br&gt;5) Your device frequently DLs all published daily tracing keys and KDFs to see if they match recorded proximity IDs.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/apple_google_contact_tracker_part_2/</guid>
+      <description>&lt;p&gt;This is part 2 - continuing from &lt;a href=&#34;http://localhost:1313/posts/apple_google_contact_tracker/&#34;&gt;yesterday&amp;rsquo;s post&lt;/a&gt; about the implementation choice of bluetooth. This part 2 post is specifically to discuss a breakdown of the encryption implementation.&lt;/p&gt;&#xA;&lt;p&gt;I thought it was pretty interesting that Google chose to use homomorphic encrpytion. First time I have seen that from them.&lt;/p&gt;&#xA;&lt;p&gt;Here is a great breakdown of how it works from Moxie Marlinspike - creator of Signal:&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;3) Your device keeps track of all &amp;quot;proximity IDs&amp;quot; it sees.&lt;br&gt;&lt;br&gt;4) If someone tests positive, they choose to publish their (previously secretly) &amp;quot;daily tracing keys.&amp;quot;&lt;br&gt;&lt;br&gt;5) Your device frequently DLs all published daily tracing keys and KDFs to see if they match recorded proximity IDs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apple and Google Contact Tracing - Part 1</title>
-      <link>https://benobi.one/posts/apple_google_contact_tracker/</link>
+      <link>http://localhost:1313/posts/apple_google_contact_tracker/</link>
       <pubDate>Fri, 10 Apr 2020 22:16:52 -0700</pubDate>
-      <guid>https://benobi.one/posts/apple_google_contact_tracker/</guid>
+      <guid>http://localhost:1313/posts/apple_google_contact_tracker/</guid>
       <description>&lt;p&gt;Today, Apple and Google released &lt;a href=&#34;https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-CryptographySpecification.pdf&#34;&gt;their Contact Tracker collaboration&lt;/a&gt;. A similar protocol has already been implemented in &lt;a href=&#34;https://www.tracetogether.gov.sg/&#34;&gt;Singapore in an app called TraceTogether&lt;/a&gt;. The idea of the protocol is that the app will allow you to trace when you have come into contact with another person who has been diagnosed with the virus. The protocol allows this to happen in an anonymized way - where, in Singapore, the Department of Health acts like a trusted 3rd party&amp;hellip; Google and Apple actually have figured out a way to do this without a trusted 3rd party in the US? That&amp;rsquo;s where this encryption protocol allegedy comes in. I am going to take a deep dive on the topic over the next few days.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Defining Moments</title>
-      <link>https://benobi.one/posts/defining_moments/</link>
+      <link>http://localhost:1313/posts/defining_moments/</link>
       <pubDate>Thu, 09 Apr 2020 22:21:48 -0700</pubDate>
-      <guid>https://benobi.one/posts/defining_moments/</guid>
+      <guid>http://localhost:1313/posts/defining_moments/</guid>
       <description>&lt;p&gt;COVID-19 is a defining moment for our lives and for the world. For the next unknown months or years - there is a default level of hardship in the world than before. In a way, this is our first global problem. It&amp;rsquo;s a problem for all humans, this little virus.&lt;/p&gt;&#xA;&lt;p&gt;What exactly will this moment define?&lt;/p&gt;&#xA;&lt;p&gt;The COVID-19 pandemic - or as should have been called SARS-CoV-2 - is going to leave the world a very different place than it was before the pandemic. I honestly hope that we can look back and be grateful at the changes that have come because of it. Specifically, I would like to discuss the changes that will be coming technologically, since that is a lens with which I view the world.&lt;/p&gt;</description>
     </item>
     <item>
       <title>COVID App in Flutter</title>
-      <link>https://benobi.one/posts/covid_app_idea/</link>
+      <link>http://localhost:1313/posts/covid_app_idea/</link>
       <pubDate>Wed, 08 Apr 2020 23:39:42 -0700</pubDate>
-      <guid>https://benobi.one/posts/covid_app_idea/</guid>
+      <guid>http://localhost:1313/posts/covid_app_idea/</guid>
       <description>&lt;p&gt;While I am waiting to hear from Apple about &lt;a href=&#34;https://benobi.one/posts/app_store_rejection/&#34;&gt;whether or not they will allow me to update Retro Ping&lt;/a&gt;, I was thinking about building another really simple app. This app would simply allow people to check how many COVID-19 cases there are near them.&lt;/p&gt;&#xA;&lt;p&gt;The app would be pretty simple. I found a bunch of data on Github that is updated daily into CSV files. I could simply download those and transform them into a JSON, then write some simple logic to create an API where the mobile app can get latitude and longitude - send that data to the backend and get back the number of cases for that region.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Attending Virtual Events</title>
-      <link>https://benobi.one/posts/oculus_quest_new_view/</link>
+      <link>http://localhost:1313/posts/oculus_quest_new_view/</link>
       <pubDate>Tue, 07 Apr 2020 23:30:02 -0700</pubDate>
-      <guid>https://benobi.one/posts/oculus_quest_new_view/</guid>
+      <guid>http://localhost:1313/posts/oculus_quest_new_view/</guid>
       <description>&lt;p&gt;I rentered virtual reality this weekend when a new Oculus Quest arrived in my yard. A very good friend of mine sent it to me as a gift and I&amp;rsquo;m really excited to dig back into VR. A few years ago, when I got my HTC Vive - there were not really that many interesting games or things to do. Wow, VR has grown a lot in a short amount of time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Importance of Writing Good Spec Docs</title>
-      <link>https://benobi.one/posts/writing_spec_docs/</link>
+      <link>http://localhost:1313/posts/writing_spec_docs/</link>
       <pubDate>Mon, 06 Apr 2020 14:54:45 -0700</pubDate>
-      <guid>https://benobi.one/posts/writing_spec_docs/</guid>
+      <guid>http://localhost:1313/posts/writing_spec_docs/</guid>
       <description>&lt;p&gt;Writing spec documents is an important aspect of building a product. As I wrote about in &lt;a href=&#34;https://benobi.one/posts/building_retro_ping/&#34;&gt;my post about building a simple iOS app&lt;/a&gt;, even if I am building an app myself - I start with a specification document. it&amp;rsquo;s very useful as a tool to think through all of my product interactions and explain how they will work. If I cannot explain it very simply, then I will not be able to build it - neither will anyone else!&lt;/p&gt;</description>
     </item>
     <item>
       <title>TikTok Timing and Sharability</title>
-      <link>https://benobi.one/posts/tiktok_is_vine/</link>
+      <link>http://localhost:1313/posts/tiktok_is_vine/</link>
       <pubDate>Sun, 05 Apr 2020 15:24:33 -0700</pubDate>
-      <guid>https://benobi.one/posts/tiktok_is_vine/</guid>
+      <guid>http://localhost:1313/posts/tiktok_is_vine/</guid>
       <description>&lt;p&gt;Despite the great gap that the media likes to paint between the US and China, the Beijing-based TikTok app has been connecting users from both countries - and just about everywhere in-between. TikTok has taken over.&lt;/p&gt;&#xA;&lt;p&gt;But what about this video platform makes it so addictive and fun?&lt;/p&gt;&#xA;&lt;p&gt;It definitely meets all 3 of the killer app criteria in the &lt;a href=&#34;https://benobi.one/posts/killer-apps/&#34;&gt;formula for killer apps I wrote about last week&lt;/a&gt;: low cost of failure, high value of success, and free marketing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Krueger&#39;s 3 Key Ingredients for a Killer App</title>
-      <link>https://benobi.one/posts/killer_apps_mvp/</link>
+      <link>http://localhost:1313/posts/killer_apps_mvp/</link>
       <pubDate>Sat, 04 Apr 2020 00:34:42 -0700</pubDate>
-      <guid>https://benobi.one/posts/killer_apps_mvp/</guid>
-      <description>&lt;p&gt;Coming back to the &lt;a href=&#34;https://benobi.one/posts/killer-apps/&#34;&gt;killer apps topic I wrote about last week&lt;/a&gt;, I wanted to talk a little bit about what I have learned from friend and mentor of mine, Fred Kreuger. Fred is a CEO and a product guy which is an amazing combination.  He has had 9/10 wins for his investors and has run a publicly traded company. Fred earned a PhD in Math from Stanford where he wrote a dissertation titled &lt;a href=&#34;https://books.google.com/books/about/D_arrangements_and_Random_Polyhedra.html?id=SC-yHwAACAAJ&#34;&gt;D-arrangements and Random Polyhedra&lt;/a&gt; which later became several classes at Stanford and informed some of the math used in modern cryptography. Needless to say, he&amp;rsquo;s a brilliant guy who loves learning and teaching as well.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/killer_apps_mvp/</guid>
+      <description>&lt;p&gt;Coming back to the &lt;a href=&#34;http://localhost:1313/posts/killer-apps/&#34;&gt;killer apps topic I wrote about last week&lt;/a&gt;, I wanted to talk a little bit about what I have learned from friend and mentor of mine, Fred Kreuger. Fred is a CEO and a product guy which is an amazing combination.  He has had 9/10 wins for his investors and has run a publicly traded company. Fred earned a PhD in Math from Stanford where he wrote a dissertation titled &lt;a href=&#34;https://books.google.com/books/about/D_arrangements_and_Random_Polyhedra.html?id=SC-yHwAACAAJ&#34;&gt;D-arrangements and Random Polyhedra&lt;/a&gt; which later became several classes at Stanford and informed some of the math used in modern cryptography. Needless to say, he&amp;rsquo;s a brilliant guy who loves learning and teaching as well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perspective on App Store Reviews</title>
-      <link>https://benobi.one/posts/apple_app_store_reviews/</link>
+      <link>http://localhost:1313/posts/apple_app_store_reviews/</link>
       <pubDate>Fri, 03 Apr 2020 00:11:06 -0700</pubDate>
-      <guid>https://benobi.one/posts/apple_app_store_reviews/</guid>
+      <guid>http://localhost:1313/posts/apple_app_store_reviews/</guid>
       <description>&lt;p&gt;Super thankful today for all of the reviews I have gotten. It looks like I am now up to 52 &amp;ldquo;5 Star&amp;rdquo; reviews on the Apple App Store!!! As I &lt;a href=&#34;https://benobi.one/posts/app_store_rejection/&#34;&gt;wrote about a few days ago, my app was approved, and then the first update was rejected within 24 hours for the app being so simple&lt;/a&gt;. I want to give a big thanks to everyone who downloaded the app and also wrote reviews. I really plan to use that when I speak to my Apple App Store rep this week about Retro Ping. I would really like to find a way to honor everyone who wrote reviews. I wish there were a secret clubhouse that I could give every one of those people a key to - and then I could stock it with surprises for them each week.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lightning fast performance with JAMstack</title>
-      <link>https://benobi.one/posts/jamstack_speed/</link>
+      <link>http://localhost:1313/posts/jamstack_speed/</link>
       <pubDate>Thu, 02 Apr 2020 10:52:22 -0700</pubDate>
-      <guid>https://benobi.one/posts/jamstack_speed/</guid>
-      <description>&lt;p&gt;This website has been built with serverless architecture using &lt;a href=&#34;https://jamstack.org/&#34;&gt;JAMstack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The speed of this architecture is really unparalleled. The trick is that I am delivering static content on CDNs.&lt;/p&gt;&#xA;&lt;p&gt;The entire source code for this site is hosted on &lt;a href=&#34;https://github.com/bensig/benobi-one-src&#34;&gt;GitHub&lt;/a&gt;. I have written a previous post about &lt;a href=&#34;https://benobi.one/posts/hugo_deployment_to_github/&#34;&gt;building this site&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;blazing-speed&#34;&gt;Blazing Speed&lt;/h2&gt;&#xA;&lt;p&gt;Take a look at the blazing &lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/?url=benobi.one&amp;tab=desktop&amp;hl=en&#34;&gt;performance&lt;/a&gt; of &lt;a href=&#34;https://benobi.one&#34;&gt;https://benobi.one&lt;/a&gt; - the site usually gets a score of 95-100 in terms of speed. You can test this against any other site using that some Google tool.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/jamstack_speed/</guid>
+      <description>&lt;p&gt;This website has been built with serverless architecture using &lt;a href=&#34;https://jamstack.org/&#34;&gt;JAMstack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The speed of this architecture is really unparalleled. The trick is that I am delivering static content on CDNs.&lt;/p&gt;&#xA;&lt;p&gt;The entire source code for this site is hosted on &lt;a href=&#34;https://github.com/bensig/benobi-one-src&#34;&gt;GitHub&lt;/a&gt;. I have written a previous post about &lt;a href=&#34;http://localhost:1313/posts/hugo_deployment_to_github/&#34;&gt;building this site&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;blazing-speed&#34;&gt;Blazing Speed&lt;/h2&gt;&#xA;&lt;p&gt;Take a look at the blazing &lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/?url=benobi.one&amp;tab=desktop&amp;hl=en&#34;&gt;performance&lt;/a&gt; of &lt;a href=&#34;https://benobi.one&#34;&gt;https://benobi.one&lt;/a&gt; - the site usually gets a score of 95-100 in terms of speed. You can test this against any other site using that some Google tool.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rejection is the Beginning of Negotiation</title>
-      <link>https://benobi.one/posts/app_store_rejection/</link>
+      <link>http://localhost:1313/posts/app_store_rejection/</link>
       <pubDate>Wed, 01 Apr 2020 22:46:23 -0700</pubDate>
-      <guid>https://benobi.one/posts/app_store_rejection/</guid>
+      <guid>http://localhost:1313/posts/app_store_rejection/</guid>
       <description>&lt;p&gt;There are dozens of reasons you might get rejected by the Apple App Review Team - your metadata might have issues, your screenshots might not have the correct placement of the WiFi or battery symbols, or they might just think your app is boring! I have personally had apps rejected and I have also helped friends navigate app rejections. If your app gets rejected, do not give up! Depending on the reviewer, you might get different results for the same app. For example, when I submitted my first update today for Retro Ping, the update was rejected.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building a Simple iOS App: Retro Ping App</title>
-      <link>https://benobi.one/posts/building_retro_ping/</link>
+      <link>http://localhost:1313/posts/building_retro_ping/</link>
       <pubDate>Tue, 31 Mar 2020 22:40:30 -0700</pubDate>
-      <guid>https://benobi.one/posts/building_retro_ping/</guid>
+      <guid>http://localhost:1313/posts/building_retro_ping/</guid>
       <description>&lt;p&gt;I built a mobile app this weekend in Swift. I&amp;rsquo;m very happy with the end product and I have already tested it out with a few friends.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to discuss a step-by-step process that I used for building it along with some gotchas and learnings.&lt;/p&gt;&#xA;&lt;p&gt;Here are the 15 steps I took to create this app:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Spec&lt;/li&gt;&#xA;&lt;li&gt;Wire&lt;/li&gt;&#xA;&lt;li&gt;Design&lt;/li&gt;&#xA;&lt;li&gt;Code Function&lt;/li&gt;&#xA;&lt;li&gt;Test Functions on Physical Device&lt;/li&gt;&#xA;&lt;li&gt;Code style&lt;/li&gt;&#xA;&lt;li&gt;Test&lt;/li&gt;&#xA;&lt;li&gt;Refine&lt;/li&gt;&#xA;&lt;li&gt;Submit App to Testflight&lt;/li&gt;&#xA;&lt;li&gt;Work on App Store Elements&lt;/li&gt;&#xA;&lt;li&gt;Test App on Testflight (various devices)&lt;/li&gt;&#xA;&lt;li&gt;Refine App&lt;/li&gt;&#xA;&lt;li&gt;Test App Again&lt;/li&gt;&#xA;&lt;li&gt;Submit App to Apple App Review&lt;/li&gt;&#xA;&lt;li&gt;Launch&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I knew I wanted to build a simple app with a simple purpose: measure latency and simply say if the connection is &amp;ldquo;good&amp;rdquo; or &amp;ldquo;bad&amp;rdquo; based on the latency of the phone.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gardening and Building Product</title>
-      <link>https://benobi.one/posts/gardening_apps/</link>
+      <link>http://localhost:1313/posts/gardening_apps/</link>
       <pubDate>Mon, 30 Mar 2020 13:20:33 -0700</pubDate>
-      <guid>https://benobi.one/posts/gardening_apps/</guid>
+      <guid>http://localhost:1313/posts/gardening_apps/</guid>
       <description>&lt;p&gt;I have been doing some gardening during our COVID-19 quarantine and I&amp;rsquo;ve been thinking about how there are similarities between building a product and growing a garden.&lt;/p&gt;&#xA;&lt;p&gt;My mom loves gardening. One of her favorite movies, &amp;ldquo;Being There&amp;rdquo; is about a simple man &amp;ldquo;Chauncey Gardiner&amp;rdquo; who has spent his entire life in the garden. Since Chauncey has only known the garden his whole life, that is the only way he understands the world. One day he meets an advisor to the President and they have a conversation about the economy - Gardiner says, &amp;ldquo;there will be new growth in the Spring&amp;rdquo; and the President quotes him in a speech. It&amp;rsquo;s a really great story about how powerful it can be to use analogies to explain complex ideas. In this case, Chauncey is a very simple-minded man who is considered a genius and actually becomes an advisor to the President - even though he knows nothing about politics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Defending the Product Roadmap</title>
-      <link>https://benobi.one/posts/feature_creep/</link>
+      <link>http://localhost:1313/posts/feature_creep/</link>
       <pubDate>Sun, 29 Mar 2020 14:46:59 -0700</pubDate>
-      <guid>https://benobi.one/posts/feature_creep/</guid>
+      <guid>http://localhost:1313/posts/feature_creep/</guid>
       <description>&lt;p&gt;Protecting developers from an increasing scope of work before the initial agreed-upon work is completed is one of the skills of a good tech lead / project developer.&lt;/p&gt;&#xA;&lt;p&gt;Of course, it&amp;rsquo;s a complicated isuse in a way because ideation can be the ultimate creator and killer of products.&lt;/p&gt;&#xA;&lt;p&gt;“It would be cool if this broom absorbed water&amp;hellip;” - A mop is born.&#xA;“It would be cool if this mop also had a disco light.” - Confusion is born.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Animated GIFs in Swift Xcode</title>
-      <link>https://benobi.one/posts/swift_gifs/</link>
+      <link>http://localhost:1313/posts/swift_gifs/</link>
       <pubDate>Sat, 28 Mar 2020 02:48:50 -0700</pubDate>
-      <guid>https://benobi.one/posts/swift_gifs/</guid>
+      <guid>http://localhost:1313/posts/swift_gifs/</guid>
       <description>&lt;h2 id=&#34;bye-stackoverflow&#34;&gt;Bye StackOverflow&lt;/h2&gt;&#xA;&lt;p&gt;Gone are the days of Stack Overflow; long live YouTube coding tutorials. My Dad used to have a library of home improvement books. It was a set of over 40 color coded books covering every topic from plumbing to roofing to electrical. The books were not that easy to follow either&amp;hellip; diagrams are often not as good as seeing someone do whatever it is you are trying to do in a video.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JAMstack Serverless Hugo Deployment</title>
-      <link>https://benobi.one/posts/hugo_deployment_to_github/</link>
+      <link>http://localhost:1313/posts/hugo_deployment_to_github/</link>
       <pubDate>Fri, 27 Mar 2020 02:27:29 -0700</pubDate>
-      <guid>https://benobi.one/posts/hugo_deployment_to_github/</guid>
+      <guid>http://localhost:1313/posts/hugo_deployment_to_github/</guid>
       <description>&lt;p&gt;This site is built on &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; which is really fast and easy to work with - even if you are only a basic developer. Here is how I setup my Hugo deployments. It&amp;rsquo;s actually really simple and it will help you save a lot of time updating your site.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setup-vscode-to-play-nicely-with-hugo&#34;&gt;Setup vscode to play nicely with Hugo&lt;/h2&gt;&#xA;&lt;p&gt;These will help you to see your syntax and build your site from vscode directly using the command pallete.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Killer Apps</title>
-      <link>https://benobi.one/posts/killer-apps/</link>
+      <link>http://localhost:1313/posts/killer-apps/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://benobi.one/posts/killer-apps/</guid>
+      <guid>http://localhost:1313/posts/killer-apps/</guid>
       <description>&lt;p&gt;In consumer tech products, the holy grail is often referred to as the &amp;ldquo;killer app.&amp;rdquo; Of course, in this phrase &amp;ldquo;killer&amp;rdquo; means that an app will break the mold and have hockey-stick levels of adoption and user activity. This leads many to ponder the question&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-the-formula-for-a-killer-app&#34;&gt;What is the formula for a killer app&lt;/h2&gt;&#xA;&lt;p&gt;Well, there is a man who wrote a formula. I am grateful to have spent some time with Eyal Herzog over the past two years. He is a brilliant guy who is obsessed with killer apps. Eyal has been building products for almost 40 years. Before co-founding Bancor, way back in the early days of the internet, he built Contact.com (a precursor to LinkedIn that raised $50M in the early days of the internet) and he also built MetaCafe (a popular video platform that was precursor to YouTube).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gratitude</title>
-      <link>https://benobi.one/posts/gratitude/</link>
+      <link>http://localhost:1313/posts/gratitude/</link>
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://benobi.one/posts/gratitude/</guid>
+      <guid>http://localhost:1313/posts/gratitude/</guid>
       <description>&lt;h2 id=&#34;thank-you-for-visiting&#34;&gt;Thank you for visiting&lt;/h2&gt;&#xA;&lt;p&gt;This is my first post. I believe that we should always begin new things with gratitude.&lt;/p&gt;&#xA;&lt;p&gt;I am grateful for all of the various experiences I have had and the many apps and projects I have worked on since 2013. I can&amp;rsquo;t believe the project list here covers only 7 years!&lt;/p&gt;&#xA;&lt;p&gt;I am grateful for this site and domain which my dear friend &lt;a href=&#34;https://www.linkedin.com/in/rosecrystal&#34;&gt;Crystal Rose&lt;/a&gt; inspired me to put together.&lt;/p&gt;</description>
     </item>
   </channel>

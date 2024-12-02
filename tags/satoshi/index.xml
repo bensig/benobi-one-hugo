@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Satoshi on Benobi.one</title>
-    <link>https://benobi.one/tags/satoshi/</link>
+    <link>http://localhost:1313/tags/satoshi/</link>
     <description>Recent content in Satoshi on Benobi.one</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Nov 2024 18:57:29 -0800</lastBuildDate>
-    <atom:link href="https://benobi.one/tags/satoshi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/satoshi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Paul Le Roux Satoshi Nakamoto? A Critical Analysis</title>
-      <link>https://benobi.one/posts/le-roux-is-not-satoshi/</link>
+      <link>http://localhost:1313/posts/le-roux-is-not-satoshi/</link>
       <pubDate>Mon, 18 Nov 2024 18:57:29 -0800</pubDate>
-      <guid>https://benobi.one/posts/le-roux-is-not-satoshi/</guid>
+      <guid>http://localhost:1313/posts/le-roux-is-not-satoshi/</guid>
       <description>&lt;p&gt;Paul Le Roux, a criminal mastermind and skilled programmer, has often been suggested as a candidate for Satoshi Nakamoto, the pseudonymous creator of Bitcoin. While Le Roux&amp;rsquo;s background in encryption and technology makes him an interesting candidate, there are significant issues with this theory.&lt;/p&gt;&#xA;&lt;h2 id=&#34;timeline-inconsistencies&#34;&gt;Timeline Inconsistencies&lt;/h2&gt;&#xA;&lt;h3 id=&#34;satoshis-disappearance-vs-le-rouxs-arrest&#34;&gt;Satoshi&amp;rsquo;s Disappearance vs Le Roux&amp;rsquo;s Arrest&lt;/h3&gt;&#xA;&lt;p&gt;Satoshi Nakamoto&amp;rsquo;s last public message in April 2011 stated &amp;ldquo;I&amp;rsquo;ve moved on to other things.&amp;rdquo; This voluntary departure came 17 months before Le Roux&amp;rsquo;s arrest in September 2012 in Liberia. The timing makes little sense - why would Satoshi/Le Roux abandon Bitcoin well before any legal troubles?&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Decoding Satoshi&#39;s Code</title>
+      <link>http://localhost:1313/posts/satoshi_code/</link>
+      <pubDate>Tue, 23 May 2023 11:30:19 -0700</pubDate>
+      <guid>http://localhost:1313/posts/satoshi_code/</guid>
+      <description>&lt;p&gt;I am quite fascinated by the history of the development of Bitcoin, As I covered in my post about the history of Bitcoin&amp;rsquo;s ideas &lt;a href=&#34;http://localhost:1313/posts/ingredients-of-bitcoin/&#34;&gt;Ingredients of Bitcoin.&lt;/a&gt; - there were several notable precursors to the invention of Bitcoin. This post is specifically focused on looking at the code of Bitcoin.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-first-versions-of-bitcoin&#34;&gt;The first versions of Bitcoin&lt;/h2&gt;&#xA;&lt;p&gt;Bitcoin has massively evolved since the early days of the code on Sourceforge. There are some links to the older sources in TGZ and RAR formats on the &lt;a href=&#34;https://satoshi.nakamotoinstitute.org/code/&#34;&gt;Nakamoto Institute pages&lt;/a&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Satoshi&#39;s Soup</title>
-      <link>https://benobi.one/posts/ingredients-of-bitcoin/</link>
+      <link>http://localhost:1313/posts/ingredients-of-bitcoin/</link>
       <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      <guid>https://benobi.one/posts/ingredients-of-bitcoin/</guid>
+      <guid>http://localhost:1313/posts/ingredients-of-bitcoin/</guid>
       <description>&lt;h2 id=&#34;who-was-satoshi&#34;&gt;Who was Satoshi?&lt;/h2&gt;&#xA;&lt;p&gt;It has been a personal fascination of mine since 2012. Who is this mysterious creator of Bitcoin? We can never know for sure, but we can learn a lot about Satoshi by looking at the sources of where they were getting inspiration as well as theory.&lt;/p&gt;&#xA;&lt;p&gt;One interesting conclustion reached by my friend and mathematcian Dr. Frederick Krueger (@dotkrueger on Twitter). Fred went through the math of the Bitcoin Whitepaper and verified all of the math proofs recently. His conclusion is that it seems highly likely that Satoshi was someone who either had access to a post-graduate level mathematician, or was one.&lt;/p&gt;</description>
     </item>
   </channel>
